@@ -1,0 +1,725 @@
+MethodName:ReceiverType> setVisible:jake2.qcommon.Q2DataDialog
+ReceiverType> jake2.qcommon.Q2DataDialog
+ParameterList> Boolean 
+SorroundingContext> setDefault Q2DataDialog new 
+LineContext> Q2 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> add new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> add new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> okButtonActionPerformed void 
+LineContext> = 
+MethodName:ReceiverType> setMultiSelectionEnabled:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> Boolean 
+SorroundingContext> setDialogType setFileSelectionMode JFileChooser new 
+LineContext> 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> String 
+SorroundingContext> setMultiSelectionEnabled setDialogType setFileSelectionMode 
+LineContext> 
+MethodName:ReceiverType> showDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> this String 
+SorroundingContext> setDialogTitle setMultiSelectionEnabled setDialogType 
+LineContext> 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> try this showDialog 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> else setText if catch getCanonicalPath getSelectedFile 
+LineContext> = else 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> if catch getCanonicalPath getSelectedFile try 
+LineContext> = if 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> showChooseDialog void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.ProgressPanel 
+SorroundingContext> remove getContentPane showChooseDialog void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.InstallPanel 
+SorroundingContext> remove getContentPane remove getContentPane showChooseDialog void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.NotFoundPanel 
+SorroundingContext> remove getContentPane remove getContentPane remove getContentPane 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> showStatus void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.InstallPanel 
+SorroundingContext> remove getContentPane showStatus void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> showProgressPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.InstallPanel 
+SorroundingContext> remove getContentPane showProgressPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> showInstallPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> remove getContentPane showInstallPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.NotFoundPanel 
+SorroundingContext> remove getContentPane remove getContentPane showInstallPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> showNotFoundPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.qcommon.Q2DataDialog.InstallPanel 
+SorroundingContext> remove getContentPane showNotFoundPanel void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> remove getContentPane remove getContentPane showNotFoundPanel void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setStatus void 
+LineContext> 
+MethodName:ReceiverType> dispose:jake2.qcommon.Q2DataDialog
+ReceiverType> jake2.qcommon.Q2DataDialog
+ParameterList> 
+SorroundingContext> if WriteConfiguration Printf 
+LineContext> Ja 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> ArrayList new paint void 
+LineContext> = FontMetrics 
+MethodName:ReceiverType> getFontRenderContext:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getFontMetrics ArrayList new 
+LineContext> = FontRenderContext 
+MethodName:ReceiverType> createGlyphVector:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> SN:java.awt.font.FontRenderContext SN:java.lang.String 
+SorroundingContext> substring String getWidth nextOffset int length getPosition while 
+LineContext> = GlyphVector 
+MethodName:ReceiverType> getVisualBounds:java.awt.font.GlyphVector
+ReceiverType> java.awt.font.GlyphVector
+ParameterList> 
+SorroundingContext> createGlyphVector substring String getWidth nextOffset int 
+LineContext> = Rectangle2D 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getVisualBounds createGlyphVector substring String 
+LineContext> = 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> LineInfo new add getHeight getVisualBounds createGlyphVector 
+LineContext> LineInfo new add 
+MethodName:ReceiverType> setPosition:java.awt.font.LineBreakMeasurer
+ReceiverType> java.awt.font.LineBreakMeasurer
+ParameterList> SN:INT 
+SorroundingContext> getWidth LineInfo new add 
+LineContext> 
+MethodName:ReceiverType> getPosition:java.awt.font.LineBreakMeasurer
+ReceiverType> java.awt.font.LineBreakMeasurer
+ParameterList> 
+SorroundingContext> while getIterator LineBreakMeasurer new AttributedString new int 
+LineContext> while 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> setPosition 
+LineContext> 
+MethodName:ReceiverType> getDisplayModes:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> getModeList 
+LineContext> = ] [ DisplayMode 
+MethodName:ReceiverType> getBitDepth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if int for add 
+LineContext> if 
+MethodName:ReceiverType> getBitDepth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getBitDepth if int for add 
+LineContext> = getBitDepth if 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if continue getBitDepth if int for 
+LineContext> if 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getRefreshRate if continue getBitDepth if int for 
+LineContext> getRefreshRate if 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if continue getRefreshRate if continue getBitDepth if 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getHeight if continue getRefreshRate if continue getBitDepth if 
+LineContext> getHeight if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if get size for 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if get size for 
+LineContext> getWidth if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if break getWidth if get size for 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if break getWidth if get size for 
+LineContext> = getWidth if 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if break getWidth if get size for 
+LineContext> getWidth = getWidth if 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getHeight getWidth if break getWidth if get size for 
+LineContext> = getHeight getWidth = getWidth if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if else addLast size if 
+LineContext> if else 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if else addLast size if 
+LineContext> getWidth if else 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if else addLast size if 
+LineContext> getWidth if else 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getHeight getWidth if else addLast size if 
+LineContext> getHeight getWidth if else 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if else add getHeight getWidth if else addLast 
+LineContext> if else 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getRefreshRate if else add getHeight getWidth if else addLast 
+LineContext> getRefreshRate if else 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if int for int 
+LineContext> if 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if int for int 
+LineContext> = getWidth if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append StringBuffer new getModeString String 
+LineContext> append 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append getWidth append StringBuffer new 
+LineContext> append 
+MethodName:ReceiverType> getBitDepth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append getHeight append 
+LineContext> append 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append getBitDepth append 
+LineContext> append 
+MethodName:ReceiverType> getDefaultScreenDevice:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> getLocalGraphicsEnvironment if 
+LineContext> = 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> if getDefaultScreenDevice 
+LineContext> = 
+MethodName:ReceiverType> getImage:javax.swing.ImageIcon
+ReceiverType> javax.swing.ImageIcon
+ParameterList> 
+SorroundingContext> setIconImage getResource getClass ImageIcon new Frame new 
+LineContext> setIconImage 
+MethodName:ReceiverType> setIconImage:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:javax.swing.ImageIcon.getImage() 
+SorroundingContext> getResource getClass ImageIcon new Frame new 
+LineContext> 
+MethodName:ReceiverType> setFocusTraversalKeysEnabled:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> Boolean 
+SorroundingContext> GLCapabilities new Display new Init 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.render.opengl.Jsr231Driver.Display SN:java.awt.GridBagConstraints 
+SorroundingContext> if else getModeString Printf 
+LineContext> 
+MethodName:ReceiverType> pack:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> setResizable:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> pack run void 
+LineContext> 
+MethodName:ReceiverType> setVisible:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> setResizable pack run void 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.render.opengl.Jsr231Driver.Display SN:java.awt.GridBagConstraints 
+SorroundingContext> if addMouseWheelListener addMouseMotionListener 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> findDisplayMode add if 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth findDisplayMode add 
+LineContext> = 
+MethodName:ReceiverType> setUndecorated:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> getHeight getWidth findDisplayMode 
+LineContext> 
+MethodName:ReceiverType> setResizable:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> setUndecorated getHeight getWidth 
+LineContext> 
+MethodName:ReceiverType> setFullScreenWindow:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> SN:java.awt.Frame 
+SorroundingContext> setResizable setUndecorated getHeight 
+LineContext> 
+MethodName:ReceiverType> isFullScreenSupported:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> if setFullScreenWindow setResizable setUndecorated 
+LineContext> if 
+MethodName:ReceiverType> setDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> SN:java.awt.DisplayMode 
+SorroundingContext> isFullScreenSupported if setFullScreenWindow setResizable 
+LineContext> 
+MethodName:ReceiverType> setLocation:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Number Number 
+SorroundingContext> setDisplayMode isFullScreenSupported if setFullScreenWindow 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> setSize setLocation setDisplayMode isFullScreenSupported if 
+LineContext> setSize 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth setSize setLocation setDisplayMode isFullScreenSupported if 
+LineContext> getWidth setSize 
+MethodName:ReceiverType> setSize:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:java.awt.DisplayMode.getWidth() SN:java.awt.DisplayMode.getHeight() 
+SorroundingContext> setLocation setDisplayMode isFullScreenSupported if 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> setSize getHeight getWidth setSize setLocation setDisplayMode 
+LineContext> setSize 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth setSize getHeight getWidth setSize setLocation setDisplayMode 
+LineContext> getWidth setSize 
+MethodName:ReceiverType> setSize:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> SN:java.awt.DisplayMode.getWidth() SN:java.awt.DisplayMode.getHeight() 
+SorroundingContext> getHeight getWidth setSize setLocation setDisplayMode 
+LineContext> 
+MethodName:ReceiverType> isDisplayable:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> while if 
+LineContext> while 
+MethodName:ReceiverType> isDisplayable:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> isDisplayable while if 
+LineContext> isDisplayable while 
+MethodName:ReceiverType> requestFocus:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> catch 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:jake2.render.opengl.Jsr231Driver.Display 
+SorroundingContext> destroy if else 
+LineContext> 
+MethodName:ReceiverType> getFullScreenWindow:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> if run void 
+LineContext> 
+MethodName:ReceiverType> isFullScreenSupported:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> if try getFullScreenWindow if 
+LineContext> if 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> if isFullScreenSupported if try getFullScreenWindow 
+LineContext> if 
+MethodName:ReceiverType> equals:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> SN:java.awt.DisplayMode 
+SorroundingContext> if isFullScreenSupported if try getFullScreenWindow 
+LineContext> if 
+MethodName:ReceiverType> setDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> SN:java.awt.DisplayMode 
+SorroundingContext> equals getDisplayMode if isFullScreenSupported if try 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> destroy if 
+LineContext> 
+MethodName:ReceiverType> isDisplayable:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> while dispose destroy if 
+LineContext> while 
+MethodName:ReceiverType> getWidth:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> glViewport beginFrame 
+LineContext> glViewport 
+MethodName:ReceiverType> getHeight:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> getWidth glViewport beginFrame 
+LineContext> getWidth glViewport 
+MethodName:ReceiverType> getWidth:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> glViewport beginFrame endFrame glClear 
+LineContext> glViewport 
+MethodName:ReceiverType> getHeight:jake2.render.opengl.Jsr231Driver.Display
+ReceiverType> jake2.render.opengl.Jsr231Driver.Display
+ParameterList> 
+SorroundingContext> getWidth glViewport beginFrame endFrame glClear 
+LineContext> getWidth glViewport 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if get size for 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if break getWidth if get 
+LineContext> if 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if break getWidth if 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> if else toAwtDisplayMode addLast size if 
+LineContext> if else 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth if else toAwtDisplayMode addLast size if 
+LineContext> 
+MethodName:ReceiverType> getRefreshRate:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getFrequency if else toAwtDisplayMode add getHeight getWidth if else 
+LineContext> getFrequency if else 
+MethodName:ReceiverType> setRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> Number Number SN:INT SN:INT SN:INT Number SN:INT 
+SorroundingContext> BufferedImage new int 
+LineContext> 
+MethodName:ReceiverType> getRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> Number Number SN:INT SN:INT SN:INT Number SN:INT 
+SorroundingContext> filter getScaleInstance AffineTransformOp new 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append StringBuffer new 
+LineContext> append 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append getWidth append 
+LineContext> append 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append 
+LineContext> append 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> append getWidth append 
+LineContext> append 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> toString vidmode_t new getHeight append getWidth append 
+LineContext> toString vidmode_t new = ] [ 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth toString vidmode_t new getHeight append getWidth append 
+LineContext> getWidth toString vidmode_t new = ] [ 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> GetClipboardData String static 
+LineContext> To = Transferable 
+MethodName:ReceiverType> getX:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> if case break 
+LineContext> = 
+MethodName:ReceiverType> getY:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> getX if case 
+LineContext> = 
+MethodName:ReceiverType> getWheelRotation:java.awt.event.MouseWheelEvent
+ReceiverType> java.awt.event.MouseWheelEvent
+ParameterList> 
+SorroundingContext> int case break Do_Key_Event 
+LineContext> = int 
+MethodName:ReceiverType> getComponent:java.awt.event.ComponentEvent
+ReceiverType> java.awt.event.ComponentEvent
+ParameterList> 
+SorroundingContext> handleCreateAndConfigureNotify case break 
+LineContext> handleCreateAndConfigureNotify 
+MethodName:ReceiverType> getWidth:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> else 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> getWidth 
+LineContext> = 
+MethodName:ReceiverType> getLocationOnScreen:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> getHeight getWidth 
+LineContext> = Point 
+MethodName:ReceiverType> getWidth:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> if 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> getWidth 
+LineContext> = 
+MethodName:ReceiverType> getInsets:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> 
+SorroundingContext> instanceof if while int 
+LineContext> = Insets 
+MethodName:ReceiverType> getX:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> 
+LineContext> = 
+MethodName:ReceiverType> getY:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> getX 
+LineContext> = 
+MethodName:ReceiverType> getParent:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> getY getX 
+LineContext> = 
+MethodName:ReceiverType> getButton:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> switch mouseEventToKey int final 
+LineContext> switch 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> int XLateKey int static 
+LineContext> = int 
+MethodName:ReceiverType> getKeyChar:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> default break case 
+LineContext> = 
+MethodName:ReceiverType> getImage:javax.swing.ImageIcon
+ReceiverType> javax.swing.ImageIcon
+ParameterList> 
+SorroundingContext> createCustomCursor getToolkit byte new ImageIcon new if 
+LineContext> createCustomCursor getToolkit = 
+MethodName:ReceiverType> getToolkit:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> byte new ImageIcon new if 
+LineContext> = 
+MethodName:ReceiverType> setCursor:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> SN:java.awt.Cursor 
+SorroundingContext> Point new getImage createCustomCursor getToolkit byte new ImageIcon new 
+LineContext> 
+MethodName:ReceiverType> setCursor:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> uninstallGrabs void 
+LineContext> 
+MethodName:ReceiverType> getModifiersEx:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if keyPressed void 
+LineContext> if 
+MethodName:ReceiverType> getModifiersEx:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if keyTyped void 
+LineContext> if 
+MethodName:ReceiverType> getComponent:java.awt.event.ComponentEvent
+ReceiverType> java.awt.event.ComponentEvent
+ParameterList> 
+SorroundingContext> componentShown void 
+LineContext> = 

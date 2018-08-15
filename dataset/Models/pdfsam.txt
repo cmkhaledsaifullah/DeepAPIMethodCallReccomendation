@@ -1,0 +1,5 @@
+MethodName:ReceiverType> open:java.awt.Desktop
+ReceiverType> java.awt.Desktop
+ParameterList> SN:org.pdfsam.ui.commons.OpenFileRequest.getFile() 
+SorroundingContext> try isDesktopSupported if doOpen void 
+LineContext> De 

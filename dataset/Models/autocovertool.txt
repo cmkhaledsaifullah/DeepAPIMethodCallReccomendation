@@ -1,0 +1,45 @@
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> determineScaleFactor double final if 
+LineContext> determineScaleFactor = double final 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth determineScaleFactor double final if 
+LineContext> getWidth determineScaleFactor = double final 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int scale if getSize getHeight getWidth determineScaleFactor double final 
+LineContext> int scale = 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getWidth int scale if getSize getHeight getWidth determineScaleFactor double final 
+LineContext> int getWidth int scale = 
+MethodName:ReceiverType> getScreenResolution:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> int final int final convertPx2Cm double static 
+LineContext> To = int final 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> final BufferedImage new final return if 
+LineContext> = Graphics2D final 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double getScaleInstance final createGraphics final BufferedImage new final return 
+LineContext> double getScaleInstance = AffineTransform final 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double width double getScaleInstance final createGraphics final BufferedImage new final 
+LineContext> double width 
+MethodName:ReceiverType> drawRenderedImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.image.BufferedImage SN:java.awt.geom.AffineTransform 
+SorroundingContext> double width double getScaleInstance final createGraphics final 
+LineContext> 

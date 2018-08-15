@@ -1,0 +1,630 @@
+MethodName:ReceiverType> getImage:javax.swing.ImageIcon
+ReceiverType> javax.swing.ImageIcon
+ParameterList> 
+SorroundingContext> ImageIcon new return try String final getMenuIcon 
+LineContext> ImageIcon new return 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> addObserver getSoundChip WavePlayer new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled addObserver getSoundChip WavePlayer new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled addObserver getSoundChip 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> this 
+SorroundingContext> if getProperty File new setCurrentDirectory getProperty if else 
+LineContext> if 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> return this showOpenDialog if getProperty File new setCurrentDirectory 
+LineContext> return 
+MethodName:ReceiverType> setVisible:de.joergjahnke.gameboy.swing.GameboyFrame
+ReceiverType> de.joergjahnke.gameboy.swing.GameboyFrame
+ParameterList> Boolean 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment new setFont new setLayout 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText setHorizontalAlignment 
+LineContext> 
+MethodName:ReceiverType> createEtchedBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> 
+SorroundingContext> setBorder getString setToolTipText setText 
+LineContext> setBorder 
+MethodName:ReceiverType> setOpaque:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> setBorder getString setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setHorizontalAlignment new setFont add 
+LineContext> 
+MethodName:ReceiverType> createEtchedBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> 
+SorroundingContext> setBorder getString setToolTipText setHorizontalAlignment new setFont 
+LineContext> setBorder 
+MethodName:ReceiverType> setRollover:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> Boolean 
+SorroundingContext> add getContentPane add setBorder 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> getMenuIcon() 
+SorroundingContext> setRollover add getContentPane add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon setRollover add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getString setToolTipText getMenuIcon setIcon setRollover 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> jButtonLoadProgramActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getResource getClass new setIcon add 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getString setToolTipText getResource getClass new setIcon 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getString setToolTipText 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> jButtonSaveSnapshotActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JToolBar.Separator 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> getMenuIcon() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getString setToolTipText getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> jButtonHelpContentsActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> add getContentPane add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> setAccelerator getString setText add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon setAccelerator getString setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemAttachImageActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getResource getClass new setIcon setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getResource getClass new setIcon setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> getString setToolTipText getString setText getResource getClass new setIcon 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemSaveSnapshotActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JSeparator 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemExitActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> getString setToolTipText getString setText getMenuIcon setIcon 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemSuspendActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JSeparator 
+SorroundingContext> getString setText add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> getMenuIcon() 
+SorroundingContext> add getString setText add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon add getString setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> setAccelerator getString setToolTipText getString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add setAccelerator getString setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemSizeX1ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemSizeX2ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemSizeX3ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemSizeX4ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> getMenuIcon() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> getString setToolTipText getString setText getMenuIcon setIcon 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add getString setToolTipText getString setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add getString setToolTipText 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemFrameSkip1ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemFrameSkip2ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemFrameSkip3ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> String 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> setText add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> jMenuItemFrameSkip4ActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JSeparator 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemShowLogActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> getString setText add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon getString setText add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon getString setText 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemAboutActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> getMenuIcon() 
+SorroundingContext> setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getMenuIcon setIcon setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.util.ResourceBundle.getString() 
+SorroundingContext> getString setText getMenuIcon setIcon setAccelerator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> jMenuItemContentsActionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> pack setProperty setScaling 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> pack setProperty setScaling 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> pack setProperty setScaling 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> setProperty setFrameSkip getVideoChip jMenuItemFrameSkip1ActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> setProperty setFrameSkip getVideoChip jMenuItemFrameSkip2ActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> setProperty setFrameSkip getVideoChip jMenuItemFrameSkip3ActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> setProperty setFrameSkip getVideoChip jMenuItemFrameSkip4ActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> getBackground() 
+SorroundingContext> JEditorPane new replaceAll 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Boolean 
+SorroundingContext> getBackground setBackground JEditorPane new 
+LineContext> 
+MethodName:ReceiverType> getEventType:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> if final hyperlinkUpdate void 
+LineContext> if 
+MethodName:ReceiverType> getURL:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> catch toURI getURL browse getDesktop try 
+LineContext> System.err.println 
+MethodName:ReceiverType> getURL:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> browse getDesktop try getEventType if final hyperlinkUpdate void 
+LineContext> browse getDesktop 
+MethodName:ReceiverType> getDesktop:java.awt.Desktop
+ReceiverType> java.awt.Desktop
+ParameterList> 
+SorroundingContext> try jMenuItemContentsActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButtonMenuItem
+ReceiverType> javax.swing.JRadioButtonMenuItem
+ParameterList> Boolean 
+SorroundingContext> pack setProperty setScaling 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> String final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String.substring() 
+SorroundingContext> setBackground String final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> indexOf startsWith if toString String final getLogger if 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> if final setPreferredSize void 
+LineContext> if 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> switch int final keyPressed void 
+LineContext> switch 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> switch int final keyReleased void 
+LineContext> switch 

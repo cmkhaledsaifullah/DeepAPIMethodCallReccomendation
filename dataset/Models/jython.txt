@@ -1,0 +1,1130 @@
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.CardLayout 
+SorroundingContext> CardLayout new JPanel new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setAction:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:javax.swing.Action 
+SorroundingContext> JButton new JButton new JButton new 
+LineContext> 
+MethodName:ReceiverType> setAction:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:javax.swing.Action 
+SorroundingContext> setAction JButton new JButton new 
+LineContext> 
+MethodName:ReceiverType> setAction:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:javax.swing.Action 
+SorroundingContext> setAction JButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JSeparator SN:java.awt.GridBagConstraints 
+SorroundingContext> Insets new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> Insets new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> Insets new 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.python.util.install.AbstractWizard.WizardGlassPane
+ReceiverType> org.python.util.install.AbstractWizard.WizardGlassPane
+ParameterList> Boolean 
+SorroundingContext> lock void final 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:org.python.util.install.AbstractWizardHeader 
+SorroundingContext> if setHeader void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.python.util.install.AbstractWizardHeader
+ReceiverType> org.python.util.install.AbstractWizardHeader
+ParameterList> SN:BOOLEAN 
+SorroundingContext> if boolean setHeaderVisible void final 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> SN:BOOLEAN 
+SorroundingContext> showActivePage 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.python.util.install.AbstractWizardPage.isPreviousVisible() 
+SorroundingContext> else setVisible if 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> if getIcon setIcon 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.python.util.install.AbstractWizardPage.isCancelVisible() 
+SorroundingContext> getPreviousString putValue isPreviousVisible setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.python.util.install.AbstractWizardPage.isNextVisible() 
+SorroundingContext> getCancelString putValue isCancelVisible setVisible getPreviousString putValue 
+LineContext> 
+MethodName:ReceiverType> isVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> if getNextString putValue else 
+LineContext> if 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> isVisible if getNextString putValue 
+LineContext> 
+MethodName:ReceiverType> grabFocus:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getFocusField if setDefaultButton getRootPane isVisible if 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.python.util.install.AbstractWizard.WizardGlassPane
+ReceiverType> org.python.util.install.AbstractWizard.WizardGlassPane
+ParameterList> Boolean 
+SorroundingContext> unlock void final 
+LineContext> 
+MethodName:ReceiverType> grabFocus:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> 
+SorroundingContext> getFocusField if doActivate void final 
+LineContext> 
+MethodName:ReceiverType> delay:java.awt.Robot
+ReceiverType> java.awt.Robot
+ParameterList> SN:org.python.util.install.driver.GuiAutotest.KeyAction.getDelay() 
+SorroundingContext> executeKeyAction void 
+LineContext> 
+MethodName:ReceiverType> keyPress:java.awt.Robot
+ReceiverType> java.awt.Robot
+ParameterList> SN:org.python.util.install.driver.GuiAutotest.KeyAction.getKeyCode() 
+SorroundingContext> getDelay delay executeKeyAction void 
+LineContext> 
+MethodName:ReceiverType> delay:java.awt.Robot
+ReceiverType> java.awt.Robot
+ParameterList> Number 
+SorroundingContext> getKeyCode keyPress getDelay delay executeKeyAction void 
+LineContext> 
+MethodName:ReceiverType> keyRelease:java.awt.Robot
+ReceiverType> java.awt.Robot
+ParameterList> SN:org.python.util.install.driver.GuiAutotest.KeyAction.getKeyCode() 
+SorroundingContext> delay getKeyCode keyPress getDelay delay 
+LineContext> 
+MethodName:ReceiverType> getFont:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> 
+SorroundingContext> setFont Color new setBackground GridBagLayout new setLayout JSeparator new 
+LineContext> setFont 
+MethodName:ReceiverType> getFont:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> 
+SorroundingContext> setFont add 
+LineContext> setFont 
+MethodName:ReceiverType> setMinimumSize:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Dimension 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setMaximumSize:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Dimension 
+SorroundingContext> setMinimumSize add 
+LineContext> 
+MethodName:ReceiverType> setPreferredSize:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Dimension 
+SorroundingContext> setMaximumSize setMinimumSize add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setDescription void 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.ImageIcon 
+SorroundingContext> setIcon void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setTitle void 
+LineContext> 
+MethodName:ReceiverType> getItemCount:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> int getText setText activate void 
+LineContext> = int 
+MethodName:ReceiverType> removeItemAt:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Number 
+SorroundingContext> int for getItemCount int 
+LineContext> 
+MethodName:ReceiverType> addItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> getText() 
+SorroundingContext> removeItemAt int for 
+LineContext> 
+MethodName:ReceiverType> addItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> getText() 
+SorroundingContext> getText addItem removeItemAt 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> getLanguageIndex() 
+SorroundingContext> else setLanguage 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> getLanguageIndex() 
+SorroundingContext> startsWith toString getDefault if 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Installation.ALL 
+SorroundingContext> JRadioButton new JLabel new TypeChangeListener new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand JRadioButton new JLabel new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Installation.STANDARD 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Installation.MINIMUM 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Installation.STANDALONE 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> ButtonGroup new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add GridLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new add 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.TypePage.TypeChangeListener 
+SorroundingContext> setActionCommand setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridLayout 
+SorroundingContext> GridLayout new JPanel new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> setLayout GridLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> add setLayout GridLayout new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> add setLayout 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> GridBagLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> else setSelected isStandard if else 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> isStandard if else setSelected isStandalone if else 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> isStandalone if else setSelected isMinimum if else 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> isMinimum if else setSelected isAll if 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> isAll if getInstallationType getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> setSelected else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> getText setText setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> setCheckboxes void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.InstallationType.installLibraryModules() 
+SorroundingContext> setSelected setCheckboxes void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.InstallationType.installDemosAndExamples() 
+SorroundingContext> installLibraryModules setSelected setCheckboxes void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.InstallationType.installDocumentation() 
+SorroundingContext> installDemosAndExamples setSelected installLibraryModules setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.InstallationType.installSources() 
+SorroundingContext> installDocumentation setSelected installDemosAndExamples setSelected installLibraryModules setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.python.util.install.InstallationType.ensurepip() 
+SorroundingContext> installSources setSelected installDocumentation setSelected installDemosAndExamples setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.InstallationType.isStandalone() 
+SorroundingContext> ensurepip setSelected installSources setSelected installDocumentation setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> activate void 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JRadioButton new RadioButtonListener new JLabel new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.JavaSelectionPage.RadioButtonListener 
+SorroundingContext> setActionCommand JRadioButton new RadioButtonListener new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.JavaSelectionPage.RadioButtonListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> ButtonGroup new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> GridBagLayout new JPanel new BrowseButtonListener new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> newGridBagConstraints 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> getText() 
+SorroundingContext> getText setText getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> else setEnabled 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> setSelected else setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setSelected else 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> JavaHomeHandler new setJavaHomeHandler if boolean setCurrent void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> setSelected JavaHomeHandler new setJavaHomeHandler if 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setSelected JavaHomeHandler new setJavaHomeHandler 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> else getAbsolutePath getHome setText isValidHome if 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setToolTipText setText else 
+LineContext> setToolTipText 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:javax.swing.JTextField.getText() 
+SorroundingContext> setText else 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Boolean 
+SorroundingContext> JScrollPane new JTextArea new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEditable JScrollPane new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JScrollPane 
+SorroundingContext> setText setEditable 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JRadioButton new RadioButtonListener new JPanel new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.LicensePage.RadioButtonListener 
+SorroundingContext> setActionCommand JRadioButton new RadioButtonListener new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JRadioButton new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:org.python.util.install.LicensePage.RadioButtonListener 
+SorroundingContext> setActionCommand JRadioButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> ButtonGroup new addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add GridLayout new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> add GridLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> getText() 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> isAccept boolean getText setText getText setText 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> return isAccept boolean 
+LineContext> return 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> isSelected return isAccept boolean 
+LineContext> isSelected return 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> GridBagLayout new JPanel new BrowseButtonListener new addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> newGridBagConstraints 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> getText() 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> FrameInstaller.getTargetDirectory() 
+SorroundingContext> setTargetDirectory 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setToolTipText getTargetDirectory setText setTargetDirectory 
+LineContext> setToolTipText 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:javax.swing.JTextField.getText() 
+SorroundingContext> getTargetDirectory setText setTargetDirectory 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new JLabel new initComponents void 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable JTextField new JLabel new 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new JLabel new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable JTextField new JLabel new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> System.getProperty() 
+SorroundingContext> JTextField new JLabel new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> System.getProperty() 
+SorroundingContext> getProperty setText JTextField new JLabel new 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> getProperty setToolTipText getProperty setText JTextField new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable getProperty setToolTipText getProperty setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> System.getProperty() 
+SorroundingContext> JTextField new setFocusable setEditable 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> System.getProperty() 
+SorroundingContext> getProperty setText JTextField new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> getProperty setToolTipText getProperty setText JTextField new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable getProperty setToolTipText getProperty setText 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new setFocusable setEditable 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Installation.isValidOs() 
+SorroundingContext> setEnabled JCheckBox new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> isValidOs setSelected setEnabled JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> JLabel new setFocusable isValidOs setSelected 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new setFocusable JLabel new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable JTextField new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new setFocusable setEditable 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEditable JTextField new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> JCheckBox new setFocusable setEditable 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> setEnabled JCheckBox new setFocusable 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> GridBagLayout new JPanel new JLabel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> newGridBagConstraints 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> FrameInstaller.getTargetDirectory() 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> FrameInstaller.getTargetDirectory() 
+SorroundingContext> getTargetDirectory setText getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if String getText setText setToolTipText 
+LineContext> if 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:java.lang.String 
+SorroundingContext> getText else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:org.python.util.install.Installation.JavaVersionInfo.getVendor() 
+SorroundingContext> getJavaVersionInfo getText setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:org.python.util.install.Installation.JavaVersionInfo.getVendor() 
+SorroundingContext> getVendor setText getJavaVersionInfo getText setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:org.python.util.install.Installation.JavaVersionInfo.getVersion() 
+SorroundingContext> getVendor setToolTipText getVendor setText getJavaVersionInfo 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:org.python.util.install.Installation.JavaVersionInfo.getVersion() 
+SorroundingContext> getVersion setText getVendor setToolTipText getVendor setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Installation.isValidJava() 
+SorroundingContext> getVersion setToolTipText getVersion setText getVendor setToolTipText 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if String isValidJava setSelected getVersion setToolTipText 
+LineContext> if 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:java.lang.String 
+SorroundingContext> getText else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> setText getText 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> JLabel new JPanel new initComponents void 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JProgressBar 
+SorroundingContext> JProgressBar new add JLabel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> JLabel new JPanel new add 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Number 
+SorroundingContext> getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setStringPainted:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Boolean 
+SorroundingContext> setValue getText setText activate void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> try setStringPainted setValue 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int progressChanged void 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Number 
+SorroundingContext> progressFinished void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> String progressEntry void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> progressStartScripts void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> progressStandalone void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getText() 
+SorroundingContext> progressEnsurepip void 
+LineContext> progressEnsurepip void 
+MethodName:ReceiverType> getScreenSize:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> centerOnScreen void 
+LineContext> = Dimension 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String JavaVersionInfo new throws validate void 
+LineContext> = String 
+MethodName:ReceiverType> setEditable:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Boolean 
+SorroundingContext> JScrollPane new JTextArea new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> String 
+SorroundingContext> setEditable JScrollPane new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JScrollPane 
+SorroundingContext> setText setEditable 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:org.python.util.install.JarInfo.getReadmeText() 
+SorroundingContext> try activate void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String throws validate void 
+LineContext> = String 

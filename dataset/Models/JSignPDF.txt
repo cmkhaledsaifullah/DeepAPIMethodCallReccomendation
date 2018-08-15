@@ -1,0 +1,2690 @@
+MethodName:ReceiverType> getScreenResolution:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> try int 
+LineContext> To = 
+MethodName:ReceiverType> paintComponent:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> paintComponent void 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> setImgSize getHeight getWidth resize else 
+LineContext> setImgSize 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth setImgSize getHeight getWidth resize else 
+LineContext> getWidth setImgSize 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth getHeight getWidth setImgSize getHeight getWidth resize else 
+LineContext> getWidth = 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth getHeight getWidth setImgSize getHeight getWidth resize 
+LineContext> getHeight = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int if 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getWidth int if 
+LineContext> = int 
+MethodName:ReceiverType> getType:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> round BufferedImage new min getHeight int getWidth int 
+LineContext> round BufferedImage new = BufferedImage 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getType round BufferedImage new min getHeight int 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawImage setRenderingHint createGraphics getType round BufferedImage new 
+LineContext> drawImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawImage setRenderingHint createGraphics getType round BufferedImage new 
+LineContext> getWidth drawImage 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getHeight getWidth drawImage setRenderingHint createGraphics 
+LineContext> 
+MethodName:ReceiverType> approveSelection:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.io.File 
+SorroundingContext> setSelectedFile void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String setFileFilter if 
+LineContext> = String 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> get setText setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> get setText get setText setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> get setText get setText get setText 
+LineContext> 
+MethodName:ReceiverType> setTitle:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> setLabelAndMnemonic get setText get setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> get setTitle setLabelAndMnemonic get setText 
+LineContext> 
+MethodName:ReceiverType> setTitle:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> get setText get setTitle setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> if else getKsType setSelectedItem getKsType isNotEmpty if updateFromOptions void 
+LineContext> if else 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> KeyStore.getDefaultType() 
+SorroundingContext> getSelectedItem if else getKsType setSelectedItem getKsType isNotEmpty if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getKsType() 
+SorroundingContext> getKsType isNotEmpty if updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isAdvanced() 
+SorroundingContext> getDefaultType setSelectedItem getSelectedItem if else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getKsFile() 
+SorroundingContext> isAdvanced setSelected getDefaultType setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getKsPasswdStr() 
+SorroundingContext> getKsFile setText isAdvanced setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isStorePasswords() 
+SorroundingContext> getKsPasswdStr setText getKsFile setText isAdvanced setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getKeyAlias() 
+SorroundingContext> isStorePasswords setSelected getKsPasswdStr setText getKsFile setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getKeyPasswdStr() 
+SorroundingContext> getKeyAlias setSelectedItem isStorePasswords setSelected getKsPasswdStr setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getInFile() 
+SorroundingContext> getKeyPasswdStr setText getKeyAlias setSelectedItem isStorePasswords setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getPdfEncryption() 
+SorroundingContext> getInFile setText getKeyPasswdStr setText getKeyAlias setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getPdfOwnerPwdStr() 
+SorroundingContext> getPdfEncryption setSelectedItem getInFile setText getKeyPasswdStr setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getPdfUserPwdStr() 
+SorroundingContext> getPdfOwnerPwdStr setText getPdfEncryption setSelectedItem getInFile setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getPdfEncryptionCertFile() 
+SorroundingContext> getPdfUserPwdStr setText getPdfOwnerPwdStr setText getPdfEncryption setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getOutFile() 
+SorroundingContext> getPdfEncryptionCertFile setText getPdfUserPwdStr setText getPdfOwnerPwdStr setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getReason() 
+SorroundingContext> getOutFile setText getPdfEncryptionCertFile setText getPdfUserPwdStr setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getLocation() 
+SorroundingContext> getReason setText getOutFile setText getPdfEncryptionCertFile setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getContact() 
+SorroundingContext> getLocation setText getReason setText getOutFile setText 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getCertLevel() 
+SorroundingContext> getContact setText getLocation setText getReason setText 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getHashAlgorithm() 
+SorroundingContext> getCertLevel setSelectedItem getContact setText getLocation setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isAppend() 
+SorroundingContext> getHashAlgorithm setSelectedItem getCertLevel setSelectedItem getContact setText 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getRightPrinting() 
+SorroundingContext> isAppend setSelected getHashAlgorithm setSelectedItem getCertLevel setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightCopy() 
+SorroundingContext> getRightPrinting setSelectedItem isAppend setSelected getHashAlgorithm setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightAssembly() 
+SorroundingContext> isRightCopy setSelected getRightPrinting setSelectedItem isAppend setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightFillIn() 
+SorroundingContext> isRightAssembly setSelected isRightCopy setSelected getRightPrinting setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightScreanReaders() 
+SorroundingContext> isRightFillIn setSelected isRightAssembly setSelected isRightCopy setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightModifyAnnotations() 
+SorroundingContext> isRightScreanReaders setSelected isRightFillIn setSelected isRightAssembly setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isRightModifyContents() 
+SorroundingContext> isRightModifyAnnotations setSelected isRightScreanReaders setSelected isRightFillIn setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isVisible() 
+SorroundingContext> isRightModifyContents setSelected isRightModifyAnnotations setSelected isRightScreanReaders setSelected 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> String setKsType storeToOptions void 
+LineContext> String setKsType 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setAdvanced getSelectedItem String setKsType storeToOptions void 
+LineContext> setAdvanced 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setKsFile isSelected setAdvanced getSelectedItem String setKsType storeToOptions void 
+LineContext> setKsFile 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> setKsPasswd getText setKsFile isSelected setAdvanced getSelectedItem String setKsType 
+LineContext> setKsPasswd 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setStorePasswords getPassword setKsPasswd getText setKsFile isSelected setAdvanced 
+LineContext> setStorePasswords 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> if isSelected setStorePasswords getPassword setKsPasswd getText setKsFile 
+LineContext> if 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> getKeyAlias getSelectedItem if isSelected setStorePasswords getPassword setKsPasswd getText setKsFile 
+LineContext> getKeyAlias = getSelectedItem if 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> String setKeyAlias getSelectedIndex getKeyAlias getSelectedItem if isSelected setStorePasswords getPassword setKsPasswd 
+LineContext> String setKeyAlias 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setKeyIndex getSelectedItem String setKeyAlias getSelectedIndex getKeyAlias getSelectedItem if isSelected setStorePasswords 
+LineContext> setKeyIndex 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> setKeyPasswd getSelectedIndex setKeyIndex getSelectedItem String setKeyAlias 
+LineContext> setKeyPasswd 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setInFile getPassword setKeyPasswd getSelectedIndex setKeyIndex 
+LineContext> setInFile 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setPdfEncryption getText setInFile getPassword setKeyPasswd 
+LineContext> PDFEncryption setPdfEncryption 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> setPdfOwnerPwd getSelectedItem setPdfEncryption getText setInFile getPassword setKeyPasswd 
+LineContext> setPdfOwnerPwd 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> setPdfUserPwd getPassword setPdfOwnerPwd getSelectedItem setPdfEncryption getText setInFile 
+LineContext> setPdfUserPwd 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setPdfEncryptionCertFile getPassword setPdfUserPwd getPassword setPdfOwnerPwd getSelectedItem setPdfEncryption 
+LineContext> setPdfEncryptionCertFile 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setOutFile getText setPdfEncryptionCertFile getPassword setPdfUserPwd getPassword setPdfOwnerPwd 
+LineContext> setOutFile 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setReason getText setOutFile getText setPdfEncryptionCertFile getPassword setPdfUserPwd 
+LineContext> setReason 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setLocation getText setReason getText setOutFile getText setPdfEncryptionCertFile 
+LineContext> setLocation 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setContact getText setLocation getText setReason getText setOutFile 
+LineContext> setContact 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setCertLevel getText setContact getText setLocation getText setReason 
+LineContext> CertificationLevel setCertLevel 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setHashAlgorithm getSelectedItem setCertLevel getText setContact getText setLocation 
+LineContext> HashAlgorithm setHashAlgorithm 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setAppend getSelectedItem setHashAlgorithm getSelectedItem setCertLevel getText setContact 
+LineContext> setAppend 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setRightPrinting isSelected setAppend getSelectedItem setHashAlgorithm getSelectedItem setCertLevel 
+LineContext> PrintRight setRightPrinting 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightCopy getSelectedItem setRightPrinting isSelected setAppend getSelectedItem setHashAlgorithm 
+LineContext> setRightCopy 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightAssembly isSelected setRightCopy getSelectedItem setRightPrinting isSelected setAppend 
+LineContext> setRightAssembly 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightFillIn isSelected setRightAssembly isSelected setRightCopy getSelectedItem setRightPrinting 
+LineContext> setRightFillIn 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightScreanReaders isSelected setRightFillIn isSelected setRightAssembly isSelected setRightCopy 
+LineContext> setRightScreanReaders 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightModifyAnnotations isSelected setRightScreanReaders isSelected setRightFillIn isSelected setRightAssembly 
+LineContext> setRightModifyAnnotations 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setRightModifyContents isSelected setRightModifyAnnotations isSelected setRightScreanReaders isSelected setRightFillIn 
+LineContext> setRightModifyContents 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setVisible isSelected setRightModifyContents isSelected setRightModifyAnnotations isSelected setRightScreanReaders 
+LineContext> setVisible 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean refreshView void 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean isSelected boolean refreshView void 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean 
+LineContext> = boolean 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> isSelected boolean 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> boolean getSelectedItem isSelected boolean 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> boolean getSelectedItem boolean 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> String final getSelectedItem boolean getSelectedItem 
+LineContext> String = String final 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled setVisible 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> if setVisible setEnabled 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setSelected if 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible setSelected 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> setTitle:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> String 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setColumns:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Number 
+SorroundingContext> infoDialogWindowClosing 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Boolean 
+SorroundingContext> setColumns 
+LineContext> 
+MethodName:ReceiverType> setRows:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Number 
+SorroundingContext> new setFont setEditable setColumns 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:javax.swing.JTextArea 
+SorroundingContext> new setMinimumSize setRows new setFont 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> 
+SorroundingContext> setViewportView new setMinimumSize setRows 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane setViewportView 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> 
+SorroundingContext> btnInfoCloseActionPerformed 
+LineContext> 
+MethodName:ReceiverType> setModal:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> add getContentPane 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> setModal add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> new setLayout getContentPane setModal add getContentPane 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> new setLayout getContentPane 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor new setLayout getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JPasswordField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPasswordField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Boolean 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JPasswordField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPasswordField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JPasswordField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPasswordField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JPasswordField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPasswordField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon new setFont add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.jsignpdf.VisibleSignatureDialog
+ReceiverType> net.sf.jsignpdf.VisibleSignatureDialog
+ParameterList> Boolean 
+SorroundingContext> storeToOptions btnVisibleSigSettingsActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> btnRightsOKActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> btnRightsActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> isEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> if infoDialogWindowClosing void 
+LineContext> if 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> get this showMessageDialog 
+LineContext> 
+MethodName:ReceiverType> hasFocus:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> if setDefaultCloseOperation setEnabled 
+LineContext> if 
+MethodName:ReceiverType> requestFocus:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> hasFocus if setDefaultCloseOperation setEnabled 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Boolean 
+SorroundingContext> btnInfoCloseActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String final String checkFileExists boolean 
+LineContext> = String final 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String final checkInOutDiffers boolean 
+LineContext> = String final 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String final getText String final checkInOutDiffers boolean 
+LineContext> = String final 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if boolean checkCertEncryption boolean 
+LineContext> if 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> isSelected if boolean checkCertEncryption boolean 
+LineContext> isSelected if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> loadCertificate isEncryptionSupported if checkFileExists getSelectedItem isSelected if 
+LineContext> loadCertificate isEncryptionSupported 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> get this showMessageDialog getText loadCertificate isEncryptionSupported 
+LineContext> get 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String btnSignItActionPerformed void 
+LineContext> = String 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setText checkCertEncryption checkInOutDiffers checkFileExists if storeToOptions 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Boolean 
+SorroundingContext> setEnabled setText checkCertEncryption checkInOutDiffers checkFileExists if 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.jsignpdf.TsaDialog
+ReceiverType> net.sf.jsignpdf.TsaDialog
+ParameterList> Boolean 
+SorroundingContext> btnTsaOcspActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> boolean refreshView void 
+LineContext> = boolean 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> getSelectedItem boolean refreshView void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible getSelectedItem boolean refreshView void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible getSelectedItem boolean 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> if setVisible 
+LineContext> if 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> if else getTsaPasswd setText getTsaUser setText setLabelAndMnemonic 
+LineContext> if else 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaCertFile() 
+SorroundingContext> setLabelAndMnemonic getSelectedItem if else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaCertFilePwd() 
+SorroundingContext> getTsaCertFile setText setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaUser() 
+SorroundingContext> setLabelAndMnemonic getSelectedItem if 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaPasswd() 
+SorroundingContext> getTsaUser setText setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> boolean setText 
+LineContext> = boolean 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> getSelectedItem boolean setText 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible getSelectedItem boolean 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible getSelectedItem boolean 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isTimestamp() 
+SorroundingContext> updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaUrl() 
+SorroundingContext> isTimestamp setSelected updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaServerAuthn() 
+SorroundingContext> getTsaUrl setText isTimestamp setSelected updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaPasswd() 
+SorroundingContext> getTsaServerAuthn setSelectedItem getTsaUrl setText isTimestamp setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaPolicy() 
+SorroundingContext> getTsaPasswd setText getTsaServerAuthn setSelectedItem getTsaUrl setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getTsaHashAlg() 
+SorroundingContext> getTsaPolicy setText getTsaPasswd setText getTsaServerAuthn setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isOcspEnabled() 
+SorroundingContext> getTsaHashAlg setText getTsaPolicy setText getTsaPasswd setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getOcspServerUrl() 
+SorroundingContext> isOcspEnabled setSelected getTsaHashAlg setText getTsaPolicy setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isCrlEnabled() 
+SorroundingContext> getOcspServerUrl setText isOcspEnabled setSelected getTsaHashAlg setText 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getProxyType() 
+SorroundingContext> isCrlEnabled setSelected getOcspServerUrl setText isOcspEnabled setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getProxyHost() 
+SorroundingContext> getProxyType setSelectedItem isCrlEnabled setSelected getOcspServerUrl setText 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> Integer.valueOf() 
+SorroundingContext> getProxyHost setText getProxyType setSelectedItem isCrlEnabled setSelected 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean final updateEnabledStatus void 
+LineContext> = boolean final 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> isSelected boolean final updateEnabledStatus void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled isSelected boolean final updateEnabledStatus void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled isSelected boolean final 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setEnabled 
+LineContext> setEnabled 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:javax.swing.JCheckBox.isSelected() 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setTimestamp storeToOptions void 
+LineContext> setTimestamp 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setTsaUrl isSelected setTimestamp storeToOptions void 
+LineContext> setTsaUrl 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setTsaServerAuthn getText setTsaUrl isSelected setTimestamp storeToOptions void 
+LineContext> ServerAuthentication setTsaServerAuthn 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> if getSelectedItem setTsaServerAuthn getText setTsaUrl isSelected setTimestamp 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setTsaUser else getPassword String new setTsaCertFilePwd getText setTsaCertFile 
+LineContext> setTsaUser 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> String new setTsaPasswd getText setTsaUser else getPassword String new setTsaCertFilePwd 
+LineContext> String new setTsaPasswd 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setTsaCertFile getSelectedItem if getSelectedItem setTsaServerAuthn getText setTsaUrl 
+LineContext> setTsaCertFile 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> String new setTsaCertFilePwd getText setTsaCertFile getSelectedItem if getSelectedItem setTsaServerAuthn 
+LineContext> String new setTsaCertFilePwd 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setTsaPolicy getPassword String new setTsaPasswd getText setTsaUser 
+LineContext> setTsaPolicy 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setTsaHashAlg getText setTsaPolicy getPassword String new setTsaPasswd 
+LineContext> setTsaHashAlg 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setOcspEnabled getText setTsaHashAlg getText setTsaPolicy 
+LineContext> setOcspEnabled 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setOcspServerUrl isSelected setOcspEnabled getText setTsaHashAlg getText setTsaPolicy 
+LineContext> setOcspServerUrl 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setCrlEnabled getText setOcspServerUrl isSelected setOcspEnabled getText setTsaHashAlg 
+LineContext> setCrlEnabled 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setProxyType isSelected setCrlEnabled getText setOcspServerUrl isSelected setOcspEnabled 
+LineContext> setProxyType 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setProxyHost getSelectedItem setProxyType isSelected setCrlEnabled getText setOcspServerUrl 
+LineContext> setProxyHost 
+MethodName:ReceiverType> getValue:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> setProxyPort getText setProxyHost getSelectedItem setProxyType isSelected setCrlEnabled 
+LineContext> Integer setProxyPort 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> new setLayout getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JPasswordField 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPasswordField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> createTitledBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> String 
+SorroundingContext> setBorder add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment new setLayout setBorder 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment new setLayout 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> setHorizontalAlignment add new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JSpinner SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor setHorizontalAlignment add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> pack:net.sf.jsignpdf.SignPdfForm
+ReceiverType> net.sf.jsignpdf.SignPdfForm
+ParameterList> 
+SorroundingContext> SignPdfForm new 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.jsignpdf.SignPdfForm
+ReceiverType> net.sf.jsignpdf.SignPdfForm
+ParameterList> Boolean 
+SorroundingContext> center pack SignPdfForm new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toInteger return if pageNrChanged void 
+LineContext> toInteger = Integer 
+MethodName:ReceiverType> setTitle:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> setLabelAndMnemonic 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getPage toString setText updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getPositionLLX toString setText getPage toString setText updateFromOptions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getPositionLLY toString setText getPositionLLX toString setText getPage toString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getPositionURX toString setText getPositionLLY toString setText getPositionLLX toString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getPositionURY toString setText getPositionURX toString setText getPositionLLY toString setText 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getRenderMode() 
+SorroundingContext> getBgImgScale toString setText getPositionURY toString setText getPositionURX toString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getL2Text() 
+SorroundingContext> getRenderMode setSelectedItem getBgImgScale toString setText getPositionURY toString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ConvertUtils.toString() 
+SorroundingContext> getL2Text setSelected getL2Text setText getRenderMode setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getL4Text() 
+SorroundingContext> getL2TextFontSize toString setText getL2Text setSelected getL2Text setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getImgPath() 
+SorroundingContext> getL4Text setSelected getL4Text setText getL2TextFontSize toString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.getBgImgPath() 
+SorroundingContext> getImgPath setText getL4Text setSelected getL4Text setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:net.sf.jsignpdf.BasicSignerOptions.isAcro6Layers() 
+SorroundingContext> getBgImgPath setText getImgPath setText getL4Text setSelected 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toInt setPage storeToOptions void 
+LineContext> toInt setPage 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setPositionLLX getText toInt setPage storeToOptions void 
+LineContext> toFloat setPositionLLX 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setPositionLLY getText toFloat setPositionLLX getText toInt setPage storeToOptions void 
+LineContext> toFloat setPositionLLY 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setPositionURX getText toFloat setPositionLLY getText toFloat setPositionLLX getText toInt setPage 
+LineContext> toFloat setPositionURX 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setPositionURY getText toFloat setPositionURX getText toFloat setPositionLLY getText toFloat setPositionLLX 
+LineContext> toFloat setPositionURY 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setBgImgScale getText toFloat setPositionURY getText toFloat setPositionURX getText toFloat setPositionLLY 
+LineContext> toFloat setBgImgScale 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setRenderMode getText toFloat setBgImgScale getText toFloat setPositionURY getText toFloat setPositionURX 
+LineContext> RenderMode setRenderMode 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setL2Text getSelectedItem setRenderMode getText toFloat setBgImgScale getText toFloat setPositionURY 
+LineContext> setL2Text 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> defaultString isSelected setL2Text getSelectedItem setRenderMode getText toFloat setBgImgScale getText toFloat setPositionURY 
+LineContext> defaultString isSelected setL2Text 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toFloat setL2TextFontSize getText defaultString isSelected setL2Text getSelectedItem setRenderMode getText toFloat setBgImgScale 
+LineContext> toFloat setL2TextFontSize 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setL4Text getText toFloat setL2TextFontSize getText defaultString isSelected setL2Text getSelectedItem setRenderMode 
+LineContext> setL4Text 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> defaultString isSelected setL4Text getText toFloat setL2TextFontSize getText defaultString isSelected setL2Text getSelectedItem setRenderMode 
+LineContext> defaultString isSelected setL4Text 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setImgPath getText defaultString isSelected setL4Text getText toFloat setL2TextFontSize getText defaultString isSelected setL2Text 
+LineContext> setImgPath 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setBgImgPath getText setImgPath getText defaultString isSelected setL4Text getText toFloat setL2TextFontSize 
+LineContext> setBgImgPath 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setAcro6Layers getText setBgImgPath getText setImgPath getText defaultString isSelected setL4Text 
+LineContext> setAcro6Layers 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> SN:net.sf.jsignpdf.utils.ResourceProvider.get() 
+SorroundingContext> String final setToolTip void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean final switchBounds boolean 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible boolean final switchBounds boolean 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setVisible boolean final switchBounds boolean 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> boolean final switchImage void 
+LineContext> RenderMode.GRAPHIC_AND_DESCRIPTION.equals = boolean final 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> getSelectedItem boolean final switchImage void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled getSelectedItem boolean final switchImage void 
+LineContext> 
+MethodName:ReceiverType> setModal:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon new setLayout setModal 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> getContentPane:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> add new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> new setLayout getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JComboBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText add getContentPane new 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextArea 
+SorroundingContext> add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLabelFor add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setHorizontalAlignment add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> getResource getClass new setIcon add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setColumns:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Number 
+SorroundingContext> new setMinimumSize setVerticalScrollBarPolicy add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setRows:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Number 
+SorroundingContext> setColumns new setMinimumSize setVerticalScrollBarPolicy 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:javax.swing.JTextArea 
+SorroundingContext> setRows setColumns new setMinimumSize 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JScrollPane SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setSelected add getContentPane new 
+LineContext> 
+MethodName:ReceiverType> createEmptyBorder:javax.swing.BorderFactory
+ReceiverType> javax.swing.BorderFactory
+ParameterList> Number Number Number Number 
+SorroundingContext> setBorder setText setSelected add getContentPane 
+LineContext> setBorder 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JCheckBox SN:java.awt.GridBagConstraints 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toInt valueOf setText btnPreviousActionPerformed void 
+LineContext> toInt valueOf setText 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String.valueOf() 
+SorroundingContext> btnPreviousActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toInt valueOf setText btnNextActionPerformed void 
+LineContext> toInt valueOf setText 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String.valueOf() 
+SorroundingContext> btnNextActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> btnPreviewCloseActionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> toInteger btnPreviewActionPerformed void 
+LineContext> toInteger = Integer 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> parseFloat getCoords final try 
+LineContext> parseFloat = ] [ 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> parseFloat getText parseFloat getCoords final try 
+LineContext> parseFloat = ] [ 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> parseFloat getText parseFloat getText parseFloat getCoords final 
+LineContext> parseFloat = ] [ 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> parseFloat getText parseFloat getText parseFloat getText parseFloat 
+LineContext> parseFloat = ] [ 
+MethodName:ReceiverType> setVisible:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> Boolean 
+SorroundingContext> setImage 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setEnabled chkbL4TextDefaultActionPerformed void 
+LineContext> setEnabled 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setEnabled chkbL2TextDefaultActionPerformed void 
+LineContext> setEnabled 
+MethodName:ReceiverType> getDefaultScreenDevice:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> final center void static 
+LineContext> Gr = GraphicsDevice final 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int final getDefaultScreenDevice getLocalGraphicsEnvironment final center void static 
+LineContext> = int final 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> int final getDefaultScreenDevice getLocalGraphicsEnvironment final center void static 
+LineContext> = int final 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int final getWidth getDisplayMode int final getDefaultScreenDevice getLocalGraphicsEnvironment final center void static 
+LineContext> = int final 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> int final getWidth getDisplayMode int final getDefaultScreenDevice getLocalGraphicsEnvironment final center void static 
+LineContext> = int final 
+MethodName:ReceiverType> getSize:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> final getHeight getDisplayMode int final getWidth getDisplayMode int final getDefaultScreenDevice getLocalGraphicsEnvironment final 
+LineContext> = Dimension final 
+MethodName:ReceiverType> getDefaultScreenDevice:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> final resizeAndCenter void static 
+LineContext> Gr = GraphicsDevice final 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int final getDefaultScreenDevice getLocalGraphicsEnvironment final resizeAndCenter void static 
+LineContext> = int final 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> int final getDefaultScreenDevice getLocalGraphicsEnvironment final resizeAndCenter void static 
+LineContext> = int final 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int final getWidth getDisplayMode int final getDefaultScreenDevice getLocalGraphicsEnvironment final resizeAndCenter void static 
+LineContext> = int final 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> int final getWidth getDisplayMode int final getDefaultScreenDevice getLocalGraphicsEnvironment final resizeAndCenter void static 
+LineContext> = int final 
+MethodName:ReceiverType> getBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> if final instanceof if else 
+LineContext> if 
+MethodName:ReceiverType> getBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> final instanceof getBorder if final instanceof if else 
+LineContext> TitledBorder = TitledBorder final 
+MethodName:ReceiverType> setTitle:javax.swing.border.TitledBorder
+ReceiverType> javax.swing.border.TitledBorder
+ParameterList> SN:java.lang.String 
+SorroundingContext> getBorder final instanceof getBorder if final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.AbstractButton
+ReceiverType> javax.swing.AbstractButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> final instanceof if else 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> final instanceof if getMnemonicIndex int final 
+LineContext> 
+MethodName:ReceiverType> setDisplayedMnemonicIndex:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:INT 
+SorroundingContext> charAt toLowerCase setDisplayedMnemonic if setText 
+LineContext> 
+MethodName:ReceiverType> setSize:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> SN:INT SN:INT 
+SorroundingContext> if 
+LineContext> 

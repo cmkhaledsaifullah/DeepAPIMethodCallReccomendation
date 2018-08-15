@@ -1,0 +1,5 @@
+MethodName:ReceiverType> add:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:java.awt.Panel 
+SorroundingContext> Panel new new_Frame setLayoutData 
+LineContext> 

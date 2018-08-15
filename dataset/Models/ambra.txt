@@ -1,0 +1,5 @@
+MethodName:ReceiverType> getParser:javax.swing.text.html.HTMLEditorKit
+ReceiverType> javax.swing.text.html.HTMLEditorKit
+ParameterList> 
+SorroundingContext> debug throws examineBlogPage 
+LineContext> = 

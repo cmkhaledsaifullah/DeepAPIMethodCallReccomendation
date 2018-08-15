@@ -1,0 +1,990 @@
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getSubimage getHeight int for else 
+LineContext> getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth getSubimage getHeight int for else 
+LineContext> getWidth getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for else break 
+LineContext> = int for 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight int for else break 
+LineContext> getHeight = int for 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getSubimage getHeight int for break if 
+LineContext> getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth getSubimage getHeight int for break if 
+LineContext> getWidth getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for break if 
+LineContext> = int for 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight int for break if 
+LineContext> getHeight = int for 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getSubimage getHeight int for break if 
+LineContext> getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth getSubimage getHeight int for break if 
+LineContext> getWidth getSubimage = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for break if 
+LineContext> = int for 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight int for break if 
+LineContext> getHeight = int for 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getWidth int 
+LineContext> 
+MethodName:ReceiverType> getGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> createGraphics BufferedImage new 
+LineContext> Graphics2D = Graphics2D 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> setColor getGraphics createGraphics 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT Number Number 
+SorroundingContext> get if int for int for 
+LineContext> 
+MethodName:ReceiverType> getSource:java.awt.Image
+ReceiverType> java.awt.Image
+ParameterList> 
+SorroundingContext> FilteredImageSource new GetColorFilter new int replaceColor static 
+LineContext> FilteredImageSource new = FilteredImageSource 
+MethodName:ReceiverType> createImage:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> SN:java.awt.image.FilteredImageSource 
+SorroundingContext> return getSource FilteredImageSource new GetColorFilter new int replaceColor static 
+LineContext> To return 
+MethodName:ReceiverType> getSource:java.awt.Image
+ReceiverType> java.awt.Image
+ParameterList> 
+SorroundingContext> FilteredImageSource new KeepColorFilter new int keepColor static 
+LineContext> FilteredImageSource new = FilteredImageSource 
+MethodName:ReceiverType> createImage:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> SN:java.awt.image.FilteredImageSource 
+SorroundingContext> return getSource FilteredImageSource new KeepColorFilter new int keepColor static 
+LineContext> To return 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max BufferedImage new createComposite static 
+LineContext> max BufferedImage new = BufferedImage 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth max BufferedImage new createComposite static 
+LineContext> getWidth max BufferedImage new = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max getWidth max BufferedImage new createComposite static 
+LineContext> max 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight max getWidth max BufferedImage new createComposite static 
+LineContext> getHeight max 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight max getWidth max BufferedImage new createComposite static 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> setComposite:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Composite 
+SorroundingContext> getInstance drawImage createGraphics 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage setComposite getInstance 
+LineContext> 
+MethodName:ReceiverType> getImage:javax.swing.ImageIcon
+ReceiverType> javax.swing.ImageIcon
+ParameterList> 
+SorroundingContext> return instanceof if toBufferedImage static 
+LineContext> = 
+MethodName:ReceiverType> getDefaultScreenDevice:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> if int try 
+LineContext> = GraphicsDevice 
+MethodName:ReceiverType> getDefaultConfiguration:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> getDefaultScreenDevice if int 
+LineContext> = GraphicsConfiguration 
+MethodName:ReceiverType> createCompatibleImage:java.awt.GraphicsConfiguration
+ReceiverType> java.awt.GraphicsConfiguration
+ParameterList> SN:java.awt.Image.getWidth() SN:java.awt.Image.getHeight() SN:INT 
+SorroundingContext> getDefaultConfiguration getDefaultScreenDevice if 
+LineContext> = 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new if 
+LineContext> = Graphics 
+MethodName:ReceiverType> dispose:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> drawImage createGraphics 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> return instanceof if hasAlpha boolean static 
+LineContext> return BufferedImage instanceof if 
+MethodName:ReceiverType> hasAlpha:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> 
+SorroundingContext> return instanceof if hasAlpha boolean static 
+LineContext> return BufferedImage instanceof if 
+MethodName:ReceiverType> grabPixels:java.awt.image.PixelGrabber
+ReceiverType> java.awt.image.PixelGrabber
+ParameterList> 
+SorroundingContext> try PixelGrabber new hasAlpha getColorModel return instanceof if hasAlpha boolean static 
+LineContext> try 
+MethodName:ReceiverType> getColorModel:java.awt.image.PixelGrabber
+ReceiverType> java.awt.image.PixelGrabber
+ParameterList> 
+SorroundingContext> return catch grabPixels try PixelGrabber new hasAlpha getColorModel return instanceof if 
+LineContext> return 
+MethodName:ReceiverType> hasAlpha:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> 
+SorroundingContext> return catch grabPixels try PixelGrabber new hasAlpha getColorModel return instanceof if 
+LineContext> return 
+MethodName:ReceiverType> getContentPane:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> 
+SorroundingContext> MainPanel new setDefaultCloseOperation JFrame new String main void static 
+LineContext> MainPanel new = MainPanel 
+MethodName:ReceiverType> setBounds:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Number Number Number Number 
+SorroundingContext> parseInt getContentPane MainPanel new setDefaultCloseOperation JFrame new 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Boolean 
+SorroundingContext> setBounds parseInt getContentPane MainPanel new setDefaultCloseOperation 
+LineContext> 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage Container new MediaTracker new PdfPTable new 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage Container new MediaTracker new 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new waitForID addImage 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> int double drawDot void 
+LineContext> 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage Container new MediaTracker new addCell 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage Container new MediaTracker new 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new waitForID addImage 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage Container new MediaTracker new getTran createTitleCell addCell 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage Container new MediaTracker new 
+LineContext> 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage waitForID addImage 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage waitForID 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new waitForID addImage 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if int String 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if int String 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new getHeight getWidth drawRectangle 
+LineContext> = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if String 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if String 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage Container new MediaTracker new getTran createHeaderCell addCell 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage Container new MediaTracker new 
+LineContext> 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> getImage waitForID addImage 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> addImage getImage waitForID 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new waitForID addImage 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if drawImage createGraphics 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if drawImage createGraphics 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new addCell setVerticalAlignment 
+LineContext> = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if drawImage createGraphics 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if drawImage createGraphics 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle else getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle else getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> drawRectangle 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth drawRectangle equals getItemValue if getHeight getWidth drawRectangle 
+LineContext> getWidth drawRectangle 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> String int double drawRectangle void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> String double drawText void 
+LineContext> 

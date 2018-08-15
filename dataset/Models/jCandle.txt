@@ -1,0 +1,15 @@
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> new return final toSwtColor 
+LineContext> new return 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed new return final toSwtColor 
+LineContext> getRed new return 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed new return final toSwtColor 
+LineContext> getGreen getRed new return 

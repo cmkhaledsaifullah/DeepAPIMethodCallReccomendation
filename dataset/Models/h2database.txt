@@ -1,0 +1,280 @@
+MethodName:ReceiverType> createImage:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> SN:BYTE 
+SorroundingContext> return if 
+LineContext> To return 
+MethodName:ReceiverType> dispose:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> String 
+SorroundingContext> MenuItem new PopupMenu new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> this 
+SorroundingContext> setActionCommand MenuItem new PopupMenu new 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> SN:java.awt.Font 
+SorroundingContext> this addActionListener setActionCommand MenuItem new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.PopupMenu
+ReceiverType> java.awt.PopupMenu
+ParameterList> SN:java.awt.MenuItem 
+SorroundingContext> setFont this addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> String 
+SorroundingContext> MenuItem new add setFont 
+LineContext> 
+MethodName:ReceiverType> addActionListener:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> this 
+SorroundingContext> setActionCommand MenuItem new add 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> SN:java.awt.Font 
+SorroundingContext> this addActionListener setActionCommand MenuItem new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.PopupMenu
+ReceiverType> java.awt.PopupMenu
+ParameterList> SN:java.awt.MenuItem 
+SorroundingContext> setFont this addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> SN:java.awt.Font 
+SorroundingContext> MenuItem new add setFont 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> String 
+SorroundingContext> setFont MenuItem new add 
+LineContext> 
+MethodName:ReceiverType> addActionListener:java.awt.MenuItem
+ReceiverType> java.awt.MenuItem
+ParameterList> this 
+SorroundingContext> setActionCommand setFont MenuItem new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.PopupMenu
+ReceiverType> java.awt.PopupMenu
+ParameterList> SN:java.awt.MenuItem 
+SorroundingContext> this addActionListener setActionCommand setFont 
+LineContext> 
+MethodName:ReceiverType> addWindowListener:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> this 
+SorroundingContext> Frame new return 
+LineContext> 
+MethodName:ReceiverType> setIconImage:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:java.awt.Image 
+SorroundingContext> if loadImage this addWindowListener 
+LineContext> 
+MethodName:ReceiverType> setResizable:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> setIconImage if 
+LineContext> 
+MethodName:ReceiverType> setLayout:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> GridBagLayout new setBackground setResizable 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.Label
+ReceiverType> java.awt.Label
+ParameterList> SN:java.awt.Font 
+SorroundingContext> Label new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Panel
+ReceiverType> java.awt.Panel
+ParameterList> SN:java.awt.Label SN:java.awt.GridBagConstraints 
+SorroundingContext> setFont Label new 
+LineContext> 
+MethodName:ReceiverType> setEditable:java.awt.TextField
+ReceiverType> java.awt.TextField
+ParameterList> Boolean 
+SorroundingContext> TextField new add setFont 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.TextField
+ReceiverType> java.awt.TextField
+ParameterList> SN:java.awt.Font 
+SorroundingContext> setEditable TextField new add 
+LineContext> 
+MethodName:ReceiverType> setText:java.awt.TextField
+ReceiverType> java.awt.TextField
+ParameterList> SN:org.h2.tools.Server.getURL() 
+SorroundingContext> setFont setEditable TextField new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:java.awt.TextField
+ReceiverType> java.awt.TextField
+ParameterList> Boolean 
+SorroundingContext> if getURL setText setFont 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Panel
+ReceiverType> java.awt.Panel
+ParameterList> SN:java.awt.TextField SN:java.awt.GridBagConstraints 
+SorroundingContext> setFocusable if 
+LineContext> 
+MethodName:ReceiverType> setFocusable:java.awt.Button
+ReceiverType> java.awt.Button
+ParameterList> Boolean 
+SorroundingContext> Button new add 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:java.awt.Button
+ReceiverType> java.awt.Button
+ParameterList> String 
+SorroundingContext> setFocusable Button new add 
+LineContext> 
+MethodName:ReceiverType> addActionListener:java.awt.Button
+ReceiverType> java.awt.Button
+ParameterList> this 
+SorroundingContext> setActionCommand setFocusable Button new 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.Button
+ReceiverType> java.awt.Button
+ParameterList> SN:java.awt.Font 
+SorroundingContext> this addActionListener setActionCommand setFocusable 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Panel
+ReceiverType> java.awt.Panel
+ParameterList> SN:java.awt.Button SN:java.awt.GridBagConstraints 
+SorroundingContext> setFont this addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:java.awt.Panel SN:java.awt.GridBagConstraints 
+SorroundingContext> add setFont this addActionListener 
+LineContext> 
+MethodName:ReceiverType> setSize:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> SN:INT SN:INT 
+SorroundingContext> int add 
+LineContext> 
+MethodName:ReceiverType> getScreenSize:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> setSize int add 
+LineContext> To = Dimension 
+MethodName:ReceiverType> setVisible:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> try setLocation 
+LineContext> 
+MethodName:ReceiverType> setAlwaysOnTop:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> try catch 
+LineContext> 
+MethodName:ReceiverType> setAlwaysOnTop:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> Boolean 
+SorroundingContext> setAlwaysOnTop try 
+LineContext> 
+MethodName:ReceiverType> setText:java.awt.TextField
+ReceiverType> java.awt.TextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> if getURL String if 
+LineContext> 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> String actionPerformed void 
+LineContext> = String 
+MethodName:ReceiverType> getButton:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> if mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> dispose:java.awt.Frame
+ReceiverType> java.awt.Frame
+ParameterList> 
+SorroundingContext> if windowClosing void 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawLine setStroke 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new savePng 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawArc drawLine 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new flipHorizontal savePng 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawLine drawArc 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int String savePng void 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getWidth int String savePng void 
+LineContext> = int 
+MethodName:ReceiverType> getType:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getHeight int getWidth int String savePng void 
+LineContext> BufferedImage new = BufferedImage 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getHeight int getWidth int 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int flipHorizontal static 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth int flipHorizontal static 
+LineContext> = getWidth = int 
+MethodName:ReceiverType> getType:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getHeight getWidth int flipHorizontal static 
+LineContext> BufferedImage new = BufferedImage 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getType BufferedImage new getHeight getWidth int flipHorizontal static 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage createGraphics getType BufferedImage new 
+LineContext> 

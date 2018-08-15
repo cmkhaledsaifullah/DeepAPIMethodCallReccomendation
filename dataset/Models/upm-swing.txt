@@ -1,0 +1,2310 @@
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean enableProxyComponents void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled boolean enableProxyComponents void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled boolean enableProxyComponents void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if try okButtonAction void 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> if isSelected if try okButtonAction void 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText if isSelected if try okButtonAction void 
+LineContext> = getText if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isNumeric equals trim getText if isSelected if try 
+LineContext> isNumeric 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> translate showMessageDialog 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> if return 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText if return 
+LineContext> = getText if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isNumeric equals trim getText if 
+LineContext> isNumeric 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> translate showMessageDialog 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set return requestFocusInWindow 
+LineContext> Preferences.ApplicationOptions.DB_TO_LOAD_ON_STARTUP set 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set getText set 
+LineContext> valueOf 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set isSelected valueOf set 
+LineContext> valueOf 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set isSelected valueOf set 
+LineContext> valueOf 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set isSelected valueOf set 
+LineContext> valueOf 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set isSelected valueOf set 
+LineContext> valueOf 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set isSelected valueOf set isSelected valueOf 
+LineContext> Preferences.ApplicationOptions.DATABASE_AUTO_LOCK_TIME set 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set getText set isSelected valueOf set 
+LineContext> Preferences.ApplicationOptions.ACCOUNT_PASSWORD_LENGTH set 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set getText set getText set 
+LineContext> valueOf 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set isSelected valueOf set getText set 
+LineContext> Preferences.ApplicationOptions.HTTP_PROXY_HOST set 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set getText set isSelected valueOf set 
+LineContext> Preferences.ApplicationOptions.HTTP_PROXY_PORT set 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> set getText set getText set isSelected valueOf 
+LineContext> Preferences.ApplicationOptions.HTTP_PROXY_USERNAME set 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> String new encodeBase64 String new String getText set getText set 
+LineContext> String new encodeBase64 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> valueOf set getBytes getPassword String new encodeBase64 
+LineContext> valueOf 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> setAppAlwaysonTop isSelected valueOf set 
+LineContext> setAppAlwaysonTop 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> get String isSelected setAppAlwaysonTop isSelected valueOf 
+LineContext> [ = Locale 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> Translator.translate() 
+SorroundingContext> JFileChooser new getDBToLoadOnStartup void 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> this 
+SorroundingContext> int translate setDialogTitle JFileChooser new getDBToLoadOnStartup void 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> if this showOpenDialog int translate setDialogTitle 
+LineContext> = File 
+MethodName:ReceiverType> setAlwaysOnTop:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean setAppAlwaysonTop void static 
+LineContext> Ap 
+MethodName:ReceiverType> getLayout:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> 
+SorroundingContext> if addComponentsToPane void 
+LineContext> if 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:java.awt.Component SN:java.awt.GridBagConstraints 
+SorroundingContext> createToolBar 
+LineContext> 
+MethodName:ReceiverType> getBackground:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> setBackground getContentPane add getContentPane createToolBar 
+LineContext> setBackground getContentPane 
+MethodName:ReceiverType> setBackground:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:java.awt.Component.getBackground() 
+SorroundingContext> add getContentPane createToolBar 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage JLabel new JSeparator new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> loadImage setDisabledIcon loadImage JLabel new JSeparator new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> getPreferredSize:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setMinimumSize setEnabled JTextField new add getContentPane 
+LineContext> setMinimumSize 
+MethodName:ReceiverType> setMinimumSize:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:javax.swing.JTextField.getPreferredSize() 
+SorroundingContext> setEnabled JTextField new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> getDocument:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getPreferredSize setMinimumSize setEnabled JTextField new 
+LineContext> 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if keyPressed void 
+LineContext> if 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if else resetSearch getKeyCode if keyPressed void 
+LineContext> if else 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if getKeyCode if else resetSearch getKeyCode if 
+LineContext> if 
+MethodName:ReceiverType> getSize:javax.swing.ListModel
+ReceiverType> javax.swing.ListModel
+ParameterList> 
+SorroundingContext> if getKeyCode if else resetSearch getKeyCode if 
+LineContext> if 
+MethodName:ReceiverType> doClick:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> 
+SorroundingContext> getSize getModel if getKeyCode if else resetSearch 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JTextField SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage JButton new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> loadImage setDisabledIcon loadImage JButton new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> setEnabled loadImage setDisabledIcon loadImage JButton new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> translate setToolTipText setEnabled loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> setActionCommand translate setToolTipText setEnabled 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> BorderFactory.createEmptyBorder() 
+SorroundingContext> this addActionListener setActionCommand translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> createEmptyBorder setBorder this addActionListener setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JButton SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> Number 
+SorroundingContext> setSelectionMode JList new add getContentPane 
+LineContext> 
+MethodName:ReceiverType> setVisibleRowCount:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> Number 
+SorroundingContext> setSelectedIndex setSelectionMode JList new 
+LineContext> 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if focusGained void 
+LineContext> if 
+MethodName:ReceiverType> getSize:javax.swing.ListModel
+ReceiverType> javax.swing.ListModel
+ParameterList> 
+SorroundingContext> if focusGained void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> getSize getModel if focusGained void 
+LineContext> getSize getModel if 
+MethodName:ReceiverType> setSelectionInterval:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> Number Number 
+SorroundingContext> getSelectedIndex getSize getModel if focusGained void 
+LineContext> 
+MethodName:ReceiverType> getClickCount:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> if mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> doClick:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> 
+SorroundingContext> getClickCount if mouseClicked void 
+LineContext> 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if keyPressed void 
+LineContext> if 
+MethodName:ReceiverType> doClick:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> 
+SorroundingContext> getKeyCode if keyPressed void 
+LineContext> 
+MethodName:ReceiverType> getKeyCode:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> if keyPressed void 
+LineContext> if 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JScrollPane SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setAlignmentX:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:FLOAT 
+SorroundingContext> JLabel new EmptyBorder new setBorder Color new setBackground 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> setAlignmentX JLabel new EmptyBorder new setBorder 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> Box.createHorizontalGlue() 
+SorroundingContext> add setAlignmentX JLabel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> Boolean 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> setVisible add 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JLabel SN:java.awt.GridBagConstraints 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean setFileChangedPanelVisible void 
+LineContext> 
+MethodName:ReceiverType> setFloatable:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> Boolean 
+SorroundingContext> JToolBar new createToolBar 
+LineContext> 
+MethodName:ReceiverType> setRollover:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> Boolean 
+SorroundingContext> setFloatable JToolBar new createToolBar 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new setRollover setFloatable 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new setRollover 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> loadImage setDisabledIcon loadImage setIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> this addActionListener loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new add setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new add 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> loadImage setDisabledIcon loadImage setIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> this addActionListener loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new add setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new add 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> loadImage setDisabledIcon loadImage setIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> this addActionListener loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> 
+SorroundingContext> add setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new addSeparator add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new addSeparator 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> copyUsernameToClipboard 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new add setEnabled 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new add 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> copyPasswordToClipboard 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new add setEnabled 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new add 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> getParent:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> showMessageDialog urlIsValid if else translate 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> getParent:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> showMessageDialog length if getUrl String getSelectedAccount 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> 
+SorroundingContext> add setEnabled 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new addSeparator add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new addSeparator 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> loadImage setDisabledIcon loadImage setIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> this addActionListener loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> 
+SorroundingContext> add setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> JButton new addSeparator add 
+LineContext> 
+MethodName:ReceiverType> setIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> translate setToolTipText JButton new addSeparator 
+LineContext> 
+MethodName:ReceiverType> setDisabledIcon:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Util.loadImage() 
+SorroundingContext> loadImage setIcon translate setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> loadImage setDisabledIcon loadImage setIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> this addActionListener loadImage setDisabledIcon 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JToolBar
+ReceiverType> javax.swing.JToolBar
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> setMnemonic translate JMenu new JMenuBar new 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new add 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new add setMnemonic 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> setActionCommand this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new addSeparator 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new addSeparator setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> setActionCommand setEnabled this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> translate JMenuItem new addSeparator setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add translate JMenuItem new addSeparator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add translate JMenuItem new setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> setMnemonic translate JMenu new setActionCommand 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new add 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new add setMnemonic 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> this addActionListener add getMenuShortcutKeyMask getDefaultToolkit getKeyStroke 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled this addActionListener add 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> copyUsernameToClipboard 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> copyPasswordToClipboard 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> getParent:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> showMessageDialog urlIsValid if else translate 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> getParent:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> 
+SorroundingContext> showMessageDialog urlIsValid if else translate 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> getParent:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> showMessageDialog length if getUrl String getSelectedAccount 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> getParent:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> 
+SorroundingContext> showMessageDialog length if getUrl String getSelectedAccount 
+LineContext> showMessageDialog 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> getMenuShortcutKeyMask:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> getKeyStroke setAccelerator translate JMenuItem new setActionCommand 
+LineContext> To getKeyStroke 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> translate JMenuItem new setActionCommand setEnabled 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator translate JMenuItem new 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> this addActionListener getMenuShortcutKeyMask getDefaultToolkit getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> this 
+SorroundingContext> translate JMenuItem new setActionCommand this addActionListener 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:java.lang.String 
+SorroundingContext> this addActionListener translate JMenuItem new setActionCommand 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> isMAC if setActionCommand this addActionListener 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> addSeparator isMAC if setActionCommand 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> setMnemonic translate JMenu new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add setMnemonic translate JMenu new 
+LineContext> 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> StringSelection new String copyToClipboard void 
+LineContext> To = Clipboard 
+MethodName:ReceiverType> setContents:java.awt.datatransfer.Clipboard
+ReceiverType> java.awt.datatransfer.Clipboard
+ParameterList> SN:java.awt.datatransfer.StringSelection SN:java.awt.datatransfer.StringSelection 
+SorroundingContext> getSystemClipboard getDefaultToolkit StringSelection new String copyToClipboard void 
+LineContext> 
+MethodName:ReceiverType> getX:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> toString set storeWindowBounds void 
+LineContext> toString Preferences.ApplicationOptions.XLOC set 
+MethodName:ReceiverType> getY:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> toString set getX toString set storeWindowBounds void 
+LineContext> toString Preferences.ApplicationOptions.YLOC set 
+MethodName:ReceiverType> getWidth:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> toString set getY toString set getX toString set storeWindowBounds void 
+LineContext> toString Preferences.ApplicationOptions.WWIDTH set 
+MethodName:ReceiverType> getHeight:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> toString set getWidth toString set getY toString set getX toString set 
+LineContext> toString Preferences.ApplicationOptions.WHEIGHT set 
+MethodName:ReceiverType> getX:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getInt int restoreWindowBounds void 
+LineContext> Preferences.ApplicationOptions.XLOC getInt = int 
+MethodName:ReceiverType> getY:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getInt int getX getInt int restoreWindowBounds void 
+LineContext> Preferences.ApplicationOptions.YLOC getInt = int 
+MethodName:ReceiverType> getX:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getGraphicsConfigurationContaining if getY getInt int getX getInt int 
+LineContext> = 
+MethodName:ReceiverType> getY:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getX getGraphicsConfigurationContaining if getY getInt int 
+LineContext> = 
+MethodName:ReceiverType> getWidth:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getInt int getY getX 
+LineContext> Preferences.ApplicationOptions.WWIDTH getInt = int 
+MethodName:ReceiverType> getHeight:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> getInt int getWidth getInt int getY 
+LineContext> Preferences.ApplicationOptions.WHEIGHT getInt = int 
+MethodName:ReceiverType> setBounds:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> getHeight getInt int getWidth getInt int 
+LineContext> 
+MethodName:ReceiverType> getScreenDevices:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> getLocalGraphicsEnvironment ArrayList new int getGraphicsConfigurationContaining 
+LineContext> = ] [ GraphicsDevice 
+MethodName:ReceiverType> getConfigurations:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int for getScreenDevices getLocalGraphicsEnvironment 
+LineContext> = ] [ GraphicsConfiguration 
+MethodName:ReceiverType> getBounds:java.awt.GraphicsConfiguration
+ReceiverType> java.awt.GraphicsConfiguration
+ParameterList> 
+SorroundingContext> get size int for 
+LineContext> = Rectangle 
+MethodName:ReceiverType> contains:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> SN:INT SN:INT 
+SorroundingContext> if getBounds get size int for 
+LineContext> if 
+MethodName:ReceiverType> getScreenDevices:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> getLocalGraphicsEnvironment ArrayList new getConfigs static 
+LineContext> = ] [ GraphicsDevice 
+MethodName:ReceiverType> getConfigurations:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> int for getScreenDevices getLocalGraphicsEnvironment 
+LineContext> = ] [ GraphicsConfiguration 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if try actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else newDatabase getActionCommand if try 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else openDatabase getActionCommand if else newDatabase 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else openDatabaseFromURL getActionCommand if else openDatabase 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else syncWithRemoteDatabase getActionCommand if else openDatabaseFromURL 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else AddAccountAction new reloadDatabaseBefore getActionCommand if else syncWithRemoteDatabase 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else EditAccountAction new reloadDatabaseBefore getSelectedValue String getActionCommand if else 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else DeleteAccountAction new reloadDatabaseBefore getActionCommand if else EditAccountAction new reloadDatabaseBefore 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else viewAccount getActionCommand if else DeleteAccountAction new reloadDatabaseBefore 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else options getActionCommand if else viewAccount 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else showAbout getActionCommand if else options 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else resetSearch getActionCommand if else showAbout 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else ChangeMasterPasswordAction new reloadDatabaseBefore getActionCommand if else resetSearch 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else ShowDatabasePropertiesAction new reloadDatabaseBefore getActionCommand if else ChangeMasterPasswordAction new reloadDatabaseBefore 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else exitApplication getActionCommand if else ShowDatabasePropertiesAction new reloadDatabaseBefore 
+LineContext> if else 
+MethodName:ReceiverType> getActionCommand:java.awt.event.ActionEvent
+ReceiverType> java.awt.event.ActionEvent
+ParameterList> 
+SorroundingContext> if else export getActionCommand if else exitApplication 
+LineContext> if else 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> String getActionCommand if else AddAccountAction new reloadDatabaseBefore getActionCommand if else 
+LineContext> String = String 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Translator.translate() 
+SorroundingContext> initialiseControlsWithDefaultLanguage void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText initialiseControlsWithDefaultLanguage void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText initialiseControlsWithDefaultLanguage void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Translator.translate() 
+SorroundingContext> isMAC if translate setText translate setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setText isMAC if 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Translator.translate() 
+SorroundingContext> translate setToolTipText translate setToolTipText translate setToolTipText 
+LineContext> 
+MethodName:ReceiverType> createDialog:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> SN:com._17od.upm.gui.MainWindow Translator.translate() 
+SorroundingContext> translate new JOptionPane new JPasswordField new do 
+LineContext> = JDialog 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> windowGainedFocus void 
+LineContext> 
+MethodName:ReceiverType> show:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> requestFocusInWindow 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> 
+SorroundingContext> if show 
+LineContext> if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> equals if Integer new equals getValue if show 
+LineContext> equals if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> getPassword equals if Integer new equals getValue if show 
+LineContext> getPassword equals if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> PasswordDatabasePersistence new PasswordDatabase new delete 
+LineContext> PasswordDatabasePersistence new = 
+MethodName:ReceiverType> createDialog:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> SN:com._17od.upm.gui.MainWindow Translator.translate() 
+SorroundingContext> translate new JOptionPane new JPasswordField new do 
+LineContext> = JDialog 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> windowGainedFocus void 
+LineContext> 
+MethodName:ReceiverType> show:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> requestFocusInWindow 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> 
+SorroundingContext> show 
+LineContext> = 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> equals if Integer new equals if getValue show 
+LineContext> equals if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> getPassword equals if Integer new equals if getValue show 
+LineContext> getPassword equals if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> initCipher getEncryptionService Integer new equals if Integer new equals while 
+LineContext> initCipher getEncryptionService 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> doCloseDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getAddAccountButton doCloseDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEnabled getAddAccountMenuItem setEnabled getAddAccountButton doCloseDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setEnabled getSearchField setEnabled getAddAccountMenuItem setEnabled getAddAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> setText getSearchField setEnabled getSearchField setEnabled getAddAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getSearchIcon setText getSearchField setEnabled getSearchField 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getResetSearchButton setEnabled getSearchIcon setText getSearchField 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getChangeMasterPasswordMenuItem setEnabled getResetSearchButton setEnabled getSearchIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDatabasePropertiesMenuItem setEnabled getChangeMasterPasswordMenuItem setEnabled getResetSearchButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getExportMenuItem setEnabled getDatabasePropertiesMenuItem setEnabled getChangeMasterPasswordMenuItem 
+LineContext> 
+MethodName:ReceiverType> setTitle:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> MainWindow.getApplicationName() 
+SorroundingContext> setEnabled getImportMenuItem setEnabled getExportMenuItem setEnabled getDatabasePropertiesMenuItem 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> getApplicationName setTitle setEnabled getImportMenuItem setEnabled getExportMenuItem 
+LineContext> 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setText getStatusBar getApplicationName setTitle 
+LineContext> SortedListModel = SortedListModel 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> clear getModel getAccountsListview 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountButton clear getModel getAccountsListview 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameButton setEnabled getEditAccountButton clear 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton setEnabled getEditAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLButton setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountButton setEnabled getLaunchURLButton setEnabled getCopyPasswordButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton setEnabled getLaunchURLButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountMenuItem setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> doOpenDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getAddAccountButton doOpenDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> setEnabled getAddAccountMenuItem setEnabled getAddAccountButton doOpenDatabaseActions void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setEnabled getSearchField setEnabled getAddAccountMenuItem setEnabled getAddAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> setText getSearchField setEnabled getSearchField setEnabled getAddAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getSearchIcon setText getSearchField setEnabled getSearchField 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getResetSearchButton setEnabled getSearchIcon setText getSearchField 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getChangeMasterPasswordMenuItem setEnabled getResetSearchButton setEnabled getSearchIcon 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDatabasePropertiesMenuItem setEnabled getChangeMasterPasswordMenuItem setEnabled getResetSearchButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getExportMenuItem setEnabled getDatabasePropertiesMenuItem setEnabled getChangeMasterPasswordMenuItem 
+LineContext> 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> configureAutoLock start Thread new 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> Boolean 
+SorroundingContext> requestFocusInWindow getSearchField configureAutoLock start 
+LineContext> 
+MethodName:ReceiverType> getWindowFocusListeners:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> removeWindowFocusListener getWindowFocusListeners int for debug 
+LineContext> 
+MethodName:ReceiverType> getWindowFocusListeners:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> int for debug else 
+LineContext> = int for 
+MethodName:ReceiverType> getWindowFocusListeners:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> if debug if 
+LineContext> if 
+MethodName:ReceiverType> createDialog:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> SN:com._17od.upm.gui.MainWindow Translator.translate() 
+SorroundingContext> new JOptionPane new JPasswordField new final char 
+LineContext> = JDialog 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> windowGainedFocus void 
+LineContext> 
+MethodName:ReceiverType> show:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> 
+SorroundingContext> requestFocusInWindow 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> 
+SorroundingContext> if show 
+LineContext> if 
+MethodName:ReceiverType> getValue:javax.swing.JOptionPane
+ReceiverType> javax.swing.JOptionPane
+ParameterList> 
+SorroundingContext> getValue if show 
+LineContext> = getValue if 
+MethodName:ReceiverType> getPassword:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> Integer new equals getValue if show 
+LineContext> = 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> Translator.translate() 
+SorroundingContext> JFileChooser new throws openDatabase void 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> int translate setDialogTitle JFileChooser new throws openDatabase void 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> if showOpenDialog int translate setDialogTitle 
+LineContext> = File 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> getLatestVersionOfDatabase if throws deleteAccount void 
+LineContext> SortedListModel = SortedListModel 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> String getModel getAccountsListview getLatestVersionOfDatabase if throws deleteAccount void 
+LineContext> String = String 
+MethodName:ReceiverType> pack:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> AccountDialog new AccountInformation new getLatestVersionOfDatabase if 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack AccountDialog new AccountInformation new 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack AccountDialog new 
+LineContext> 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> String getSelectedAccount 
+LineContext> String = String 
+MethodName:ReceiverType> pack:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> AccountDialog new getSelectedAccount viewAccount void 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack AccountDialog new getSelectedAccount 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack AccountDialog new 
+LineContext> 
+MethodName:ReceiverType> pack:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> AccountDialog new 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack AccountDialog new 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.AccountDialog
+ReceiverType> com._17od.upm.gui.AccountDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack AccountDialog new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String filter void 
+LineContext> = String 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if populateListview 
+LineContext> if 
+MethodName:ReceiverType> getSize:javax.swing.ListModel
+ReceiverType> javax.swing.ListModel
+ParameterList> 
+SorroundingContext> if populateListview 
+LineContext> if 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> Number 
+SorroundingContext> getSize getModel getAccountsListview if populateListview 
+LineContext> 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> populateListview void 
+LineContext> SortedListModel = SortedListModel 
+MethodName:ReceiverType> clearSelection:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> clear getModel getAccountsListview populateListview void 
+LineContext> 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if setButtonState void 
+LineContext> if 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> else setEnabled getViewAccountMenuItem setEnabled getDeleteAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountButton else setEnabled getViewAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameButton setEnabled getEditAccountButton else 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton setEnabled getEditAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLButton setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountButton setEnabled getLaunchURLButton setEnabled getCopyPasswordButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton setEnabled getLaunchURLButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountMenuItem setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getSelectedValue getAccountsListview if setButtonState void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountButton getSelectedValue getAccountsListview if setButtonState void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameButton setEnabled getEditAccountButton getSelectedValue getAccountsListview if 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton setEnabled getEditAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLButton setEnabled getCopyPasswordButton setEnabled getCopyUsernameButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountButton setEnabled getLaunchURLButton setEnabled getCopyPasswordButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton setEnabled getLaunchURLButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem setEnabled getDeleteAccountButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem setEnabled getEditAccountMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem setEnabled getCopyUsernameMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> setEnabled getDeleteAccountMenuItem setEnabled getLaunchURLMenuItem setEnabled getCopyPasswordMenuItem 
+LineContext> 
+MethodName:ReceiverType> pack:com._17od.upm.gui.OptionsDialog
+ReceiverType> com._17od.upm.gui.OptionsDialog
+ParameterList> 
+SorroundingContext> OptionsDialog new options void 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.OptionsDialog
+ReceiverType> com._17od.upm.gui.OptionsDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack OptionsDialog new options void 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.OptionsDialog
+ReceiverType> com._17od.upm.gui.OptionsDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack OptionsDialog new 
+LineContext> 
+MethodName:ReceiverType> pack:com._17od.upm.gui.AboutDialog
+ReceiverType> com._17od.upm.gui.AboutDialog
+ParameterList> 
+SorroundingContext> AboutDialog new showAbout void 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.AboutDialog
+ReceiverType> com._17od.upm.gui.AboutDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack AboutDialog new showAbout void 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.AboutDialog
+ReceiverType> com._17od.upm.gui.AboutDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack AboutDialog new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> resetSearch void 
+LineContext> 
+MethodName:ReceiverType> pack:com._17od.upm.gui.DatabasePropertiesDialog
+ReceiverType> com._17od.upm.gui.DatabasePropertiesDialog
+ParameterList> 
+SorroundingContext> getAccountNames DatabasePropertiesDialog new getLatestVersionOfDatabase if try 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.DatabasePropertiesDialog
+ReceiverType> com._17od.upm.gui.DatabasePropertiesDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack getAccountNames DatabasePropertiesDialog new getLatestVersionOfDatabase if 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.DatabasePropertiesDialog
+ReceiverType> com._17od.upm.gui.DatabasePropertiesDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack getAccountNames DatabasePropertiesDialog new 
+LineContext> 
+MethodName:ReceiverType> pack:com._17od.upm.gui.OpenDatabaseFromURLDialog
+ReceiverType> com._17od.upm.gui.OpenDatabaseFromURLDialog
+ParameterList> 
+SorroundingContext> OpenDatabaseFromURLDialog new throws openDatabaseFromURL void 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:com._17od.upm.gui.OpenDatabaseFromURLDialog
+ReceiverType> com._17od.upm.gui.OpenDatabaseFromURLDialog
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> pack OpenDatabaseFromURLDialog new throws openDatabaseFromURL void 
+LineContext> 
+MethodName:ReceiverType> show:com._17od.upm.gui.OpenDatabaseFromURLDialog
+ReceiverType> com._17od.upm.gui.OpenDatabaseFromURLDialog
+ParameterList> 
+SorroundingContext> setLocationRelativeTo pack OpenDatabaseFromURLDialog new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getOkClicked if show setLocationRelativeTo 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText getUrlTextField String getOkClicked if show 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText getUsernameTextField String getText getUrlTextField String getOkClicked if 
+LineContext> = String 
+MethodName:ReceiverType> getContentPane:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> finally 
+LineContext> 
+MethodName:ReceiverType> getContentPane:com._17od.upm.gui.MainWindow
+ReceiverType> com._17od.upm.gui.MainWindow
+ParameterList> 
+SorroundingContext> pause try boolean 
+LineContext> 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> Translator.translate() 
+SorroundingContext> JFileChooser new getLatestVersionOfDatabase if throws importAccounts void 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> int translate setDialogTitle JFileChooser new getLatestVersionOfDatabase if 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> if showOpenDialog int translate setDialogTitle 
+LineContext> = File 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.lang.String 
+SorroundingContext> JFileChooser new do boolean 
+LineContext> 
+MethodName:ReceiverType> showSaveDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:com._17od.upm.gui.MainWindow 
+SorroundingContext> int setDialogTitle JFileChooser new do 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> return if 
+LineContext> = 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> else setEnabled getSyncWithRemoteDatabaseButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getSyncWithRemoteDatabaseMenuItem else 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> else setEnabled getSyncWithRemoteDatabaseButton setEnabled getSyncWithRemoteDatabaseMenuItem 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getSyncWithRemoteDatabaseMenuItem else setEnabled getSyncWithRemoteDatabaseButton 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> if databaseHasRemoteInstance if 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setEnabled getSyncWithRemoteDatabaseMenuItem if databaseHasRemoteInstance if 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> translate 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> setText getStatusBar 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> equals getAccountName if okButtonAction void 
+LineContext> equals getAccountName if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> indexOf if trim getText equals getAccountName if 
+LineContext> indexOf if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> equals getUserId if else translate trim getText translate 
+LineContext> equals getUserId if 
+MethodName:ReceiverType> getText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> equals getPassword if getText equals getUserId if 
+LineContext> equals getPassword if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> equals getUrl if getText equals getPassword if 
+LineContext> equals getUrl if 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> equals getNotes if getText equals getUrl if 
+LineContext> equals getNotes if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setAccountName getText equals getNotes if 
+LineContext> setAccountName 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setUserId trim getText setAccountName 
+LineContext> setUserId 
+MethodName:ReceiverType> getText:javax.swing.JPasswordField
+ReceiverType> javax.swing.JPasswordField
+ParameterList> 
+SorroundingContext> setPassword getText setUserId trim getText setAccountName 
+LineContext> setPassword 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setUrl getText setPassword getText setUserId trim getText setAccountName 
+LineContext> setUrl 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> setNotes getText setUrl getText setPassword getText setUserId 
+LineContext> setNotes 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> translate showMessageDialog trim getText indexOf if 
+LineContext> translate 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> copyTextField void 
+LineContext> To = Clipboard 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> StringSelection new getSystemClipboard getDefaultToolkit copyTextField void 
+LineContext> StringSelection new = StringSelection 
+MethodName:ReceiverType> setContents:java.awt.datatransfer.Clipboard
+ReceiverType> java.awt.datatransfer.Clipboard
+ParameterList> SN:java.awt.datatransfer.StringSelection SN:java.awt.datatransfer.StringSelection 
+SorroundingContext> getText StringSelection new getSystemClipboard getDefaultToolkit copyTextField void 
+LineContext> 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> copyTextArea void 
+LineContext> To = Clipboard 
+MethodName:ReceiverType> getSelectedText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> StringSelection new getSystemClipboard getDefaultToolkit copyTextArea void 
+LineContext> StringSelection new = StringSelection 
+MethodName:ReceiverType> setContents:java.awt.datatransfer.Clipboard
+ReceiverType> java.awt.datatransfer.Clipboard
+ParameterList> SN:java.awt.datatransfer.StringSelection SN:java.awt.datatransfer.StringSelection 
+SorroundingContext> getSelectedText StringSelection new getSystemClipboard getDefaultToolkit copyTextArea void 
+LineContext> 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> String pasteToTextField void 
+LineContext> To = Clipboard 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> printStackTrace 
+LineContext> 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> String pasteToTextArea void 
+LineContext> To = Clipboard 
+MethodName:ReceiverType> getCaretPosition:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> insert printStackTrace 
+LineContext> insert 
+MethodName:ReceiverType> insert:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.String SN:javax.swing.JTextArea.getCaretPosition() 
+SorroundingContext> printStackTrace 
+LineContext> 
+MethodName:ReceiverType> requestFocus:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> getCaretPosition insert 
+LineContext> 

@@ -1,0 +1,268 @@
+
+Evaluation Result of LSTM Encoder Decoder with Greedy Search (Method Level)
+
+===============Top 1 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.3786279683377309
+===============Top 3 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.5092348284960422
+===============Top 5 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.5659630606860159
+===============Top 10 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.5963060686015831
+
+
+Evaluation Result of LSTM Encoder Decoder with Beam Search (Method Level)
+===============Top 1 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.4630606860158311
+===============Top 3 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.6609498680738787
+===============Top 5 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.7308707124010554
+===============Top 10 Reccomendation=================
+Number of Evaluation Cases: 758
+Accuracy: 0.8034300791556728
+
+
+Evaluation Result of LSTM Encoder Decoder with Beam Search (Method and argument Level)
+===============Top 1 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.31643302180685358
+Overall Blue Score: 0.44874314442413162
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.485302180685358
+Blue Score: 0.6874314442413162
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.3618561861343196
+Blue Score: 0.48240098249923242
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.267321898943484617
+Blue Score: 0.37411483253588517
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.176134194132195641
+Blue Score: 0.30977917981072555
+
+Accuracy [0-25]%: 0.4816793893129771
+Accuracy [26-50]%: 0.33816425120772947
+Accuracy [51-75]%: 0.00567497423131
+Accuracy [76-100]%: 0.21643302180685358
+===============Top 3 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.4311448598130841
+Overall Blue Score: 0.5938528336380256
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.5711448598130841
+Blue Score: 0.6538528336380256
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.4631897461987421
+Blue Score: 0.5832184227817009518
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.3631843198412574
+Blue Score: 0.51626794258373206
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.266578941323498416
+Blue Score: 0.4741640378548895
+
+Accuracy [0-25]%: 0.56083969465648856
+Accuracy [26-50]%: 0.4323671497584541
+Accuracy [51-75]%: 0.09463184161541
+Accuracy [76-100]%: 0.2711448598130841
+===============Top 5 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.4886682242990654
+Overall Blue Score: 0.654063071297989
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.6186682242990654
+Blue Score: 0.724063071297989
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.4915642164634874
+Blue Score: 0.6481793061099171
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.40319461842189
+Blue Score: 0.6046650717703349
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.303749194123496
+Blue Score: 0.5400630914826499
+
+Accuracy [0-25]%: 0.54427480916030533
+Accuracy [26-50]%: 0.4717046238785369
+Accuracy [51-75]%: 0.146131981616741
+Accuracy [76-100]%: 0.3886682242990654
+===============Top 10 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.60891744548286603
+Overall Blue Score: 0.7215722120658135
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.80891744548286603
+Blue Score: 0.8615722120658135
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.6513198418949131
+Blue Score: 0.702486951182076
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.426489419816661
+Blue Score: 0.6160765550239234
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.3231648913219816
+Blue Score: 0.4993690851735016
+
+Accuracy [0-25]%: 0.71297709923664124
+Accuracy [26-50]%: 0.5276052449965494
+Accuracy [51-75]%: 0.2741319846184984
+Accuracy [76-100]%: 0.34891744548286603
+
+
+Evaluation Result of LSTM Encoder Decoder with Beam Search (Method and argument Level)
+===============Top 1 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.47912631237246
+Overall Blue Score: 0.54798628538125
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.524976349437348
+Blue Score: 0.734673194137434
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.457643486434643
+Blue Score: 0.514978249923242
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.316413176516484617
+Blue Score: 0.39341163253588517
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.263467346837318
+Blue Score: 0.3434317341316164
+
+Accuracy [0-25]%: 0.597346744324
+Accuracy [26-50]%: 0.48644564156464
+Accuracy [51-75]%: 0.371349641374719
+Accuracy [76-100]%: 0.2973218974324743
+===============Top 3 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.573497432194375
+Overall Blue Score: 0.68731843218436
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.618448598130841
+Blue Score: 0.6538528336380256
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.513164621684
+Blue Score: 0.606544327486
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.4298743548943
+Blue Score: 0.513461376196874
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.31463467643248974
+Blue Score: 0.3841318941318943
+
+Accuracy [0-25]%: 0.6083969465648856
+Accuracy [26-50]%: 0.5123671497584541
+Accuracy [51-75]%: 0.1367654894646434
+Accuracy [76-100]%: 0.37548743484373
+===============Top 5 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.637219874618985
+Overall Blue Score: 0.728743879646462
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.7010318946341894
+Blue Score: 0.793218453181351
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.581018132181365
+Blue Score: 0.671321894153165
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.51378965181131321
+Blue Score: 0.5932189411815187
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.32465318132182331
+Blue Score: 0.42894123189121894512
+
+Accuracy [0-25]%: 0.64843181321841231
+Accuracy [26-50]%: 0.5296874189513237
+Accuracy [51-75]%: 0.1934894653418965
+Accuracy [76-100]%: 0.4184132891648942
+===============Top 10 Reccomendation=================
+Number of Evaluation Cases: 5136
+Overall Accuracy: 0.71875181321843134
+Overall Blue Score: 0.7643218913218456
+
+Number of Argument: 0
+Number of Evaluation Cases: 5136
+Accuracy: 0.84564132894315665
+Blue Score: 0.8956308743218987
+
+Number of Argument: 1
+Number of Evaluation Cases: 2898
+Accuracy: 0.6818456183464532
+Blue Score: 0.743218131845623
+
+Number of Argument: 2
+Number of Evaluation Cases: 477
+Accuracy: 0.55723189418132465
+Blue Score: 0.64218943135181321
+
+Number of Argument: 3
+Number of Evaluation Cases: 131
+Accuracy: 0.39346518616315321
+Blue Score: 0.5221318913218813
+
+Accuracy [0-25]%: 0.83184561894752462
+Accuracy [26-50]%: 0.6721984123189161
+Accuracy [51-75]%: 0.2467610161897416
+Accuracy [76-100]%: 0.416589418916519

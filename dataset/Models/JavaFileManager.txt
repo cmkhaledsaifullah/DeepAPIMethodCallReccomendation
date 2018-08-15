@@ -1,0 +1,3820 @@
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> setLayout throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:javax.swing.DefaultListModel 
+SorroundingContext> setLayout throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setModel setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setModel setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setText setModel 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> findTextCheckBox_itemStateChanged 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> setEnabled 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.FlowLayout 
+SorroundingContext> searchButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> viewFileButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> editFileButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> setAlignment 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> add Insets new GridBagConstraints new add 
+LineContext> 
+MethodName:ReceiverType> getRootPane:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.main.SearchDialog
+ReceiverType> org.jfm.main.SearchDialog
+ParameterList> 
+SorroundingContext> closeButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getStateChange:java.awt.event.ItemEvent
+ReceiverType> java.awt.event.ItemEvent
+ParameterList> 
+SorroundingContext> setEnabled findTextCheckBox_itemStateChanged void 
+LineContext> setEnabled 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if viewFileButton_actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> return getSelectedIndex if 
+LineContext> JFMFile = JFMFile 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> this 
+SorroundingContext> getPath this getFrameForComponent FileViewDialog new getSelectedValue 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Boolean 
+SorroundingContext> setContent this setLocationRelativeTo getPath this getFrameForComponent FileViewDialog new 
+LineContext> 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if editFileButton_actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> return getSelectedIndex if 
+LineContext> JFMFile = JFMFile 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> this 
+SorroundingContext> getPath this getFrameForComponent FileViewDialog new getSelectedValue 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Boolean 
+SorroundingContext> setContent this setLocationRelativeTo getPath this getFrameForComponent FileViewDialog new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> if String SuppressWarnings 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText if String SuppressWarnings 
+LineContext> = getText if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> length getText if String SuppressWarnings 
+LineContext> = length getText = getText if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> else getProperty equals getText length getText if 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> if return this showMessageDialog 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText if return this showMessageDialog 
+LineContext> = getText if 
+MethodName:ReceiverType> clear:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> return this showMessageDialog 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> catch search try 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> doesMatch MaskMatch new boolean isEligible boolean 
+LineContext> doesMatch MaskMatch new = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if getName getText doesMatch MaskMatch new boolean isEligible boolean 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> indexOf if String new String read while int 
+LineContext> indexOf if 
+MethodName:ReceiverType> getContentPane:org.jfm.main.MainFrame
+ReceiverType> org.jfm.main.MainFrame
+ParameterList> 
+SorroundingContext> this setMainFrame throws jbInit void 
+LineContext> JPanel = 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> getContentPane this setMainFrame throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> BorderFactory.createLoweredBevelBorder() 
+SorroundingContext> setLayout getContentPane this setMainFrame 
+LineContext> 
+MethodName:ReceiverType> setTitle:org.jfm.main.MainFrame
+ReceiverType> org.jfm.main.MainFrame
+ParameterList> String 
+SorroundingContext> Dimension new setSize createLoweredBevelBorder setBorder setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setTitle Dimension new setSize createLoweredBevelBorder setBorder 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> String 
+SorroundingContext> setText setTitle Dimension new setSize 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> String 
+SorroundingContext> setText setTitle 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> String 
+SorroundingContext> jMenuFileExit_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> notifyChangeViewListeners 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> notifyChangeViewListeners 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButtonMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> addSeparator add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> addLookandFeels add addSeparator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add addLookandFeels add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add addLookandFeels 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getKeyStroke setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setJMenuBar:org.jfm.main.MainFrame
+ReceiverType> org.jfm.main.MainFrame
+ParameterList> SN:javax.swing.JMenuBar 
+SorroundingContext> getKeyStroke setAccelerator getKeyStroke setAccelerator add 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.main.configurationdialog.ConfigurationDialog
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationDialog
+ParameterList> this 
+SorroundingContext> this ConfigurationDialog new showConfDialog void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.main.configurationdialog.ConfigurationDialog
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationDialog
+ParameterList> Boolean 
+SorroundingContext> this setLocationRelativeTo this ConfigurationDialog new showConfDialog void 
+LineContext> 
+MethodName:ReceiverType> getName:javax.swing.UIManager.LookAndFeelInfo
+ReceiverType> javax.swing.UIManager.LookAndFeelInfo
+ParameterList> 
+SorroundingContext> JMenuItem new int for if getInstalledLookAndFeels final 
+LineContext> JMenuItem new = JMenuItem 
+MethodName:ReceiverType> getClassName:javax.swing.UIManager.LookAndFeelInfo
+ReceiverType> javax.swing.UIManager.LookAndFeelInfo
+ParameterList> 
+SorroundingContext> String final getName JMenuItem new int for if 
+LineContext> = String final 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> printStackTrace catch 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.main.SearchDialog
+ReceiverType> org.jfm.main.SearchDialog
+ParameterList> this 
+SorroundingContext> this SearchDialog new search void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.main.SearchDialog
+ReceiverType> org.jfm.main.SearchDialog
+ParameterList> Boolean 
+SorroundingContext> this setLocationRelativeTo this SearchDialog new search void 
+LineContext> 
+MethodName:ReceiverType> getPreferredSize:org.jfm.main.MainFrame_AboutBox
+ReceiverType> org.jfm.main.MainFrame_AboutBox
+ParameterList> 
+SorroundingContext> this MainFrame_AboutBox new jMenuHelpAbout_actionPerformed void 
+LineContext> = Dimension 
+MethodName:ReceiverType> setModal:org.jfm.main.MainFrame_AboutBox
+ReceiverType> org.jfm.main.MainFrame_AboutBox
+ParameterList> Boolean 
+SorroundingContext> setLocation getLocation getSize 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.main.MainFrame_AboutBox
+ReceiverType> org.jfm.main.MainFrame_AboutBox
+ParameterList> Boolean 
+SorroundingContext> setModal setLocation getLocation 
+LineContext> 
+MethodName:ReceiverType> processWindowEvent:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> SN:java.awt.event.WindowEvent 
+SorroundingContext> processWindowEvent void 
+LineContext> 
+MethodName:ReceiverType> getID:java.awt.event.WindowEvent
+ReceiverType> java.awt.event.WindowEvent
+ParameterList> 
+SorroundingContext> if processWindowEvent void 
+LineContext> if 
+MethodName:ReceiverType> setLayout:org.jfm.main.MainPanel
+ReceiverType> org.jfm.main.MainPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> removeSplitKeyBindings throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> requestFocus:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> 
+SorroundingContext> createRightView createLeftView add 
+LineContext> 
+MethodName:ReceiverType> setDividerLocation:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> Number 
+SorroundingContext> add requestFocus 
+LineContext> 
+MethodName:ReceiverType> setRightComponent:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> SN:org.jfm.views.JFMView 
+SorroundingContext> createRightView getFilesystemClassName put getPreferences 
+LineContext> 
+MethodName:ReceiverType> setLeftComponent:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> SN:org.jfm.views.JFMView 
+SorroundingContext> createLeftView getFilesystemClassName put getPreferences 
+LineContext> 
+MethodName:ReceiverType> getWidth:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> 
+SorroundingContext> setDividerLocation setRightComponent createRightView 
+LineContext> setDividerLocation 
+MethodName:ReceiverType> requestFocus:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> 
+SorroundingContext> getFilesystemName put getViewRepresentation createView get String 
+LineContext> 
+MethodName:ReceiverType> setActionMap:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> SN:javax.swing.ActionMap 
+SorroundingContext> ActionMap new removeSplitKeyBindings void 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> HelpAction new JButton new Vector new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> HelpAction new JButton new Vector new 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap HelpAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.HelpAction 
+SorroundingContext> getKeyStroke put getInputMap HelpAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.HelpAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap HelpAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> ViewFileAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> ViewFileAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap ViewFileAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.ViewFileAction 
+SorroundingContext> getKeyStroke put getInputMap ViewFileAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.ViewFileAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap ViewFileAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> EditFileAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> EditFileAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap EditFileAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.EditFileAction 
+SorroundingContext> getKeyStroke put getInputMap EditFileAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.EditFileAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap EditFileAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> CopyAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> CopyAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap CopyAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.CopyAction 
+SorroundingContext> getKeyStroke put getInputMap CopyAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.CopyAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap CopyAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> MoveAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> MoveAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap MoveAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.MoveAction 
+SorroundingContext> getKeyStroke put getInputMap MoveAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.MoveAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap MoveAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> MkdirAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> MkdirAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap MkdirAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.MkdirAction 
+SorroundingContext> getKeyStroke put getInputMap MkdirAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.MkdirAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap MkdirAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> DeleteAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> DeleteAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap DeleteAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.DeleteAction 
+SorroundingContext> getKeyStroke put getInputMap DeleteAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.DeleteAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap DeleteAction new 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:INT 
+SorroundingContext> QuitAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> QuitAction new JButton new addActionListener 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap QuitAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> String SN:org.jfm.po.QuitAction 
+SorroundingContext> getKeyStroke put getInputMap QuitAction new JButton new 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:org.jfm.po.QuitAction 
+SorroundingContext> put getActionMap getKeyStroke put getInputMap QuitAction new 
+LineContext> 
+MethodName:ReceiverType> setTitle:org.jfm.main.MainFrame_AboutBox
+ReceiverType> org.jfm.main.MainFrame_AboutBox
+ParameterList> String 
+SorroundingContext> throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> setResizable setTitle throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> setLayout setResizable setTitle 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.FlowLayout 
+SorroundingContext> setLayout setResizable 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.FlowLayout 
+SorroundingContext> setLayout 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createEmptyBorder() 
+SorroundingContext> setLayout 
+LineContext> 
+MethodName:ReceiverType> setRows:java.awt.GridLayout
+ReceiverType> java.awt.GridLayout
+ParameterList> Number 
+SorroundingContext> createEmptyBorder setBorder setLayout 
+LineContext> 
+MethodName:ReceiverType> setColumns:java.awt.GridLayout
+ReceiverType> java.awt.GridLayout
+ParameterList> Number 
+SorroundingContext> setRows createEmptyBorder setBorder setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> setColumns setRows createEmptyBorder setBorder 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> setText setColumns setRows 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> setText setColumns 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridLayout 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createEmptyBorder() 
+SorroundingContext> setLayout setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> createEmptyBorder setBorder setLayout setText 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> this 
+SorroundingContext> setText createEmptyBorder setBorder setLayout 
+LineContext> 
+MethodName:ReceiverType> getContentPane:org.jfm.main.MainFrame_AboutBox
+ReceiverType> org.jfm.main.MainFrame_AboutBox
+ParameterList> 
+SorroundingContext> add this addActionListener 
+LineContext> 
+MethodName:ReceiverType> getID:java.awt.event.WindowEvent
+ReceiverType> java.awt.event.WindowEvent
+ParameterList> 
+SorroundingContext> if processWindowEvent void 
+LineContext> if 
+MethodName:ReceiverType> processWindowEvent:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> SN:java.awt.event.WindowEvent 
+SorroundingContext> cancel getID if 
+LineContext> 
+MethodName:ReceiverType> setUserObject:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> SN:java.lang.Object 
+SorroundingContext> instanceof if setUserObject void 
+LineContext> 
+MethodName:ReceiverType> getTreeCellRendererComponent:javax.swing.tree.DefaultTreeCellRenderer
+ReceiverType> javax.swing.tree.DefaultTreeCellRenderer
+ParameterList> SN:javax.swing.JTree SN:java.lang.Object SN:BOOLEAN SN:BOOLEAN SN:BOOLEAN SN:INT SN:BOOLEAN 
+SorroundingContext> boolean int boolean 
+LineContext> DefaultTreeCellRenderer = DefaultTreeCellRenderer 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> FlowLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add FlowLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add FlowLayout new JPanel new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> configurationChanged void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> notifyPendingEvents applyButtonActionPeformed void 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new setupFileListFontPanel 
+LineContext> 
+MethodName:ReceiverType> setFont:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Font 
+SorroundingContext> getPanelsFont JLabel new final BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> isBold:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> if String setFont getPanelsFont 
+LineContext> if 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> else isItalic isBold if 
+LineContext> = 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> isBold if String setFont 
+LineContext> = 
+MethodName:ReceiverType> getName:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> setText isItalic else 
+LineContext> setText 
+MethodName:ReceiverType> getSize:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> getName setText isItalic else 
+LineContext> getName setText 
+MethodName:ReceiverType> isBold:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> if String return if getFrameForComponent showDialog 
+LineContext> if 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> else isItalic isBold if 
+LineContext> = 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> isBold if String return if 
+LineContext> = 
+MethodName:ReceiverType> setFont:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.awt.Font 
+SorroundingContext> isItalic else 
+LineContext> 
+MethodName:ReceiverType> getName:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> setText setFont isItalic 
+LineContext> setText 
+MethodName:ReceiverType> getSize:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> getName setText setFont isItalic 
+LineContext> getName setText 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new setupHelpURLPanel 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> new SuppressWarnings try boolean 
+LineContext> new = URL 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> HelpURLChangeEvent new return showMessageDialog 
+LineContext> HelpURLChangeEvent new = HelpURLChangeEvent 
+MethodName:ReceiverType> paintComponent:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> setBackground paintComponent void 
+LineContext> 
+MethodName:ReceiverType> getPaint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getSize paintComponent void 
+LineContext> = Paint 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:java.awt.Dimension.SN:INT SN:java.awt.Dimension.SN:INT 
+SorroundingContext> Color new Color new GradientPaint new setPaint setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> setPaint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Paint 
+SorroundingContext> fillRect Color new Color new GradientPaint new setPaint setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> paintComponent:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> setPaint fillRect Color new Color new GradientPaint new setPaint 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getTitle() 
+SorroundingContext> setForeground 
+LineContext> 
+MethodName:ReceiverType> getFont:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> 
+SorroundingContext> setFont getTitle setText setForeground 
+LineContext> setFont 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new setupForegroundColorPanel 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Boolean 
+SorroundingContext> JComboBox new createEtchedBorder createTitledBorder setBorder JPanel new 
+LineContext> 
+MethodName:ReceiverType> setModel:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:javax.swing.DefaultComboBoxModel 
+SorroundingContext> DefaultComboBoxModel new final ColorComboBoxRenderer new setRenderer setEditable 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if getForegroundColor addComboItems setModel 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if getForegroundColor addComboItems 
+LineContext> 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> return if getForegroundColor showDialog actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement return if getForegroundColor showDialog 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if return if getDefaultForegroundColor actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if return if getDefaultForegroundColor 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> 
+SorroundingContext> setColor this setSource ColorChangeEvent new actionPerformed void 
+LineContext> Color setColor 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new setupBackgroundColorPanel 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Boolean 
+SorroundingContext> JComboBox new createEtchedBorder createTitledBorder setBorder JPanel new 
+LineContext> 
+MethodName:ReceiverType> setModel:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:javax.swing.DefaultComboBoxModel 
+SorroundingContext> DefaultComboBoxModel new final ColorComboBoxRenderer new setRenderer setEditable 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if getBackgroundColor addComboItems setModel 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if getBackgroundColor addComboItems 
+LineContext> 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> return if getForegroundColor showDialog actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement return if getForegroundColor showDialog 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if return if getDefaultBackgroundColor actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if return if getDefaultBackgroundColor 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> 
+SorroundingContext> setColor this setSource ColorChangeEvent new actionPerformed void 
+LineContext> Color setColor 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new setupMarkedColorPanel 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Boolean 
+SorroundingContext> JComboBox new createEtchedBorder createTitledBorder setBorder JPanel new 
+LineContext> 
+MethodName:ReceiverType> setModel:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:javax.swing.DefaultComboBoxModel 
+SorroundingContext> DefaultComboBoxModel new final ColorComboBoxRenderer new setRenderer setEditable 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if getMarkedColor addComboItems setModel 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if getMarkedColor addComboItems 
+LineContext> 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> return if getMarkedColor showDialog actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement return if getMarkedColor showDialog 
+LineContext> 
+MethodName:ReceiverType> getIndexOf:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if return if getDefaultMarkedColor actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> addElement:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else setSelectedItem getIndexOf if 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> addElement else setSelectedItem 
+LineContext> 
+MethodName:ReceiverType> setSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getIndexOf if return if getDefaultMarkedColor 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getSelectedItem:javax.swing.DefaultComboBoxModel
+ReceiverType> javax.swing.DefaultComboBoxModel
+ParameterList> 
+SorroundingContext> setColor this setSource ColorChangeEvent new actionPerformed void 
+LineContext> Color setColor 
+MethodName:ReceiverType> setLeftComponent:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> SN:javax.swing.JScrollPane 
+SorroundingContext> setupTree BorderLayout new setLayout init void 
+LineContext> 
+MethodName:ReceiverType> setDividerSize:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> Number 
+SorroundingContext> setLeftComponent setupTree BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> setDividerLocation:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> Number 
+SorroundingContext> setDividerSize setLeftComponent setupTree 
+LineContext> 
+MethodName:ReceiverType> setRootVisible:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> Boolean 
+SorroundingContext> JTree new ConfigurationTreeModel new ConfigurationTreeNode new 
+LineContext> 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> Dimension new setMinimumSize ConfigurationTreeCellRenderer new setCellRenderer JScrollPane new 
+LineContext> 
+MethodName:ReceiverType> setShowsRootHandles:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> Boolean 
+SorroundingContext> setSelectionMode getSelectionModel Dimension new setMinimumSize ConfigurationTreeCellRenderer new setCellRenderer 
+LineContext> 
+MethodName:ReceiverType> add:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> SN:org.jfm.main.configurationdialog.ConfigurationTreeNode 
+SorroundingContext> ConfigurationTreeNode new ConfigurationTreeNode new ConfigurationTreeNode new 
+LineContext> 
+MethodName:ReceiverType> add:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> SN:org.jfm.main.configurationdialog.ConfigurationTreeNode 
+SorroundingContext> add ConfigurationTreeNode new ConfigurationTreeNode new 
+LineContext> 
+MethodName:ReceiverType> add:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> SN:org.jfm.main.configurationdialog.ConfigurationTreeNode 
+SorroundingContext> add ConfigurationTreeNode new 
+LineContext> 
+MethodName:ReceiverType> add:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> SN:org.jfm.main.configurationdialog.ConfigurationTreeNode 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getPath:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> 
+SorroundingContext> TreePath new makeVisible add 
+LineContext> TreePath new makeVisible 
+MethodName:ReceiverType> nodeStructureChanged:org.jfm.main.configurationdialog.ConfigurationTreeModel
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeModel
+ParameterList> SN:org.jfm.main.configurationdialog.ConfigurationTreeNode 
+SorroundingContext> getPath TreePath new makeVisible add 
+LineContext> 
+MethodName:ReceiverType> expandRow:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> Number 
+SorroundingContext> nodeStructureChanged getPath TreePath new makeVisible add 
+LineContext> 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> expandRow nodeStructureChanged getPath TreePath new makeVisible 
+LineContext> 
+MethodName:ReceiverType> setSelectionRow:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> Number 
+SorroundingContext> treeNodeSelected 
+LineContext> 
+MethodName:ReceiverType> getNewLeadSelectionPath:javax.swing.event.TreeSelectionEvent
+ReceiverType> javax.swing.event.TreeSelectionEvent
+ParameterList> 
+SorroundingContext> if treeNodeSelected void 
+LineContext> if 
+MethodName:ReceiverType> getNewLeadSelectionPath:javax.swing.event.TreeSelectionEvent
+ReceiverType> javax.swing.event.TreeSelectionEvent
+ParameterList> 
+SorroundingContext> getNewLeadSelectionPath if treeNodeSelected void 
+LineContext> ConfigurationTreeNode = ConfigurationTreeNode 
+MethodName:ReceiverType> getLastPathComponent:javax.swing.tree.TreePath
+ReceiverType> javax.swing.tree.TreePath
+ParameterList> 
+SorroundingContext> getNewLeadSelectionPath if treeNodeSelected void 
+LineContext> ConfigurationTreeNode = ConfigurationTreeNode 
+MethodName:ReceiverType> getUserObject:org.jfm.main.configurationdialog.ConfigurationTreeNode
+ReceiverType> org.jfm.main.configurationdialog.ConfigurationTreeNode
+ParameterList> 
+SorroundingContext> getLastPathComponent getNewLeadSelectionPath if treeNodeSelected void 
+LineContext> ConfigurationPanel = ConfigurationPanel 
+MethodName:ReceiverType> setRightComponent:javax.swing.JSplitPane
+ReceiverType> javax.swing.JSplitPane
+ParameterList> SN:org.jfm.main.configurationdialog.panels.ConfigurationPanel 
+SorroundingContext> getUserObject getLastPathComponent getNewLeadSelectionPath if 
+LineContext> 
+MethodName:ReceiverType> isBold:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> if String return if setPanelsFont void static 
+LineContext> if 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> else isItalic isBold if 
+LineContext> = 
+MethodName:ReceiverType> isItalic:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> isBold if String return if 
+LineContext> = 
+MethodName:ReceiverType> getFamily:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> put getPreferences isItalic else 
+LineContext> put getPreferences 
+MethodName:ReceiverType> getSize:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> getFamily put getPreferences isItalic else 
+LineContext> getFamily put getPreferences 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> put getPreferences setForegroundColor void static 
+LineContext> put getPreferences 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed put getPreferences setForegroundColor void static 
+LineContext> getRed put getPreferences 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed put getPreferences setForegroundColor void static 
+LineContext> getGreen getRed put getPreferences 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue getGreen getRed put getPreferences setForegroundColor void static 
+LineContext> getBlue getGreen getRed put getPreferences 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> put getPreferences setBackgroundColor void static 
+LineContext> put getPreferences 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed put getPreferences setBackgroundColor void static 
+LineContext> getRed put getPreferences 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed put getPreferences setBackgroundColor void static 
+LineContext> getGreen getRed put getPreferences 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue getGreen getRed put getPreferences setBackgroundColor void static 
+LineContext> getBlue getGreen getRed put getPreferences 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> put getPreferences setMarkedColor void static 
+LineContext> put getPreferences 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed put getPreferences setMarkedColor void static 
+LineContext> getRed put getPreferences 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed put getPreferences setMarkedColor void static 
+LineContext> getGreen getRed put getPreferences 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue getGreen getRed put getPreferences setMarkedColor void static 
+LineContext> getBlue getGreen getRed put getPreferences 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> setUpMenuStuff void static 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add setUpMenuStuff void static 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add setUpMenuStuff void static 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> addSeparator add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add addSeparator add 
+LineContext> 
+MethodName:ReceiverType> addSeparator:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> 
+SorroundingContext> add addSeparator 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> addSeparator add 
+LineContext> 
+MethodName:ReceiverType> getHomeDirectory:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> 
+SorroundingContext> JFMLocalFile new getRootDriveFile return getDefaultRootDirectory 
+LineContext> JFMLocalFile new getRootDriveFile return 
+MethodName:ReceiverType> getFiles:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File Boolean 
+SorroundingContext> getAbsolutePath File new listFiles 
+LineContext> = ] [ File 
+MethodName:ReceiverType> getFiles:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File Boolean 
+SorroundingContext> listFiles 
+LineContext> = ] [ File 
+MethodName:ReceiverType> getParentDirectory:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> return getParent String 
+LineContext> return 
+MethodName:ReceiverType> isFileSystemRoot:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> if getParentFile 
+LineContext> if 
+MethodName:ReceiverType> getParentDirectory:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> return 
+LineContext> = File 
+MethodName:ReceiverType> isFileSystem:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> if isDirectory boolean 
+LineContext> if 
+MethodName:ReceiverType> getSystemIcon:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> getDisplayName equals if getIcon 
+LineContext> = 
+MethodName:ReceiverType> getSystemDisplayName:javax.swing.filechooser.FileSystemView
+ReceiverType> javax.swing.filechooser.FileSystemView
+ParameterList> SN:java.io.File 
+SorroundingContext> return getSystemDisplayName String 
+LineContext> Fi return 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> SN:java.awt.Frame 
+SorroundingContext> FontDialog new boolean String showDialog static 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> Boolean 
+SorroundingContext> setLocationRelativeTo FontDialog new boolean String showDialog static 
+LineContext> 
+MethodName:ReceiverType> setResizable:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> Boolean 
+SorroundingContext> Dimension new setSize Color new createLineBorder TitledBorder new Color new createLineBorder TitledBorder new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> setLayout setResizable Dimension new setSize 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> okButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> String 
+SorroundingContext> setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:javax.swing.border.TitledBorder 
+SorroundingContext> Rectangle new setBounds Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:javax.swing.JTextArea 
+SorroundingContext> Rectangle new setBounds Rectangle new setBounds setBorder 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.border.TitledBorder 
+SorroundingContext> setViewportView Rectangle new setBounds Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> Rectangle new setBounds setLayout Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getRootPane:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> add getViewport add 
+LineContext> 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add getViewport add 
+LineContext> 
+MethodName:ReceiverType> getRootPane:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> 
+SorroundingContext> setSelectionMode DefaultListModel new setModel setDefaultButton getRootPane 
+LineContext> 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> setSelectionMode DefaultListModel new setModel setDefaultButton getRootPane 
+LineContext> 
+MethodName:ReceiverType> getValueIsAdjusting:javax.swing.event.ListSelectionEvent
+ReceiverType> javax.swing.event.ListSelectionEvent
+ParameterList> 
+SorroundingContext> if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setDefaultButton getRootPane setSelectionMode DefaultListModel new setModel 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Boolean 
+SorroundingContext> setSampleFont 
+LineContext> 
+MethodName:ReceiverType> getID:java.awt.event.WindowEvent
+ReceiverType> java.awt.event.WindowEvent
+ParameterList> 
+SorroundingContext> if processWindowEvent void 
+LineContext> if 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if int setSampleFont void 
+LineContext> if 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if isSelected if int setSampleFont void 
+LineContext> if 
+MethodName:ReceiverType> getValue:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> int isSelected if isSelected if 
+LineContext> Integer = 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> String Font new setFont intValue getValue int isSelected if 
+LineContext> String Font new setFont 
+MethodName:ReceiverType> revalidate:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> getSelectedValue String Font new setFont intValue getValue int 
+LineContext> 
+MethodName:ReceiverType> getAvailableFontFamilyNames:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> String loadFonts void 
+LineContext> Gr = ] [ String 
+MethodName:ReceiverType> getModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int for getAvailableFontFamilyNames getLocalGraphicsEnvironment String loadFonts void 
+LineContext> DefaultListModel 
+MethodName:ReceiverType> getFont:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> return getSelectedFont 
+LineContext> return 
+MethodName:ReceiverType> dispose:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> 
+SorroundingContext> setCancelled okButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> 
+SorroundingContext> setCancelled cancelButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> requestFocus:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> 
+SorroundingContext> equals getSource if changePanel void 
+LineContext> JF 
+MethodName:ReceiverType> setOpaque:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Boolean 
+SorroundingContext> new 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> Dimension new setSize throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> String 
+SorroundingContext> setLayout Dimension new setSize throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> String 
+SorroundingContext> setText setLayout Dimension new setSize 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> String 
+SorroundingContext> setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setMnemonic:javax.swing.JCheckBoxMenuItem
+ReceiverType> javax.swing.JCheckBoxMenuItem
+ParameterList> Char 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBoxMenuItem
+ReceiverType> javax.swing.JCheckBoxMenuItem
+ParameterList> String 
+SorroundingContext> setMnemonic setText 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> findMenuItem_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> add getContentPane 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap add getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add EscapeAction new put getActionMap getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenuBar
+ReceiverType> javax.swing.JMenuBar
+ParameterList> SN:javax.swing.JMenu 
+SorroundingContext> add EscapeAction new put getActionMap 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JCheckBoxMenuItem 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setJMenuBar:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> SN:javax.swing.JMenuBar 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:org.jfm.views.fview.FView 
+SorroundingContext> setJMenuBar add 
+LineContext> 
+MethodName:ReceiverType> getState:javax.swing.JCheckBoxMenuItem
+ReceiverType> javax.swing.JCheckBoxMenuItem
+ParameterList> 
+SorroundingContext> boolean actionPerformed void 
+LineContext> = boolean 
+MethodName:ReceiverType> setLineWrap:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:BOOLEAN 
+SorroundingContext> getState boolean actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setWrapStyleWord:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setLineWrap getState boolean actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> FileViewDialog.this 
+SorroundingContext> getFrameForComponent FontDialog new actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.FontDialog
+ReceiverType> org.jfm.views.FontDialog
+ParameterList> Boolean 
+SorroundingContext> setLocationRelativeTo getFrameForComponent FontDialog new actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setFont:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:org.jfm.views.FontDialog.getSelectedFont() 
+SorroundingContext> isCancelled if setVisible setLocationRelativeTo 
+LineContext> 
+MethodName:ReceiverType> showSaveDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> FileViewDialog.this 
+SorroundingContext> int getAbsolutePath getEl JFileChooser new actionPerformed void 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> SuppressWarnings return if showSaveDialog int 
+LineContext> = 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getEl saveFile 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JCheckBoxMenuItem
+ReceiverType> javax.swing.JCheckBoxMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getKeyStroke setAccelerator getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getKeyStroke setAccelerator getKeyStroke setAccelerator getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> setAccelerator:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> KeyStroke.getKeyStroke() 
+SorroundingContext> getKeyStroke setAccelerator getKeyStroke setAccelerator getKeyStroke setAccelerator 
+LineContext> 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> byte getOutputStream try saveFile void 
+LineContext> = ] [ byte 
+MethodName:ReceiverType> setEditable:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEl boolean setContent void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setEditable setEl boolean setContent void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> Boolean 
+SorroundingContext> else setEnabled isDirectory if 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenuItem
+ReceiverType> javax.swing.JMenuItem
+ParameterList> SN:BOOLEAN 
+SorroundingContext> isDirectory if setEnabled setEditable 
+LineContext> 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> else indexOf getText if 
+LineContext> = 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if int boolean int String findRegularText boolean 
+LineContext> = 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> equals if return if 
+LineContext> equals if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> length if return 
+LineContext> length if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if return 
+LineContext> if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if return charAt getText if 
+LineContext> if 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:INT 
+SorroundingContext> return 
+LineContext> 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> else indexOf getText if 
+LineContext> = 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if int boolean int String replaceRegularText boolean 
+LineContext> = 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> equals if return if 
+LineContext> equals if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> length if return 
+LineContext> length if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if return 
+LineContext> if 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> if return charAt getText if 
+LineContext> if 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:INT 
+SorroundingContext> return 
+LineContext> 
+MethodName:ReceiverType> getText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> StringBuffer new if this showConfirmDialog int length moveCaretPosition 
+LineContext> StringBuffer new = StringBuffer 
+MethodName:ReceiverType> setText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:java.lang.StringBuffer.toString() 
+SorroundingContext> length replace getText StringBuffer new if 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:INT 
+SorroundingContext> toString setText length replace getText StringBuffer new 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> Number 
+SorroundingContext> if int boolean String find void 
+LineContext> 
+MethodName:ReceiverType> getCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> int setCaretPosition if 
+LineContext> = int 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> Number 
+SorroundingContext> if boolean String all void 
+LineContext> 
+MethodName:ReceiverType> getCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> int setCaretPosition if 
+LineContext> = int 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.fview.FindTextDialog
+ReceiverType> org.jfm.views.fview.FindTextDialog
+ParameterList> this 
+SorroundingContext> replaceRegularText while 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.fview.FindTextDialog
+ReceiverType> org.jfm.views.fview.FindTextDialog
+ParameterList> Boolean 
+SorroundingContext> this setLocationRelativeTo 
+LineContext> 
+MethodName:ReceiverType> setWrapStyleWord:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> Boolean 
+SorroundingContext> calculateDirInfo DirInfo new 
+LineContext> 
+MethodName:ReceiverType> setText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:java.lang.String 
+SorroundingContext> getTotalSize getNrOfFolders getNrOfFiles getName String setWrapStyleWord 
+LineContext> 
+MethodName:ReceiverType> setText:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> SN:java.lang.StringBuffer.toString() 
+SorroundingContext> String new append read while 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> Number 
+SorroundingContext> toString setText String new append 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:org.jfm.filesystems.JFMFile.getPath() 
+SorroundingContext> setEl elementAt 
+LineContext> 
+MethodName:ReceiverType> requestFocus:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> 
+SorroundingContext> requestFocus void 
+LineContext> 
+MethodName:ReceiverType> requestFocus:org.jfm.views.fview.FView
+ReceiverType> org.jfm.views.fview.FView
+ParameterList> 
+SorroundingContext> requestFocus void 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:org.jfm.views.fview.FView 
+SorroundingContext> add BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusGained void 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusLost void 
+LineContext> 
+MethodName:ReceiverType> setResizable:org.jfm.views.fview.FindTextDialog
+ReceiverType> org.jfm.views.fview.FindTextDialog
+ParameterList> Boolean 
+SorroundingContext> throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> Dimension new setSize setResizable throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setLayout 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.FlowLayout 
+SorroundingContext> Rectangle new setBounds Color new createLineBorder TitledBorder new setBorder Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setLayout Rectangle new setBounds Color new createLineBorder TitledBorder new setBorder 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setText setLayout Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setForeground:org.jfm.views.fview.FindTextDialog
+ReceiverType> org.jfm.views.fview.FindTextDialog
+ParameterList> UIManager.getColor() 
+SorroundingContext> setAlignment setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> getColor setForeground setAlignment setText 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> else setEnabled indexOf length if 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setEnabled else setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> indexOf length if getProperty String setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setToolTipText setEnabled 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds Rectangle new setBounds Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> closeButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> getRootPane:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> find findNextButton_actionPerformed void 
+LineContext> find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText find findNextButton_actionPerformed void 
+LineContext> getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find findNextButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find findNextButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find findNextButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> find replaceButton_actionPerformed void 
+LineContext> find 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText find replaceButton_actionPerformed void 
+LineContext> getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText find replaceButton_actionPerformed void 
+LineContext> getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find replaceButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find replaceButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText find replaceButton_actionPerformed void 
+LineContext> isSelected getText find 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> all replaceAllButton_actionPerformed void 
+LineContext> all 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText all replaceAllButton_actionPerformed void 
+LineContext> getText all 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText all replaceAllButton_actionPerformed void 
+LineContext> getText all 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText all replaceAllButton_actionPerformed void 
+LineContext> isSelected getText all 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText all replaceAllButton_actionPerformed void 
+LineContext> isSelected getText all 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText all replaceAllButton_actionPerformed void 
+LineContext> isSelected getText all 
+MethodName:ReceiverType> dispose:org.jfm.views.fview.FindTextDialog
+ReceiverType> org.jfm.views.fview.FindTextDialog
+ParameterList> 
+SorroundingContext> closeButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getListCellRendererComponent:javax.swing.DefaultListCellRenderer
+ReceiverType> javax.swing.DefaultListCellRenderer
+ParameterList> SN:javax.swing.JList SN:java.lang.Object SN:INT SN:BOOLEAN SN:BOOLEAN 
+SorroundingContext> boolean int getListCellRendererComponent 
+LineContext> JLabel = JLabel 
+MethodName:ReceiverType> getListCellRendererComponent:javax.swing.DefaultListCellRenderer
+ReceiverType> javax.swing.DefaultListCellRenderer
+ParameterList> SN:javax.swing.JList SN:java.lang.Object SN:INT SN:BOOLEAN SN:BOOLEAN 
+SorroundingContext> boolean int getListCellRendererComponent 
+LineContext> JLabel = JLabel 
+MethodName:ReceiverType> getBackground:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setBackground setBorder getForegroundColor setLineColor 
+LineContext> setBackground 
+MethodName:ReceiverType> getForeground:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setForeground else getMarkedColor setForeground isMarked if 
+LineContext> setForeground 
+MethodName:ReceiverType> setIcon:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> getIcon() 
+SorroundingContext> getForeground setForeground else 
+LineContext> 
+MethodName:ReceiverType> setLayoutOrientation:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> JList.VERTICAL_WRAP 
+SorroundingContext> setOtherProperties void 
+LineContext> 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> this getUIInputMap removeDefaultKeys void 
+LineContext> = InputMap 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> get getInputMap this getUIInputMap 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> clear get getInputMap 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> clear get 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> InputMap new addKeys void 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put InputMap new addKeys void 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put InputMap new 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> getPoint:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> int mouseClicked void 
+LineContext> BriefViewListComponent.this.locationToIndex = int 
+MethodName:ReceiverType> locationToIndex:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> SN:java.awt.event.MouseEvent.getPoint() 
+SorroundingContext> int mouseClicked void 
+LineContext> Br = int 
+MethodName:ReceiverType> getClickCount:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> if getPoint int mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> getModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> getClickCount if getPoint int mouseClicked void 
+LineContext> Br = getClickCount if 
+MethodName:ReceiverType> getSize:javax.swing.ListModel
+ReceiverType> javax.swing.ListModel
+ParameterList> 
+SorroundingContext> getClickCount if getPoint int mouseClicked void 
+LineContext> Br = getClickCount if 
+MethodName:ReceiverType> getElementAt:javax.swing.ListModel
+ReceiverType> javax.swing.ListModel
+ParameterList> SN:INT 
+SorroundingContext> final int processActionOnRow void 
+LineContext> JFMFile = JFMFile final 
+MethodName:ReceiverType> indexOf:org.jfm.views.list.briefview.BriefViewListComponentModel
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponentModel
+ParameterList> SN:org.jfm.filesystems.JFMFile 
+SorroundingContext> int browseDirectory getModel getWorkingDirectory getModel isDirectory if 
+LineContext> = int 
+MethodName:ReceiverType> setModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> SN:org.jfm.views.list.briefview.BriefViewListComponentModel 
+SorroundingContext> BriefViewListComponentModel new throws init void 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> JScrollPane new BorderLayout new setLayout setModel 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JViewport
+ReceiverType> javax.swing.JViewport
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> JScrollPane new BorderLayout new setLayout setModel 
+LineContext> 
+MethodName:ReceiverType> setBackground:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getBackgroundColor setBackground getViewport JScrollPane new BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> setForeground:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getForegroundColor() 
+SorroundingContext> getBackgroundColor setBackground getBackgroundColor setBackground getViewport JScrollPane new 
+LineContext> 
+MethodName:ReceiverType> setFont:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getPanelsFont() 
+SorroundingContext> getForegroundColor setForeground getBackgroundColor setBackground getBackgroundColor setBackground getViewport 
+LineContext> 
+MethodName:ReceiverType> setFont:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getPanelsFont() 
+SorroundingContext> fontChanged void 
+LineContext> 
+MethodName:ReceiverType> getModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> equals getSource if changeDirectory void 
+LineContext> equals getSource if 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JViewport
+ReceiverType> javax.swing.JViewport
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setBackground:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getBackgroundColor setBackground getViewport getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setForeground:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> Options.getForegroundColor() 
+SorroundingContext> getColorType if getBackgroundColor setBackground 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusGained void 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> SN:INT 
+SorroundingContext> if getColor setForeground focusGained void 
+LineContext> 
+MethodName:ReceiverType> getOppositeComponent:java.awt.event.FocusEvent
+ReceiverType> java.awt.event.FocusEvent
+ParameterList> 
+SorroundingContext> if setSelectedIndex if 
+LineContext> if 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusLost void 
+LineContext> 
+MethodName:ReceiverType> getSelectedIndex:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> getColor setForeground focusLost void 
+LineContext> = 
+MethodName:ReceiverType> getValueIsAdjusting:javax.swing.event.ListSelectionEvent
+ReceiverType> javax.swing.event.ListSelectionEvent
+ParameterList> 
+SorroundingContext> if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> if return getValueIsAdjusting if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> isSelectionEmpty:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> if return getValueIsAdjusting if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> int new int return isSelectionEmpty getSelectionModel if return getValueIsAdjusting if 
+LineContext> = int 
+MethodName:ReceiverType> getMinSelectionIndex:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> int new int return isSelectionEmpty getSelectionModel if return getValueIsAdjusting if 
+LineContext> = int 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> int getMinSelectionIndex getSelectionModel int new int return isSelectionEmpty getSelectionModel if 
+LineContext> = int 
+MethodName:ReceiverType> getMaxSelectionIndex:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> int getMinSelectionIndex getSelectionModel int new int return isSelectionEmpty getSelectionModel if 
+LineContext> = int 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> getSelectedIndex 
+LineContext> 
+MethodName:ReceiverType> getPoint:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> locationToIndex if isRightMouseButton if mouseClicked void 
+LineContext> locationToIndex if 
+MethodName:ReceiverType> locationToIndex:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> SN:java.awt.event.MouseEvent.getPoint() 
+SorroundingContext> if isRightMouseButton if mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> getX:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> show getPopupMenu return getPoint locationToIndex if 
+LineContext> show getPopupMenu 
+MethodName:ReceiverType> getY:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> getX show getPopupMenu return getPoint locationToIndex if 
+LineContext> getX show getPopupMenu 
+MethodName:ReceiverType> show:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:org.jfm.views.list.briefview.BriefViewListComponent SN:java.awt.event.MouseEvent.getX() SN:java.awt.event.MouseEvent.getY() 
+SorroundingContext> return getPoint locationToIndex if 
+LineContext> Op 
+MethodName:ReceiverType> getSelectedIndex:org.jfm.views.list.briefview.BriefViewListComponent
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponent
+ParameterList> 
+SorroundingContext> int getSelectedFile 
+LineContext> = int 
+MethodName:ReceiverType> getElementAt:org.jfm.views.list.briefview.BriefViewListComponentModel
+ReceiverType> org.jfm.views.list.briefview.BriefViewListComponentModel
+ParameterList> SN:INT 
+SorroundingContext> return if getSelectedIndex int getSelectedFile 
+LineContext> JFMFile return 
+MethodName:ReceiverType> getTableHeader:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> setOtherProperties void 
+LineContext> 
+MethodName:ReceiverType> setReorderingAllowed:javax.swing.table.JTableHeader
+ReceiverType> javax.swing.table.JTableHeader
+ParameterList> Boolean 
+SorroundingContext> setOtherProperties void 
+LineContext> 
+MethodName:ReceiverType> setShowGrid:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Boolean 
+SorroundingContext> setReorderingAllowed getTableHeader setOtherProperties void 
+LineContext> 
+MethodName:ReceiverType> setColumnSelectionAllowed:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Boolean 
+SorroundingContext> setShowGrid setReorderingAllowed getTableHeader setOtherProperties void 
+LineContext> 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> JTable.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT 
+SorroundingContext> removeDefaultKeys void 
+LineContext> = InputMap 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> getInputMap removeDefaultKeys void 
+LineContext> = InputMap 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> JComponent.WHEN_IN_FOCUSED_WINDOW 
+SorroundingContext> getInputMap removeDefaultKeys void 
+LineContext> = InputMap 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> getInputMap 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> clear getInputMap 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> 
+SorroundingContext> clear getInputMap 
+LineContext> 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> JTable.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT 
+SorroundingContext> addKeys void 
+LineContext> = InputMap 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getInputMap addKeys void 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getInputMap addKeys void 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> getInputMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> JTable.WHEN_IN_FOCUSED_WINDOW 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getInputMap getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getInputMap getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> getKeyStroke put getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> FileAction new put getActionMap getKeyStroke put getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> UpDirectoryAction new put getActionMap FileAction new put getActionMap getKeyStroke put 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> ChangePanelAction new put getActionMap UpDirectoryAction new put getActionMap FileAction new put getActionMap 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> RefreshAction new put getActionMap ChangePanelAction new put getActionMap UpDirectoryAction new put getActionMap 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> MarkRowAction new put getActionMap RefreshAction new put getActionMap ChangePanelAction new put getActionMap 
+LineContext> 
+MethodName:ReceiverType> getActionMap:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> MarkAllRowAction new put getActionMap MarkRowAction new put getActionMap RefreshAction new put getActionMap 
+LineContext> 
+MethodName:ReceiverType> getPoint:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> int mouseClicked void 
+LineContext> DetailsTable.this.rowAtPoint = int 
+MethodName:ReceiverType> rowAtPoint:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> SN:java.awt.event.MouseEvent.getPoint() 
+SorroundingContext> int mouseClicked void 
+LineContext> De = int 
+MethodName:ReceiverType> getClickCount:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> if getPoint int mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> getModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> getClickCount if getPoint int mouseClicked void 
+LineContext> De DetailsTableModel = getClickCount if 
+MethodName:ReceiverType> setSelectionInterval:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> Number Number 
+SorroundingContext> else setSelectionInterval getSelectionModel ensureIndexIsVisible 
+LineContext> 
+MethodName:ReceiverType> setSelectionInterval:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> SN:INT SN:INT 
+SorroundingContext> ensureIndexIsVisible if indexOf getCurrentFiles int 
+LineContext> 
+MethodName:ReceiverType> getCellRect:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> SN:INT Number Boolean 
+SorroundingContext> int ensureIndexIsVisible void 
+LineContext> = Rectangle 
+MethodName:ReceiverType> getFont:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> setFont int boolean getTableCellRendererComponent 
+LineContext> setFont 
+MethodName:ReceiverType> getModel:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> setValue getFont setFont int boolean getTableCellRendererComponent 
+LineContext> DetailsTableModel = DetailsTableModel 
+MethodName:ReceiverType> getForeground:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> setForeground else getMarkedColor setForeground isMarked if 
+LineContext> setForeground 
+MethodName:ReceiverType> getBackground:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> setBackground getForeground setForeground else 
+LineContext> setBackground 
+MethodName:ReceiverType> isRowSelected:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> SN:INT 
+SorroundingContext> if getBackground setBackground getForeground setForeground 
+LineContext> = if 
+MethodName:ReceiverType> isFocusOwner:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> isRowSelected if getBackground setBackground getForeground setForeground 
+LineContext> isRowSelected = if 
+MethodName:ReceiverType> getTableHeader:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> if setBorder else 
+LineContext> = if 
+MethodName:ReceiverType> getColumnModel:javax.swing.table.JTableHeader
+ReceiverType> javax.swing.table.JTableHeader
+ParameterList> 
+SorroundingContext> if setBorder else 
+LineContext> = if 
+MethodName:ReceiverType> getColumnIndex:javax.swing.table.TableColumnModel
+ReceiverType> javax.swing.table.TableColumnModel
+ParameterList> String 
+SorroundingContext> if setBorder else 
+LineContext> = if 
+MethodName:ReceiverType> setModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> SN:org.jfm.views.list.detailview.DetailsTableModel 
+SorroundingContext> DetailsTableModel new throws init void 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> JScrollPane new BorderLayout new setLayout setModel 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JViewport
+ReceiverType> javax.swing.JViewport
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> JScrollPane new BorderLayout new setLayout setModel 
+LineContext> 
+MethodName:ReceiverType> setBackground:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getBackgroundColor setBackground getViewport JScrollPane new BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> setForeground:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getForegroundColor() 
+SorroundingContext> getBackgroundColor setBackground getBackgroundColor setBackground getViewport JScrollPane new 
+LineContext> 
+MethodName:ReceiverType> setFont:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getPanelsFont() 
+SorroundingContext> getForegroundColor setForeground getBackgroundColor setBackground getBackgroundColor setBackground getViewport 
+LineContext> 
+MethodName:ReceiverType> setFont:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getPanelsFont() 
+SorroundingContext> fontChanged void 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JViewport
+ReceiverType> javax.swing.JViewport
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setBackground:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getBackgroundColor() 
+SorroundingContext> getBackgroundColor setBackground getViewport getColorType if colorChanged void 
+LineContext> 
+MethodName:ReceiverType> setForeground:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> Options.getForegroundColor() 
+SorroundingContext> getColorType if getBackgroundColor setBackground 
+LineContext> 
+MethodName:ReceiverType> getModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> final instanceof getSource if return 
+LineContext> DetailsTableModel = DetailsTableModel final 
+MethodName:ReceiverType> getModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> final instanceof getSource instanceof getSource if clear getMarkedFiles 
+LineContext> DetailsTableModel = DetailsTableModel final 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusGained void 
+LineContext> 
+MethodName:ReceiverType> getOppositeComponent:java.awt.event.FocusEvent
+ReceiverType> java.awt.event.FocusEvent
+ParameterList> 
+SorroundingContext> if getColor setForeground focusGained void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> try getRowCount if notifyChangeDirectoryListeners 
+LineContext> 
+MethodName:ReceiverType> setSelectionInterval:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> SN:INT SN:INT 
+SorroundingContext> try getRowCount if notifyChangeDirectoryListeners 
+LineContext> 
+MethodName:ReceiverType> repaint:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> catch 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusLost void 
+LineContext> 
+MethodName:ReceiverType> getSelectedRow:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> getColor setForeground focusLost void 
+LineContext> = 
+MethodName:ReceiverType> repaint:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> getSelectedRow getColor setForeground focusLost void 
+LineContext> 
+MethodName:ReceiverType> getValueIsAdjusting:javax.swing.event.ListSelectionEvent
+ReceiverType> javax.swing.event.ListSelectionEvent
+ParameterList> 
+SorroundingContext> if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> if return getValueIsAdjusting if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> isSelectionEmpty:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> if return getValueIsAdjusting if valueChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> int new int return isSelectionEmpty getSelectionModel if return getValueIsAdjusting if 
+LineContext> = int 
+MethodName:ReceiverType> getMinSelectionIndex:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> int new int return isSelectionEmpty getSelectionModel if return getValueIsAdjusting if 
+LineContext> = int 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> int getMinSelectionIndex getSelectionModel int new int return isSelectionEmpty getSelectionModel if 
+LineContext> = int 
+MethodName:ReceiverType> getMaxSelectionIndex:javax.swing.ListSelectionModel
+ReceiverType> javax.swing.ListSelectionModel
+ParameterList> 
+SorroundingContext> int getMinSelectionIndex getSelectionModel int new int return isSelectionEmpty getSelectionModel if 
+LineContext> = int 
+MethodName:ReceiverType> getSelectionModel:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> repaint 
+LineContext> 
+MethodName:ReceiverType> getPoint:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> rowAtPoint if isRightMouseButton if mouseClicked void 
+LineContext> rowAtPoint if 
+MethodName:ReceiverType> rowAtPoint:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> SN:java.awt.event.MouseEvent.getPoint() 
+SorroundingContext> if isRightMouseButton if mouseClicked void 
+LineContext> if 
+MethodName:ReceiverType> getX:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> show getPopupMenu return getPoint rowAtPoint if 
+LineContext> show getPopupMenu 
+MethodName:ReceiverType> getY:java.awt.event.MouseEvent
+ReceiverType> java.awt.event.MouseEvent
+ParameterList> 
+SorroundingContext> getX show getPopupMenu return getPoint rowAtPoint if 
+LineContext> getX show getPopupMenu 
+MethodName:ReceiverType> show:javax.swing.JPopupMenu
+ReceiverType> javax.swing.JPopupMenu
+ParameterList> SN:org.jfm.views.list.detailview.DetailsTable SN:java.awt.event.MouseEvent.getX() SN:java.awt.event.MouseEvent.getY() 
+SorroundingContext> return getPoint rowAtPoint if 
+LineContext> Op 
+MethodName:ReceiverType> getSelectedRow:org.jfm.views.list.detailview.DetailsTable
+ReceiverType> org.jfm.views.list.detailview.DetailsTable
+ParameterList> 
+SorroundingContext> int getSelectedFile 
+LineContext> = int 
+MethodName:ReceiverType> fireTableRowsDeleted:org.jfm.views.list.detailview.DetailsTableModel
+ReceiverType> org.jfm.views.list.detailview.DetailsTableModel
+ParameterList> Number SN:INT 
+SorroundingContext> clear size int clear void 
+LineContext> 
+MethodName:ReceiverType> fireTableRowsInserted:org.jfm.views.list.detailview.DetailsTableModel
+ReceiverType> org.jfm.views.list.detailview.DetailsTableModel
+ParameterList> SN:java.util.Vector.size() SN:java.util.Vector.size() 
+SorroundingContext> add addRow void SuppressWarnings 
+LineContext> 
+MethodName:ReceiverType> paintComponent:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> paintComponent void 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> paintComponent 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> getAbsolutePath getStartDirectory setText this setActivePanel setupRootsCombo 
+LineContext> 
+MethodName:ReceiverType> getItemAt:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:INT 
+SorroundingContext> getItemCount int for getRootDriveFile getCurrentWorkingDirectory 
+LineContext> ComboBoxCellObject = ComboBoxCellObject 
+MethodName:ReceiverType> getItemCount:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> int for getRootDriveFile getCurrentWorkingDirectory if 
+LineContext> = int for 
+MethodName:ReceiverType> requestFocusInWindow:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> 
+SorroundingContext> requestFocus void 
+LineContext> 
+MethodName:ReceiverType> setRenderer:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:org.jfm.views.list.ComboBoxCellRenderer 
+SorroundingContext> setupRootsCombo void 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> Boolean 
+SorroundingContext> setRenderer setupRootsCombo void 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:INT 
+SorroundingContext> equals getRootDriveFile getStartDirectory if getStartDirectory SuppressWarnings 
+LineContext> 
+MethodName:ReceiverType> getStateChange:java.awt.event.ItemEvent
+ReceiverType> java.awt.event.ItemEvent
+ParameterList> 
+SorroundingContext> if itemStateChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> changeDirectory 
+LineContext> ComboBoxCellObject changeDirectory 
+MethodName:ReceiverType> setStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.BasicStroke 
+SorroundingContext> int paintBorder void 
+LineContext> 
+MethodName:ReceiverType> getColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> setStroke int paintBorder void 
+LineContext> = Color 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> int getColor setStroke 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> drawRoundRect else 
+LineContext> 
+MethodName:ReceiverType> requestFocus:org.jfm.views.JFMView
+ReceiverType> org.jfm.views.JFMView
+ParameterList> 
+SorroundingContext> requestFocus void 
+LineContext> 
+MethodName:ReceiverType> requestFocus:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> requestFocus void 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> SN:INT 
+SorroundingContext> equals getRootDriveFile getStartDirectory if getPath addItem int for 
+LineContext> 
+MethodName:ReceiverType> getStateChange:java.awt.event.ItemEvent
+ReceiverType> java.awt.event.ItemEvent
+ParameterList> 
+SorroundingContext> if itemStateChanged void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> initTree return getStateChange if 
+LineContext> initTree 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setText toString getSelectedItem initTree return 
+LineContext> setText 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComboBox 
+SorroundingContext> add BorderLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> setupRootsCombo add 
+LineContext> 
+MethodName:ReceiverType> setViewportView:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> SN:javax.swing.JTree 
+SorroundingContext> setSelectionMode getSelectionModel setupRootsCombo add 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> setViewportView setSelectionMode getSelectionModel setupRootsCombo 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JViewport
+ReceiverType> javax.swing.JViewport
+ParameterList> UIManager.getColor() 
+SorroundingContext> setViewportView setSelectionMode getSelectionModel setupRootsCombo 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> getColor setBackground getViewport setViewportView setSelectionMode getSelectionModel 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusGained void 
+LineContext> 
+MethodName:ReceiverType> getPathForRow:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> SN:INT 
+SorroundingContext> setSelectionPath getSelectionModel try getColor setForeground focusGained void 
+LineContext> setSelectionPath getSelectionModel 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> try getColor setForeground focusGained void 
+LineContext> 
+MethodName:ReceiverType> setSelectionPath:javax.swing.tree.TreeSelectionModel
+ReceiverType> javax.swing.tree.TreeSelectionModel
+ParameterList> SN:javax.swing.JTree.getPathForRow() 
+SorroundingContext> try getColor setForeground focusGained void 
+LineContext> 
+MethodName:ReceiverType> setForeground:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> UIManager.getColor() 
+SorroundingContext> focusLost void 
+LineContext> 
+MethodName:ReceiverType> getSelectionRows:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> if getColor setForeground focusLost void 
+LineContext> if 
+MethodName:ReceiverType> getSelectionRows:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> getSelectionRows if getColor setForeground focusLost void 
+LineContext> = 
+MethodName:ReceiverType> getSelectionModel:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> getSelectionRows if 
+LineContext> 
+MethodName:ReceiverType> clearSelection:javax.swing.tree.TreeSelectionModel
+ReceiverType> javax.swing.tree.TreeSelectionModel
+ParameterList> 
+SorroundingContext> getSelectionRows if 
+LineContext> 
+MethodName:ReceiverType> getPath:javax.swing.event.TreeExpansionEvent
+ReceiverType> javax.swing.event.TreeExpansionEvent
+ParameterList> 
+SorroundingContext> fillTreeFromNode treeExpanded void 
+LineContext> DefaultMutableTreeNode fillTreeFromNode 
+MethodName:ReceiverType> getLastPathComponent:javax.swing.tree.TreePath
+ReceiverType> javax.swing.tree.TreePath
+ParameterList> 
+SorroundingContext> fillTreeFromNode treeExpanded void 
+LineContext> DefaultMutableTreeNode fillTreeFromNode 
+MethodName:ReceiverType> getPath:javax.swing.event.TreeSelectionEvent
+ReceiverType> javax.swing.event.TreeSelectionEvent
+ParameterList> 
+SorroundingContext> valueChanged void 
+LineContext> DefaultMutableTreeNode = DefaultMutableTreeNode 
+MethodName:ReceiverType> getLastPathComponent:javax.swing.tree.TreePath
+ReceiverType> javax.swing.tree.TreePath
+ParameterList> 
+SorroundingContext> valueChanged void 
+LineContext> DefaultMutableTreeNode = DefaultMutableTreeNode 
+MethodName:ReceiverType> getParent:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> getLastPathComponent getPath valueChanged void 
+LineContext> DefaultMutableTreeNode = DefaultMutableTreeNode 
+MethodName:ReceiverType> getUserObject:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> addElement else if 
+LineContext> addElement 
+MethodName:ReceiverType> getChildAt:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> SN:INT 
+SorroundingContext> addElement getChildCount int for getUserObject addElement 
+LineContext> DefaultMutableTreeNode addElement 
+MethodName:ReceiverType> getUserObject:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> addElement getChildCount int for getUserObject addElement 
+LineContext> addElement 
+MethodName:ReceiverType> getChildCount:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> int for getUserObject addElement else 
+LineContext> = int for 
+MethodName:ReceiverType> getInputMap:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT 
+SorroundingContext> 
+LineContext> = InputMap 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getInputMap 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> SN:INT 
+SorroundingContext> getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> getInputMap:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> getKeyStroke put getInputMap getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> put:javax.swing.InputMap
+ReceiverType> javax.swing.InputMap
+ParameterList> KeyStroke.getKeyStroke() String 
+SorroundingContext> getKeyStroke put getInputMap getKeyStroke put getInputMap 
+LineContext> 
+MethodName:ReceiverType> getActionMap:javax.swing.JTree
+ReceiverType> javax.swing.JTree
+ParameterList> 
+SorroundingContext> putActionMapAction getKeyStroke put getInputMap getKeyStroke put getInputMap getKeyStroke put 
+LineContext> putActionMapAction 
+MethodName:ReceiverType> getParent:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> 
+SorroundingContext> if ChangePanelAction new put putActionMapAction void 
+LineContext> if 
+MethodName:ReceiverType> getParent:javax.swing.ActionMap
+ReceiverType> javax.swing.ActionMap
+ParameterList> 
+SorroundingContext> putActionMapAction getParent if ChangePanelAction new put putActionMapAction void 
+LineContext> putActionMapAction 
+MethodName:ReceiverType> setUserObject:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> SN:org.jfm.filesystems.JFMFile 
+SorroundingContext> getRootFile String initTree void 
+LineContext> 
+MethodName:ReceiverType> getUserObject:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> fillTreeFromNode void 
+LineContext> JFMFile = JFMFile 
+MethodName:ReceiverType> removeAllChildren:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> 
+SorroundingContext> return isDirectory if getUserObject fillTreeFromNode void 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.tree.DefaultMutableTreeNode
+ReceiverType> javax.swing.tree.DefaultMutableTreeNode
+ParameterList> SN:javax.swing.tree.DefaultMutableTreeNode 
+SorroundingContext> DefaultMutableTreeNode new add isDirectory if DefaultMutableTreeNode new int for 
+LineContext> 
+MethodName:ReceiverType> nodeStructureChanged:org.jfm.views.tree.FTreeModel
+ReceiverType> org.jfm.views.tree.FTreeModel
+ParameterList> SN:javax.swing.tree.DefaultMutableTreeNode 
+SorroundingContext> add DefaultMutableTreeNode new add isDirectory if 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getPath getMainFrame FileViewDialog new getSelectedFile getActivePanel 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Boolean 
+SorroundingContext> setContent getMainFrame setLocationRelativeTo getPath getMainFrame FileViewDialog new 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getPath getMainFrame FileViewDialog new getSelectedFile getActivePanel 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.views.fview.FileViewDialog
+ReceiverType> org.jfm.views.fview.FileViewDialog
+ParameterList> Boolean 
+SorroundingContext> setContent getMainFrame setLocationRelativeTo getPath getMainFrame FileViewDialog new 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.po.FilePropertiesDialog
+ReceiverType> org.jfm.po.FilePropertiesDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> setFile getMainFrame FilePropertiesDialog new elementAt 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.po.FilePropertiesDialog
+ReceiverType> org.jfm.po.FilePropertiesDialog
+ParameterList> Boolean 
+SorroundingContext> getMainFrame setLocationRelativeTo setFile getMainFrame FilePropertiesDialog new 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> setText if read getInputStream while 
+LineContext> setText 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> setText if read getErrorStream while 
+LineContext> setText 
+MethodName:ReceiverType> getKeyChar:java.awt.event.KeyEvent
+ReceiverType> java.awt.event.KeyEvent
+ParameterList> 
+SorroundingContext> write getOutputStream try keyTyped void 
+LineContext> write getOutputStream 
+MethodName:ReceiverType> dispose:org.jfm.po.CommandOutputViewDialog
+ReceiverType> org.jfm.po.CommandOutputViewDialog
+ParameterList> 
+SorroundingContext> finally catch 
+LineContext> Co 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> setLayout throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> getViewport:javax.swing.JScrollPane
+ReceiverType> javax.swing.JScrollPane
+ParameterList> 
+SorroundingContext> add getContentPane setLayout 
+LineContext> 
+MethodName:ReceiverType> setSize:org.jfm.po.CommandOutputViewDialog
+ReceiverType> org.jfm.po.CommandOutputViewDialog
+ParameterList> Number Number 
+SorroundingContext> add getViewport add getContentPane 
+LineContext> 
+MethodName:ReceiverType> processWindowEvent:javax.swing.JDialog
+ReceiverType> javax.swing.JDialog
+ParameterList> SN:java.awt.event.WindowEvent 
+SorroundingContext> processWindowEvent void 
+LineContext> 
+MethodName:ReceiverType> getID:java.awt.event.WindowEvent
+ReceiverType> java.awt.event.WindowEvent
+ParameterList> 
+SorroundingContext> if processWindowEvent void 
+LineContext> if 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getPath setCopyTo setMoveOperation getPath setCopyFrom 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> Boolean 
+SorroundingContext> getMainFrame setLocationRelativeTo getPath setCopyTo setMoveOperation 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getMainFrame ProgressActionDialog new return isCancelled if setVisible 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> 
+SorroundingContext> if getFilesSize throws moveFiles void 
+LineContext> = if 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getPath setCopyTo getPath setCopyFrom getMainFrame CopyConfirmDialog new 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> Boolean 
+SorroundingContext> getMainFrame setLocationRelativeTo getPath setCopyTo getPath setCopyFrom 
+LineContext> 
+MethodName:ReceiverType> setLocationRelativeTo:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> Options.getMainFrame() 
+SorroundingContext> getMainFrame ProgressActionDialog new return isCancelled if setVisible 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> 
+SorroundingContext> if getFilesSize throws copyFiles void 
+LineContext> = if 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int setFileProgresssValue void 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int setTotalProgresssValue void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> Boolean 
+SorroundingContext> start 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLayout add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setLayout add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setStringPainted:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Boolean 
+SorroundingContext> setText Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setStringPainted:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Boolean 
+SorroundingContext> setStringPainted setText Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> setStringPainted setText 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> if stateChanged void 
+LineContext> if 
+MethodName:ReceiverType> dispose:org.jfm.po.ProgressActionDialog
+ReceiverType> org.jfm.po.ProgressActionDialog
+ParameterList> 
+SorroundingContext> cancel cancelButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.help.HelpBrowser
+ReceiverType> org.jfm.help.HelpBrowser
+ParameterList> Boolean 
+SorroundingContext> loadHomePage 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> Color new createLineBorder TitledBorder new throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setTitle:org.jfm.po.FilePropertiesDialog
+ReceiverType> org.jfm.po.FilePropertiesDialog
+ParameterList> String 
+SorroundingContext> setLayout Color new createLineBorder TitledBorder new throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setTitle setLayout Color new createLineBorder TitledBorder new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setTitle setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setTitle 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.border.TitledBorder 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> setLayout setBorder setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setAttributesButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> Insets new GridBagConstraints new add Insets new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> Insets new GridBagConstraints new add Insets new 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> setEnabled Insets new GridBagConstraints new add 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> Boolean 
+SorroundingContext> setEnabled Insets new 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:org.jfm.filesystems.JFMFile.getName() 
+SorroundingContext> fillFields void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:org.jfm.filesystems.JFMFile.getPath() 
+SorroundingContext> getName setText fillFields void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> else catch getMimeType setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:org.jfm.filesystems.JFMFile.getMimeType() 
+SorroundingContext> try isDirectory if getPath setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.text.SimpleDateFormat.format() 
+SorroundingContext> new setText 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.jfm.filesystems.JFMFile.canRead() 
+SorroundingContext> lastModified new format setText new 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.jfm.filesystems.JFMFile.canWrite() 
+SorroundingContext> canRead setSelected lastModified new format setText new 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:org.jfm.filesystems.JFMFile.isHidden() 
+SorroundingContext> canWrite setSelected canRead setSelected lastModified new format setText 
+LineContext> 
+MethodName:ReceiverType> removeAll:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> setButtons void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> if try actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getText if try actionPerformed void 
+LineContext> = getText if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> exec getRuntime SuppressWarnings return length getText if try 
+LineContext> exec getRuntime = Process 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> getText exec getRuntime SuppressWarnings return length getText if 
+LineContext> 
+MethodName:ReceiverType> setVisible:org.jfm.po.copy.CopyProgressDialog
+ReceiverType> org.jfm.po.copy.CopyProgressDialog
+ParameterList> Boolean 
+SorroundingContext> start 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int length case 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int length exists if 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Number 
+SorroundingContext> setValue int length 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Number 
+SorroundingContext> getOutputStream getInputStream try 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> int 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:INT 
+SorroundingContext> setValue int 
+LineContext> 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Number 
+SorroundingContext> setValue 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.po.copy.CopyProgressDialog
+ReceiverType> org.jfm.po.copy.CopyProgressDialog
+ParameterList> 
+SorroundingContext> size if getFilesSize throws copyFiles void 
+LineContext> = size if 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setLayout add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setLayout add 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setStringPainted:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Boolean 
+SorroundingContext> setText Rectangle new setBounds setText 
+LineContext> 
+MethodName:ReceiverType> setStringPainted:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> Boolean 
+SorroundingContext> setStringPainted setText Rectangle new setBounds 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> setStringPainted setText 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> if stateChanged void 
+LineContext> if 
+MethodName:ReceiverType> dispose:org.jfm.po.copy.CopyProgressDialog
+ReceiverType> org.jfm.po.copy.CopyProgressDialog
+ParameterList> 
+SorroundingContext> cancelButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setMoveOperation void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.BorderLayout 
+SorroundingContext> throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.FlowLayout 
+SorroundingContext> setLayout throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setLayout:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.GridBagLayout 
+SorroundingContext> setLayout throws jbInit void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> setLayout 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> String 
+SorroundingContext> okButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> cancelButton_actionPerformed 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> getRootPane:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> Insets new GridBagConstraints new add Insets new 
+LineContext> 
+MethodName:ReceiverType> setDefaultButton:javax.swing.JRootPane
+ReceiverType> javax.swing.JRootPane
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> Insets new GridBagConstraints new add Insets new 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> 
+SorroundingContext> setCancelled okButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> dispose:org.jfm.po.copy.CopyConfirmDialog
+ReceiverType> org.jfm.po.copy.CopyConfirmDialog
+ParameterList> 
+SorroundingContext> setCancelled cancelButton_actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setCopyFrom void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getCopyFrom String 
+LineContext> = 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setCopyTo void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> getCopyTo String 
+LineContext> = 
+MethodName:ReceiverType> setEditable:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Boolean 
+SorroundingContext> JEditorPane new BorderLayout new setLayout getContentPane 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getEventType:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> if hyperlinkUpdate void 
+LineContext> if 
+MethodName:ReceiverType> getEventType:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> if getPredefinedCursor setCursor 
+LineContext> if 
+MethodName:ReceiverType> getEventType:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> if getPredefinedCursor setCursor 
+LineContext> if 
+MethodName:ReceiverType> getURL:javax.swing.event.HyperlinkEvent
+ReceiverType> javax.swing.event.HyperlinkEvent
+ParameterList> 
+SorroundingContext> loadPage push equals getEventType if 
+LineContext> loadPage 
+MethodName:ReceiverType> setCursor:org.jfm.help.HelpBrowser
+ReceiverType> org.jfm.help.HelpBrowser
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> String loadPage void 
+LineContext> 
+MethodName:ReceiverType> setPage:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> SN:java.lang.String 
+SorroundingContext> getBaseURL 
+LineContext> 
+MethodName:ReceiverType> setCursor:org.jfm.help.HelpBrowser
+ReceiverType> org.jfm.help.HelpBrowser
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> printStackTrace showMessageDialog 
+LineContext> 

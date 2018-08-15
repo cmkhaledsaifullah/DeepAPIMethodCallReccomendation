@@ -1,0 +1,400 @@
+MethodName:ReceiverType> getRGB:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> format return getColorString String 
+LineContext> format return 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int new int IllegalArgumentException new throw appendToErrorLog 
+LineContext> [ int new = ] [ int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth int new int IllegalArgumentException new throw appendToErrorLog 
+LineContext> getWidth [ int new = ] [ int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getRGB getHeight getWidth int new int IllegalArgumentException new throw 
+LineContext> getRGB 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth getRGB getHeight getWidth int new int IllegalArgumentException new throw 
+LineContext> getWidth getRGB 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth getRGB getHeight getWidth int new int IllegalArgumentException new throw 
+LineContext> getHeight getWidth getRGB 
+MethodName:ReceiverType> getRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> Number Number SN:java.awt.image.BufferedImage.getWidth() SN:java.awt.image.BufferedImage.getHeight() SN:INT Number SN:java.awt.image.BufferedImage.getWidth() 
+SorroundingContext> getHeight getWidth int new int IllegalArgumentException new throw 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> ByteBufferSized new flip put createByteBuffer byte 
+LineContext> ByteBufferSized new = ByteBufferSized 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth ByteBufferSized new flip put createByteBuffer byte 
+LineContext> getWidth ByteBufferSized new = ByteBufferSized 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> byte new byte return appendToErrorLog 
+LineContext> [ byte new = ] [ byte 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth byte new byte return appendToErrorLog 
+LineContext> getWidth [ byte new = ] [ byte 
+MethodName:ReceiverType> getRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> SN:INT SN:INT 
+SorroundingContext> int getWidth int for getHeight int for getHeight getWidth byte new byte 
+LineContext> = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for getRGB int getWidth int for 
+LineContext> [ 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> byte getWidth int for getRGB int 
+LineContext> [ 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for getHeight int for getHeight getWidth byte new byte 
+LineContext> = int for 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for getHeight getWidth byte new byte return 
+LineContext> = int for 
+MethodName:ReceiverType> setModel:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:net.sf.hale.swingeditor.AssetModel 
+SorroundingContext> setMode void 
+LineContext> 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int valueChanged void 
+LineContext> = int 
+MethodName:ReceiverType> remove:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> if return if 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> this createAssetSubEditor getEntry remove 
+LineContext> 
+MethodName:ReceiverType> revalidate:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> add this createAssetSubEditor getEntry 
+LineContext> 
+MethodName:ReceiverType> removeAll:net.sf.hale.swingeditor.AreaPalette
+ReceiverType> net.sf.hale.swingeditor.AreaPalette
+ParameterList> 
+SorroundingContext> setArea void 
+LineContext> 
+MethodName:ReceiverType> setLabelFor:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:javax.swing.JComponent 
+SorroundingContext> JLabel new if 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JComponent 
+SorroundingContext> for JPanel new String addRow void 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> throws doInBackground 
+LineContext> 
+MethodName:ReceiverType> setNote:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> String 
+SorroundingContext> return checkCanceled if loadSpriteSheets 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> setNote return checkCanceled if 
+LineContext> 
+MethodName:ReceiverType> setNote:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> String 
+SorroundingContext> return checkCanceled if Campaign new clear 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> setNote return checkCanceled if Campaign new 
+LineContext> 
+MethodName:ReceiverType> setNote:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> String 
+SorroundingContext> return checkCanceled if registerCampaignPackage setProgress 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> setNote return checkCanceled if registerCampaignPackage 
+LineContext> 
+MethodName:ReceiverType> setNote:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> String 
+SorroundingContext> return checkCanceled if setProgress 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> setNote return checkCanceled if 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> return checkCanceled if setProgress 
+LineContext> 
+MethodName:ReceiverType> setProgress:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> Number 
+SorroundingContext> return checkCanceled if loadAllAssets setProgress 
+LineContext> 
+MethodName:ReceiverType> isCanceled:javax.swing.ProgressMonitor
+ReceiverType> javax.swing.ProgressMonitor
+ParameterList> 
+SorroundingContext> if checkCanceled boolean 
+LineContext> if 
+MethodName:ReceiverType> dispose:net.sf.hale.swingeditor.LogViewer
+ReceiverType> net.sf.hale.swingeditor.LogViewer
+ParameterList> 
+SorroundingContext> if showLogViewer void static 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.hale.swingeditor.LogViewer
+ReceiverType> net.sf.hale.swingeditor.LogViewer
+ParameterList> Boolean 
+SorroundingContext> unmodifiableList LogViewer new dispose 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.hale.swingeditor.AssetEditor
+ReceiverType> net.sf.hale.swingeditor.AssetEditor
+ParameterList> Boolean 
+SorroundingContext> AssetEditor new createNewEditor void static 
+LineContext> 
+MethodName:ReceiverType> dispose:net.sf.hale.swingeditor.AssetEditor
+ReceiverType> net.sf.hale.swingeditor.AssetEditor
+ParameterList> 
+SorroundingContext> for closeAllEditors void static 
+LineContext> 
+MethodName:ReceiverType> dispose:net.sf.hale.swingeditor.AssetEditor
+ReceiverType> net.sf.hale.swingeditor.AssetEditor
+ParameterList> 
+SorroundingContext> remove closeEditor void static 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getImage String getImage static 
+LineContext> int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getTexCoordStartX getWidth int getImage String getImage static 
+LineContext> int = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getTexCoordStartY getHeight int getTexCoordStartX getWidth int getImage 
+LineContext> int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getTexCoordEndX getWidth int getTexCoordStartY getHeight int getTexCoordStartX getWidth int 
+LineContext> int = int 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double copy static 
+LineContext> = double 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getRed double copy static 
+LineContext> = double 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getGreen double getRed double copy static 
+LineContext> = double 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getBlue double getGreen double getRed double 
+LineContext> = double 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getAlpha double getBlue double getGreen double 
+LineContext> BufferedImage new = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth BufferedImage new getAlpha double getBlue double getGreen double 
+LineContext> getWidth BufferedImage new = BufferedImage 
+MethodName:ReceiverType> getRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> SN:INT SN:INT 
+SorroundingContext> int getHeight int for getWidth int for getHeight getWidth BufferedImage new 
+LineContext> = int 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int max min int Color new getRGB int getHeight int for 
+LineContext> int max min = int 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int max min int getRed int max min int Color new getRGB int 
+LineContext> int max min = int 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int max min int getGreen int max min int getRed int max min int Color new 
+LineContext> int max min = int 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int max min int getBlue int max min int getGreen int max min int getRed int max min int 
+LineContext> int max min = int 
+MethodName:ReceiverType> getRGB:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> setRGB Color new getAlpha int max min int getBlue int max min int 
+LineContext> setRGB 
+MethodName:ReceiverType> setRGB:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> SN:INT SN:INT SN:java.awt.Color.getRGB() 
+SorroundingContext> Color new getAlpha int max min int getBlue int max min int 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for getWidth int for getHeight getWidth BufferedImage new getAlpha double 
+LineContext> = int for 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int for getHeight getWidth BufferedImage new getAlpha double getBlue double 
+LineContext> = int for 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setLogText void 
+LineContext> 
+MethodName:ReceiverType> removeAll:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> 
+SorroundingContext> updateCampaign void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Boolean 
+SorroundingContext> else setEnabled 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Boolean 
+SorroundingContext> setEnabled else setEnabled 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> SN:javax.swing.JMenuItem 
+SorroundingContext> OpenAreaAction new JMenuItem new length getName substring getName String for 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Boolean 
+SorroundingContext> if removeAll updateCampaign void 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JMenu
+ReceiverType> javax.swing.JMenu
+ParameterList> Boolean 
+SorroundingContext> setEnabled if removeAll 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> glViewport resize void 
+LineContext> glViewport 
+MethodName:ReceiverType> getHeight:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> getWidth glViewport resize void 
+LineContext> getWidth glViewport 
+MethodName:ReceiverType> getWidth:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> glOrtho glLoadIdentity glMatrixMode getHeight getWidth glViewport 
+LineContext> glOrtho 
+MethodName:ReceiverType> getHeight:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> getWidth glOrtho glLoadIdentity glMatrixMode getHeight getWidth glViewport 
+LineContext> getWidth glOrtho 
+MethodName:ReceiverType> getWidth:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> glOrtho glLoadIdentity glMatrixMode glEnable 
+LineContext> glOrtho 
+MethodName:ReceiverType> getHeight:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> getWidth glOrtho glLoadIdentity glMatrixMode glEnable 
+LineContext> getWidth glOrtho 
+MethodName:ReceiverType> validate:net.sf.hale.swingeditor.SwingEditor
+ReceiverType> net.sf.hale.swingeditor.SwingEditor
+ParameterList> 
+SorroundingContext> getArea setArea getPalette cacheSprites getTileGrid getArea 
+LineContext> 
+MethodName:ReceiverType> setBackground:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.awt.Color 
+SorroundingContext> toARGB Color new setDefaultColor void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean setShowColorChooser void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> SN:java.lang.String 
+SorroundingContext> String setTitle void 
+LineContext> 
+MethodName:ReceiverType> append:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.String 
+SorroundingContext> String addLogEntry void 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.hale.swingeditor.SwingEditor
+ReceiverType> net.sf.hale.swingeditor.SwingEditor
+ParameterList> Boolean 
+SorroundingContext> initialize SwingEditor new run void 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.Canvas
+ReceiverType> java.awt.Canvas
+ParameterList> 
+SorroundingContext> int getX int next while 
+LineContext> = int 

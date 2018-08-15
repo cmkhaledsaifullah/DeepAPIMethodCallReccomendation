@@ -1,0 +1,35 @@
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 
+MethodName:ReceiverType> parse:javax.swing.text.html.parser.ParserDelegator
+ReceiverType> javax.swing.text.html.parser.ParserDelegator
+ParameterList> SN:java.io.BufferedReader this Boolean 
+SorroundingContext> ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+LineContext> 

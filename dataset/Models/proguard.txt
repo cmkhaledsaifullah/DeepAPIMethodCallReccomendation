@@ -1,0 +1,1840 @@
+MethodName:ReceiverType> append:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.String 
+SorroundingContext> length if toString String 
+LineContext> 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> actionPerformed void 
+LineContext> MyMemberSpecificationWrapper = 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setElementAt getMemberSpecification 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> setMemberSpecifications void 
+LineContext> 
+MethodName:ReceiverType> size:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> int boolean getMemberSpecifications 
+LineContext> = int 
+MethodName:ReceiverType> get:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:INT 
+SorroundingContext> int for 
+LineContext> MyMemberSpecificationWrapper = 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> setCursor:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> String 
+SorroundingContext> getPredefinedCursor setCursor run void 
+LineContext> 
+MethodName:ReceiverType> setCursor:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> msg 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Number 
+SorroundingContext> getPredefinedCursor setCursor 
+LineContext> 
+MethodName:ReceiverType> append:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.String 
+SorroundingContext> length if toString String 
+LineContext> 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int Color new 
+LineContext> int Color new 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed int Color new 
+LineContext> getRed int Color new 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed int Color new 
+LineContext> getRed int Color new 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getRed int Color new 
+LineContext> int 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen int getRed int Color new 
+LineContext> getGreen int 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen int getRed int Color new 
+LineContext> getGreen int 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getGreen int getRed int Color new 
+LineContext> int 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue int getGreen int getRed int Color new 
+LineContext> getBlue int 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue int getGreen int getRed int Color new 
+LineContext> getBlue int 
+MethodName:ReceiverType> getGraphics:java.awt.Image
+ReceiverType> java.awt.Image
+ParameterList> 
+SorroundingContext> if 
+LineContext> = Graphics 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> Number Number SN:java.awt.Image.getWidth() SN:java.awt.Image.getHeight() 
+SorroundingContext> setColor else 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> Number Number SN:java.awt.Image.getWidth() SN:java.awt.Image.getHeight() 
+SorroundingContext> setComposite 
+LineContext> 
+MethodName:ReceiverType> getColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> setColor translate getHeight getWidth fillRect 
+LineContext> setColor 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Graphics.getColor() 
+SorroundingContext> translate getHeight getWidth fillRect 
+LineContext> 
+MethodName:ReceiverType> getFont:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> setFont getColor setColor translate 
+LineContext> setFont 
+MethodName:ReceiverType> setFont:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Graphics.getFont() 
+SorroundingContext> getColor setColor translate 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> paint getFont setFont getColor setColor 
+LineContext> 
+MethodName:ReceiverType> getColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> Color new 
+LineContext> = Color 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getColor Color new 
+LineContext> 
+MethodName:ReceiverType> translate:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:INT SN:INT 
+SorroundingContext> int 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Color 
+SorroundingContext> translate 
+LineContext> 
+MethodName:ReceiverType> getClipBounds:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> getColor long paint void 
+LineContext> = Rectangle 
+MethodName:ReceiverType> setPaintMode:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> getClipBounds getColor 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Color 
+SorroundingContext> setPaintMode getClipBounds getColor 
+LineContext> 
+MethodName:ReceiverType> setPaintMode:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> else 
+LineContext> 
+MethodName:ReceiverType> setXORMode:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setPaint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Paint 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Stroke 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setXORMode:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> setPaintMode:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> getColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getColor 
+LineContext> = return 
+MethodName:ReceiverType> getFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getFont 
+LineContext> = return 
+MethodName:ReceiverType> getPaint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getPaint 
+LineContext> = return 
+MethodName:ReceiverType> getStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getStroke 
+LineContext> = return 
+MethodName:ReceiverType> create:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> OverrideGraphics2D new create 
+LineContext> Graphics2D OverrideGraphics2D new = OverrideGraphics2D 
+MethodName:ReceiverType> create:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> OverrideGraphics2D new int create 
+LineContext> Graphics2D OverrideGraphics2D new = OverrideGraphics2D 
+MethodName:ReceiverType> addRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.Map 
+SorroundingContext> addRenderingHints void 
+LineContext> 
+MethodName:ReceiverType> clearRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int clearRect void 
+LineContext> 
+MethodName:ReceiverType> clip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> clip void 
+LineContext> 
+MethodName:ReceiverType> clipRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int clipRect void 
+LineContext> 
+MethodName:ReceiverType> copyArea:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int copyArea void 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> dispose void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> draw void 
+LineContext> 
+MethodName:ReceiverType> draw3DRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:BOOLEAN 
+SorroundingContext> boolean int draw3DRect void 
+LineContext> 
+MethodName:ReceiverType> drawArc:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int drawArc void 
+LineContext> 
+MethodName:ReceiverType> drawBytes:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:BYTE SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int byte drawBytes void 
+LineContext> 
+MethodName:ReceiverType> drawChars:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:CHAR SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int char drawChars void 
+LineContext> 
+MethodName:ReceiverType> drawGlyphVector:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.font.GlyphVector SN:FLOAT SN:FLOAT 
+SorroundingContext> drawGlyphVector void 
+LineContext> 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:java.awt.Color SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:INT SN:INT SN:java.awt.Color SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:INT SN:INT SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:java.awt.Color SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:INT SN:INT SN:java.awt.image.ImageObserver 
+SorroundingContext> return int drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Image SN:java.awt.geom.AffineTransform SN:java.awt.image.ImageObserver 
+SorroundingContext> return drawImage boolean 
+LineContext> return 
+MethodName:ReceiverType> drawImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.image.BufferedImage SN:java.awt.image.BufferedImageOp SN:INT SN:INT 
+SorroundingContext> int drawImage void 
+LineContext> 
+MethodName:ReceiverType> drawLine:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int drawLine void 
+LineContext> 
+MethodName:ReceiverType> drawOval:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int drawOval void 
+LineContext> 
+MethodName:ReceiverType> drawPolygon:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> int drawPolygon void 
+LineContext> 
+MethodName:ReceiverType> drawPolygon:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Polygon 
+SorroundingContext> drawPolygon void 
+LineContext> 
+MethodName:ReceiverType> drawPolyline:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> int drawPolyline void 
+LineContext> 
+MethodName:ReceiverType> drawRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int drawRect void 
+LineContext> 
+MethodName:ReceiverType> drawRenderableImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.image.renderable.RenderableImage SN:java.awt.geom.AffineTransform 
+SorroundingContext> drawRenderableImage void 
+LineContext> 
+MethodName:ReceiverType> drawRenderedImage:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.image.RenderedImage SN:java.awt.geom.AffineTransform 
+SorroundingContext> drawRenderedImage void 
+LineContext> 
+MethodName:ReceiverType> drawRoundRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int drawRoundRect void 
+LineContext> 
+MethodName:ReceiverType> drawString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.lang.String SN:FLOAT SN:FLOAT 
+SorroundingContext> String drawString void 
+LineContext> 
+MethodName:ReceiverType> drawString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.lang.String SN:INT SN:INT 
+SorroundingContext> int String drawString void 
+LineContext> 
+MethodName:ReceiverType> drawString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.text.AttributedCharacterIterator SN:FLOAT SN:FLOAT 
+SorroundingContext> drawString void 
+LineContext> 
+MethodName:ReceiverType> drawString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.text.AttributedCharacterIterator SN:INT SN:INT 
+SorroundingContext> int drawString void 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> fill void 
+LineContext> 
+MethodName:ReceiverType> fill3DRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:BOOLEAN 
+SorroundingContext> boolean int fill3DRect void 
+LineContext> 
+MethodName:ReceiverType> fillArc:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int fillArc void 
+LineContext> 
+MethodName:ReceiverType> fillOval:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int fillOval void 
+LineContext> 
+MethodName:ReceiverType> fillPolygon:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> int fillPolygon void 
+LineContext> 
+MethodName:ReceiverType> fillPolygon:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Polygon 
+SorroundingContext> fillPolygon void 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int fillRect void 
+LineContext> 
+MethodName:ReceiverType> fillRoundRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int fillRoundRect void 
+LineContext> 
+MethodName:ReceiverType> getBackground:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getBackground 
+LineContext> return 
+MethodName:ReceiverType> getClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getClip 
+LineContext> return 
+MethodName:ReceiverType> getClipBounds:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getClipBounds 
+LineContext> return 
+MethodName:ReceiverType> getClipBounds:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Rectangle 
+SorroundingContext> return getClipBounds 
+LineContext> return 
+MethodName:ReceiverType> getClipRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getClipRect 
+LineContext> return 
+MethodName:ReceiverType> getComposite:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getComposite 
+LineContext> return 
+MethodName:ReceiverType> getDeviceConfiguration:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getDeviceConfiguration 
+LineContext> return 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getFontMetrics 
+LineContext> return 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> return getFontMetrics 
+LineContext> return 
+MethodName:ReceiverType> getFontRenderContext:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getFontRenderContext 
+LineContext> return 
+MethodName:ReceiverType> getRenderingHint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.RenderingHints.Key 
+SorroundingContext> return getRenderingHint 
+LineContext> return 
+MethodName:ReceiverType> getRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getRenderingHints 
+LineContext> return 
+MethodName:ReceiverType> getTransform:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return getTransform 
+LineContext> return 
+MethodName:ReceiverType> hit:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Rectangle SN:java.awt.Shape SN:BOOLEAN 
+SorroundingContext> return boolean hit boolean 
+LineContext> return 
+MethodName:ReceiverType> hitClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> return int hitClip boolean 
+LineContext> return 
+MethodName:ReceiverType> rotate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE 
+SorroundingContext> double rotate void 
+LineContext> 
+MethodName:ReceiverType> rotate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double rotate void 
+LineContext> 
+MethodName:ReceiverType> scale:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double scale void 
+LineContext> 
+MethodName:ReceiverType> setBackground:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> setBackground void 
+LineContext> 
+MethodName:ReceiverType> setClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> int setClip void 
+LineContext> 
+MethodName:ReceiverType> setClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> setClip void 
+LineContext> 
+MethodName:ReceiverType> setComposite:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Composite 
+SorroundingContext> setComposite void 
+LineContext> 
+MethodName:ReceiverType> setRenderingHint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.RenderingHints.Key SN:java.lang.Object 
+SorroundingContext> setRenderingHint void 
+LineContext> 
+MethodName:ReceiverType> setRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.Map 
+SorroundingContext> setRenderingHints void 
+LineContext> 
+MethodName:ReceiverType> setTransform:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.AffineTransform 
+SorroundingContext> setTransform void 
+LineContext> 
+MethodName:ReceiverType> shear:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double shear void 
+LineContext> 
+MethodName:ReceiverType> toString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> return toString String 
+LineContext> return 
+MethodName:ReceiverType> transform:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.AffineTransform 
+SorroundingContext> transform void 
+LineContext> 
+MethodName:ReceiverType> translate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double translate void 
+LineContext> 
+MethodName:ReceiverType> translate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:INT SN:INT 
+SorroundingContext> int translate void 
+LineContext> 
+MethodName:ReceiverType> paintComponent:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> paintComponent void 
+LineContext> 
+MethodName:ReceiverType> setTitle:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> String 
+SorroundingContext> JFrame new String main void static 
+LineContext> 
+MethodName:ReceiverType> setSize:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Number Number 
+SorroundingContext> setTitle JFrame new 
+LineContext> 
+MethodName:ReceiverType> getScreenSize:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> setSize setTitle JFrame new 
+LineContext> To = Dimension 
+MethodName:ReceiverType> getSize:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> 
+SorroundingContext> getScreenSize getDefaultToolkit setSize setTitle 
+LineContext> = Dimension 
+MethodName:ReceiverType> getContentPane:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> 
+SorroundingContext> setBackground SplashPanel new ConstantInt new 
+LineContext> 
+MethodName:ReceiverType> add:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> SN:proguard.gui.splash.SplashPanel 
+SorroundingContext> setBackground SplashPanel new ConstantInt new 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> Boolean 
+SorroundingContext> setDefaultCloseOperation add getContentPane setBackground 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:proguard.gui.splash.VariableColor.getColor() 
+SorroundingContext> long paint void 
+LineContext> 
+MethodName:ReceiverType> drawRoundRect:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> else 
+LineContext> 
+MethodName:ReceiverType> fillRoundRect:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:INT SN:INT SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> if getInt int 
+LineContext> 
+MethodName:ReceiverType> getColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> long paint void 
+LineContext> = Color 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:proguard.gui.splash.VariableColor.getColor() 
+SorroundingContext> getColor long paint void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Color 
+SorroundingContext> paint getColor setColor getColor 
+LineContext> 
+MethodName:ReceiverType> getFont:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> 
+SorroundingContext> long paint void 
+LineContext> = Font 
+MethodName:ReceiverType> setFont:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:proguard.gui.splash.VariableFont.getFont() 
+SorroundingContext> getFont long paint void 
+LineContext> 
+MethodName:ReceiverType> setFont:java.awt.Graphics
+ReceiverType> java.awt.Graphics
+ParameterList> SN:java.awt.Font 
+SorroundingContext> paint getFont setFont getFont 
+LineContext> 
+MethodName:ReceiverType> setBorder:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> BorderFactory.createTitledBorder() 
+SorroundingContext> JPanel new equals if 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel SN:java.awt.GridBagConstraints 
+SorroundingContext> createTitledBorder setBorder JPanel new 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:java.lang.String 
+SorroundingContext> JCheckBox new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> tip() SN:java.awt.GridBagConstraints 
+SorroundingContext> JTextField new if 
+LineContext> 
+MethodName:ReceiverType> getBorder:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> 
+SorroundingContext> String addBorder void 
+LineContext> = Border 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.lang.String 
+SorroundingContext> actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new setSelectedFile setDialogTitle actionPerformed void 
+LineContext> File new setSelectedFile 
+MethodName:ReceiverType> showDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> ProGuardGUI.this msg() 
+SorroundingContext> int getText File new setSelectedFile setDialogTitle 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> setText if msg showDialog int 
+LineContext> setText 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> setFilter actionPerformed void 
+LineContext> setFilter 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> SN:proguard.gui.OptimizationsDialog.getFilter() 
+SorroundingContext> if showDialog int 
+LineContext> 
+MethodName:ReceiverType> getPreferredSize:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> 
+SorroundingContext> get size int for 
+LineContext> = Dimension 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> if getPreferredSize get 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> getWidth if getPreferredSize get 
+LineContext> getWidth 
+MethodName:ReceiverType> setPreferredSize:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> SN:java.awt.Dimension 
+SorroundingContext> get size int for 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> findClassSpecification boolean 
+LineContext> 
+MethodName:ReceiverType> getModel:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> commaSeparatedString setText fileName setText setSelected 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText commaSeparatedString setText fileName setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText fileName setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText fileName setText fileName setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText fileName setText fileName setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ListUtil.commaSeparatedString() 
+SorroundingContext> commaSeparatedString setText commaSeparatedString setText commaSeparatedString externalClassName setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ListUtil.commaSeparatedString() 
+SorroundingContext> commaSeparatedString setText commaSeparatedString setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> ListUtil.commaSeparatedString() 
+SorroundingContext> commaSeparatedString setText commaSeparatedString setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> commaSeparatedString setText commaSeparatedString setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText commaSeparatedString setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> fileName setText fileName setText commaSeparatedString setText 
+LineContext> 
+MethodName:ReceiverType> getItemCount:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> setSelectedIndex else 
+LineContext> setSelectedIndex 
+MethodName:ReceiverType> setSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> ClassUtil.externalClassVersion() 
+SorroundingContext> if fileName setText 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> fileName() 
+SorroundingContext> if 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if int for 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> classSpecification add isSelected if 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if int for 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> classSpecification add isSelected if 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if int for ArrayList new 
+LineContext> if 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getClassSpecifications 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getClassSpecifications 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getClassSpecifications 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getClassSpecifications 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> commaSeparatedList length getText isSelected 
+LineContext> commaSeparatedList length getText = 
+MethodName:ReceiverType> getModel:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> getText commaSeparatedList length getText isSelected 
+LineContext> SpinnerNumberModel = 
+MethodName:ReceiverType> getNumber:javax.swing.SpinnerNumberModel
+ReceiverType> javax.swing.SpinnerNumberModel
+ParameterList> 
+SorroundingContext> getText commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> intValue getNumber getModel getText commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected intValue getNumber getModel getText commaSeparatedList length getText 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected intValue getNumber getModel getText commaSeparatedList length getText 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected intValue getNumber getModel 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected intValue getNumber getModel 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getText File new isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText File new isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText File new isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName commaSeparatedList length getText isSelected 
+LineContext> internalClassName commaSeparatedList length getText isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> internalClassName isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText internalClassName isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName isSelected getText internalClassName isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> internalClassName isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText internalClassName isSelected getText internalClassName isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> commaSeparatedList isSelected getText internalClassName isSelected getText internalClassName isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> commaSeparatedList isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText commaSeparatedList isSelected getText internalClassName isSelected getText internalClassName isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText commaSeparatedList isSelected getText internalClassName isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected getText commaSeparatedList isSelected getText internalClassName isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText isSelected getText commaSeparatedList isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected getText isSelected getText commaSeparatedList isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName commaSeparatedList length getText isSelected getText isSelected getText commaSeparatedList isSelected 
+LineContext> internalClassName commaSeparatedList length getText isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> ArrayList new getText internalClassName commaSeparatedList length getText isSelected getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> commaSeparatedList isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected getText isSelected 
+LineContext> commaSeparatedList isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText commaSeparatedList isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> commaSeparatedList isSelected getText commaSeparatedList isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected getText isSelected 
+LineContext> commaSeparatedList isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText commaSeparatedList isSelected getText commaSeparatedList isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText commaSeparatedList isSelected getText commaSeparatedList isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected getText commaSeparatedList isSelected 
+LineContext> = 
+MethodName:ReceiverType> getSelectedItem:javax.swing.JComboBox
+ReceiverType> javax.swing.JComboBox
+ParameterList> 
+SorroundingContext> internalClassVersion isSelected getText commaSeparatedList isSelected 
+LineContext> internalClassVersion isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> toString getSelectedItem internalClassVersion isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName commaSeparatedList length getText isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> internalClassName commaSeparatedList length getText isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> ArrayList new getText internalClassName commaSeparatedList length getText isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName commaSeparatedList length getText isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected toString getSelectedItem internalClassVersion isSelected 
+LineContext> internalClassName commaSeparatedList length getText isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> ArrayList new getText internalClassName commaSeparatedList length getText isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> isSelected 
+LineContext> isSelected = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> internalClassName commaSeparatedList length getText isSelected 
+LineContext> internalClassName commaSeparatedList length getText isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> currentTimeMillis isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected currentTimeMillis isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected currentTimeMillis isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected currentTimeMillis isSelected ArrayList new getText internalClassName commaSeparatedList length getText isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> getText File new isSelected getText File new isSelected currentTimeMillis isSelected 
+LineContext> = 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new isSelected getText File new isSelected getText File new isSelected currentTimeMillis isSelected 
+LineContext> File new isSelected = 
+MethodName:ReceiverType> setSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.io.File.getAbsoluteFile() 
+SorroundingContext> loadConfiguration void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> SN:java.lang.StringBuffer.toString() 
+SorroundingContext> close finally 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> getScreenSize:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> ProGuardGUI new try 
+LineContext> To = Dimension 
+MethodName:ReceiverType> getSize:proguard.gui.ProGuardGUI
+ReceiverType> proguard.gui.ProGuardGUI
+ParameterList> 
+SorroundingContext> getScreenSize getDefaultToolkit ProGuardGUI new try 
+LineContext> = Dimension 
+MethodName:ReceiverType> show:proguard.gui.ProGuardGUI
+ReceiverType> proguard.gui.ProGuardGUI
+ParameterList> 
+SorroundingContext> setLocation getSize 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> ButtonGroup new JRadioButton new JRadioButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new JRadioButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> Box.createGlue() SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:BOOLEAN 
+SorroundingContext> setSelected 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> boolean getKeepSpecification 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> boolean isSelected boolean getKeepSpecification 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean isSelected boolean isSelected boolean 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean isSelected boolean isSelected boolean isSelected boolean 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean isSelected boolean isSelected boolean isSelected boolean 
+LineContext> = boolean 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> boolean isSelected boolean isSelected boolean isSelected boolean 
+LineContext> = boolean 
+MethodName:ReceiverType> getText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> 
+SorroundingContext> String getClassSpecification 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getClassSpecification 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getText String 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getText String getText String 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getText String getText String 
+LineContext> = String 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> int 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> if int 
+LineContext> if 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> if else 
+LineContext> if else 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> setCursor:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> run void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> String 
+SorroundingContext> getPredefinedCursor setCursor run void 
+LineContext> 
+MethodName:ReceiverType> setCursor:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Cursor.getPredefinedCursor() 
+SorroundingContext> setErr setOut 
+LineContext> 
+MethodName:ReceiverType> getSelectedValue:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> actionPerformed void 
+LineContext> ClassSpecification = 
+MethodName:ReceiverType> getSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> getClassSpecification setElementAt if 
+LineContext> 
+MethodName:ReceiverType> clear:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> setClassSpecifications void 
+LineContext> 
+MethodName:ReceiverType> addElement:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:java.util.List.get() 
+SorroundingContext> size int for 
+LineContext> 
+MethodName:ReceiverType> size:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> int getClassSpecifications 
+LineContext> = int 
+MethodName:ReceiverType> get:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:INT 
+SorroundingContext> add int for ArrayList new 
+LineContext> add 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> msg() 
+SorroundingContext> actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:javax.swing.JFrame 
+SorroundingContext> int setSelectedFiles setSelectedFile msg setDialogTitle 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFiles:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> if showOpenDialog int 
+LineContext> = ] [ File 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int boolean actionPerformed void 
+LineContext> = ] [ int 
+MethodName:ReceiverType> setDialogTitle:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> msg() 
+SorroundingContext> getFile isOutput 
+LineContext> 
+MethodName:ReceiverType> setSelectedFiles:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.io.File 
+SorroundingContext> getAbsoluteFile setSelectedFile msg setDialogTitle 
+LineContext> 
+MethodName:ReceiverType> showOpenDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:javax.swing.JFrame 
+SorroundingContext> int setSelectedFiles getAbsoluteFile setSelectedFile msg setDialogTitle 
+LineContext> = int 
+MethodName:ReceiverType> getSelectedFiles:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> if showOpenDialog int 
+LineContext> = 
+MethodName:ReceiverType> isSelectionEmpty:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> if actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int isSelectionEmpty if 
+LineContext> = ] [ int 
+MethodName:ReceiverType> clear:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> setClassPath void 
+LineContext> 
+MethodName:ReceiverType> addElement:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:proguard.ClassPath.get() 
+SorroundingContext> size int for 
+LineContext> 
+MethodName:ReceiverType> size:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> int getClassPath 
+LineContext> = int 
+MethodName:ReceiverType> get:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:INT 
+SorroundingContext> add int for ClassPath new 
+LineContext> ClassPathEntry add 
+MethodName:ReceiverType> get:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:INT 
+SorroundingContext> int getFiltersFrom void 
+LineContext> ClassPathEntry = ClassPathEntry 
+MethodName:ReceiverType> setSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:INT 
+SorroundingContext> getZipFilter setZipFilter getEarFilter setEarFilter 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> removeElementsAt actionPerformed void 
+LineContext> removeElementsAt 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int actionPerformed void 
+LineContext> = ] [ int 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int actionPerformed void 
+LineContext> = ] [ int 
+MethodName:ReceiverType> getSize:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> if getSelectedIndices int 
+LineContext> ] [ 
+MethodName:ReceiverType> getSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int actionPerformed void 
+LineContext> = ] [ int 
+MethodName:ReceiverType> getSelectedValues:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> getSelectedIndices int actionPerformed void 
+LineContext> = ] [ Object 
+MethodName:ReceiverType> addElement:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:java.lang.Object 
+SorroundingContext> addElement void 
+LineContext> 
+MethodName:ReceiverType> size:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> setSelectedIndex addElement void 
+LineContext> setSelectedIndex 
+MethodName:ReceiverType> size:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> int for 
+LineContext> = 
+MethodName:ReceiverType> setSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:INT 
+SorroundingContext> size 
+LineContext> 
+MethodName:ReceiverType> getSelectedValues:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> int moveElementsAt void 
+LineContext> = ] [ Object 
+MethodName:ReceiverType> setSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:INT 
+SorroundingContext> insertElementAt 
+LineContext> 
+MethodName:ReceiverType> setElementAt:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> SN:java.lang.Object SN:INT 
+SorroundingContext> int setElementAt void 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndex:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:INT 
+SorroundingContext> setElementAt int setElementAt void 
+LineContext> 
+MethodName:ReceiverType> setSelectedIndices:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> SN:INT 
+SorroundingContext> setElementAt 
+LineContext> 
+MethodName:ReceiverType> clearSelection:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> removeElementAt 
+LineContext> 
+MethodName:ReceiverType> removeAllElements:javax.swing.DefaultListModel
+ReceiverType> javax.swing.DefaultListModel
+ParameterList> 
+SorroundingContext> removeAllElements void 
+LineContext> 
+MethodName:ReceiverType> isSelectionEmpty:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> boolean enableSelectionButtons void 
+LineContext> = boolean 
+MethodName:ReceiverType> setEnabled:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> SN:BOOLEAN 
+SorroundingContext> getComponentCount int for isSelectionEmpty boolean 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> ButtonGroup new JRadioButton new JRadioButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new JRadioButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JRadioButton 
+SorroundingContext> add ButtonGroup new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JRadioButton SN:java.awt.GridBagConstraints 
+SorroundingContext> add JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> Box.createGlue() SN:java.awt.GridBagConstraints 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getMemberSpecification 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getMemberSpecification 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getText String 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getText String getText String getText String 
+LineContext> = String 
+MethodName:ReceiverType> setSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> Boolean 
+SorroundingContext> int 
+LineContext> 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> if 
+LineContext> if 
+MethodName:ReceiverType> isSelected:javax.swing.JRadioButton
+ReceiverType> javax.swing.JRadioButton
+ParameterList> 
+SorroundingContext> if else 
+LineContext> if else 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> show:java.awt.CardLayout
+ReceiverType> java.awt.CardLayout
+ParameterList> SN:javax.swing.JPanel SN:java.lang.String 
+SorroundingContext> actionPerformed void 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.ButtonGroup
+ReceiverType> javax.swing.ButtonGroup
+ParameterList> SN:javax.swing.JToggleButton 
+SorroundingContext> show 
+LineContext> 
+MethodName:ReceiverType> getComponentCount:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> if add 
+LineContext> if 
+MethodName:ReceiverType> setSelected:javax.swing.JToggleButton
+ReceiverType> javax.swing.JToggleButton
+ParameterList> Boolean 
+SorroundingContext> getComponentCount if add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:java.lang.String SN:java.awt.Component 
+SorroundingContext> add setSelected 
+LineContext> 
+MethodName:ReceiverType> setFocusPainted:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> ImageIcon new JButton new 
+LineContext> 
+MethodName:ReceiverType> setFocusable:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setFocusPainted ImageIcon new JButton new 
+LineContext> 
+MethodName:ReceiverType> setRequestFocusEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setFocusable setFocusPainted ImageIcon new JButton new 
+LineContext> 
+MethodName:ReceiverType> setRolloverEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setRequestFocusEnabled setFocusable setFocusPainted 
+LineContext> 
+MethodName:ReceiverType> first:java.awt.CardLayout
+ReceiverType> java.awt.CardLayout
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> first void 
+LineContext> 
+MethodName:ReceiverType> last:java.awt.CardLayout
+ReceiverType> java.awt.CardLayout
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> last void 
+LineContext> 
+MethodName:ReceiverType> previous:java.awt.CardLayout
+ReceiverType> java.awt.CardLayout
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> previous void 
+LineContext> 
+MethodName:ReceiverType> next:java.awt.CardLayout
+ReceiverType> java.awt.CardLayout
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> next void 
+LineContext> 
+MethodName:ReceiverType> getComponentCount:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> 
+SorroundingContext> int updateButtonSelection void 
+LineContext> = int 
+MethodName:ReceiverType> getComponent:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:INT 
+SorroundingContext> int for getComponentCount int 
+LineContext> = Component 
+MethodName:ReceiverType> isShowing:java.awt.Component
+ReceiverType> java.awt.Component
+ParameterList> 
+SorroundingContext> if getComponent int for getComponentCount int 
+LineContext> if 
+MethodName:ReceiverType> setSelected:javax.swing.JToggleButton
+ReceiverType> javax.swing.JToggleButton
+ParameterList> Boolean 
+SorroundingContext> getComponent isShowing if 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> String int for 
+LineContext> = String 
+MethodName:ReceiverType> isSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> if startsWith if getText String 
+LineContext> if 
+MethodName:ReceiverType> getText:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> 
+SorroundingContext> String int for String 
+LineContext> = String 
+MethodName:ReceiverType> setSelected:javax.swing.JCheckBox
+ReceiverType> javax.swing.JCheckBox
+ParameterList> SN:proguard.util.StringMatcher.matches() 
+SorroundingContext> int for FixedStringMatcher new 
+LineContext> 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getApkFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getJarFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getAarFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getWarFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getEarFilter 
+LineContext> = String 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String getZipFilter 
+LineContext> = String 
+MethodName:ReceiverType> setToolTipText:javax.swing.JComponent
+ReceiverType> javax.swing.JComponent
+ParameterList> msg() 
+SorroundingContext> String tip static 
+LineContext> 

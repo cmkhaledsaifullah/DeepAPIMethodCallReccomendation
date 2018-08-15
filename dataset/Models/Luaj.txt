@@ -1,0 +1,10 @@
+MethodName:ReceiverType> update:java.applet.Applet
+ReceiverType> java.applet.Applet
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> isfunction if get update void 
+LineContext> 
+MethodName:ReceiverType> paint:java.applet.Applet
+ReceiverType> java.applet.Applet
+ParameterList> SN:java.awt.Graphics 
+SorroundingContext> isfunction if get paint void 
+LineContext> 

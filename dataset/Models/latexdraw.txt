@@ -1,0 +1,1540 @@
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final getGridBounds final abs double final getGridEndY getGridStartY min getY double final 
+LineContext> = double final 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final getMinX double final getGridBounds final abs double final 
+LineContext> = double final 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> updatePathSubGrid reset 
+LineContext> updatePathSubGrid 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxX updatePathSubGrid reset 
+LineContext> getMaxX updatePathSubGrid 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> updatePathMainGrid getMaxY getMaxX updatePathSubGrid reset 
+LineContext> updatePathMainGrid 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxX updatePathMainGrid getMaxY getMaxX updatePathSubGrid reset 
+LineContext> getMaxX updatePathMainGrid 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> if getBorder final for 
+LineContext> if 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinX if getBorder final for 
+LineContext> = getMinX if 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> if getMinX if getBorder final for 
+LineContext> if 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY if getMinX if getBorder final for 
+LineContext> = getMinY if 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> if getMinY if getMinX if getBorder 
+LineContext> if 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxX if getMinY if getMinX if getBorder 
+LineContext> = getMaxX if 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> if getMaxX if getMinY if getMinX if 
+LineContext> if 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxY if getMaxX if getMinY if getMinX if 
+LineContext> = getMaxY if 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getRotatedRectangle createPoint final createPoint final else 
+LineContext> getRotatedRectangle 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getMinX getRotatedRectangle 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getMinY getMinX getRotatedRectangle 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getWidth getMinY getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getWidth getMinY getMinX getRotatedRectangle 
+MethodName:ReceiverType> getOutline:java.awt.font.GlyphVector
+ReceiverType> java.awt.font.GlyphVector
+ParameterList> SN:FLOAT SN:FLOAT 
+SorroundingContext> append layoutGlyphVector final toCharArray char final String final updateText void 
+LineContext> append 
+MethodName:ReceiverType> rotate:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:DOUBLE 
+SorroundingContext> getTranslateInstance final cos sin double final sin cos double final 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble if getBounds2D final getY getX lineTo size get 
+LineContext> equalsDouble if 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble getWidth equalsDouble if getBounds2D final getY getX lineTo size get 
+LineContext> equalsDouble getWidth equalsDouble if 
+MethodName:ReceiverType> rotate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE 
+SorroundingContext> equalsDouble if cos sin 
+LineContext> 
+MethodName:ReceiverType> translate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> rotate equalsDouble if 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> final paintCircle void 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> setColor final paintCircle void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> fill setColor final paintCircle void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> setColor fill setColor 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> final paintDisk void 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> getThickness getShape BasicStroke new setStroke setColor final paintDisk void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> fill getThickness getShape BasicStroke new setStroke setColor 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> final paintRoundBracket void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> getThickness getShape BasicStroke new setStroke setColor final paintRoundBracket void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getFullThickness getShape BasicStroke new setStroke final paintBarBracket void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> setColor getFullThickness getShape BasicStroke new setStroke final paintBarBracket void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> final paintArrow void 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> setColor final paintArrow void 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> case break paintBarBracket case 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> getFullThickness getShape BasicStroke new setStroke setColor case 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> case break draw 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> getFullThickness getShape BasicStroke new setStroke setColor case 
+LineContext> 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double final double final double final double final double final double final double final double final updatePathArrow void 
+LineContext> 
+MethodName:ReceiverType> lineTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> moveTo double final double final double final double final double final double final double final double final updatePathArrow void 
+LineContext> 
+MethodName:ReceiverType> lineTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> lineTo moveTo double final double final double final double final 
+LineContext> 
+MethodName:ReceiverType> lineTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> lineTo moveTo 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> lineTo 
+LineContext> 
+MethodName:ReceiverType> createTransformedShape:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> rotate getTranslateInstance final cos sin double final 
+LineContext> = 
+MethodName:ReceiverType> append:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:java.awt.Shape Boolean 
+SorroundingContext> createTransformedShape rotate 
+LineContext> 
+MethodName:ReceiverType> lineTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double final double final updatePathArrow 
+LineContext> 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> lineTo double final double final 
+LineContext> 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> getX lineTo final double final double final updatePathSquareRoundEnd void 
+LineContext> 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> double final getFullThickness getShape getFullThickness getShape isArrowInPositiveDirection double final double final double final updatePathRoundIn void 
+LineContext> 
+MethodName:ReceiverType> lineTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> moveTo double final getFullThickness getShape getFullThickness getShape isArrowInPositiveDirection double final 
+LineContext> 
+MethodName:ReceiverType> reset:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> updatePath void 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> curveQuarter byte for moveTo 
+LineContext> 
+MethodName:ReceiverType> contains:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> return getMaxY getMaxX createPoint getMinY getMinX createPoint getRotationAngle getRotatedShape2D final 
+LineContext> return 
+MethodName:ReceiverType> intersects:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> contains return getMaxY getMaxX createPoint getMinY getMinX createPoint getRotationAngle getRotatedShape2D final 
+LineContext> contains return 
+MethodName:ReceiverType> getBounds:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> final getFontRenderContext getText TextLayout new final getTextPositionText 
+LineContext> = Rectangle2D final 
+MethodName:ReceiverType> scale:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> getY int getX int drawImage scale scaleImage double final 
+LineContext> 
+MethodName:ReceiverType> getBounds:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> final getFontRenderContext getText TextLayout new final if double final 
+LineContext> = Rectangle2D final 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getY getX getBounds final getFontRenderContext getText TextLayout new final 
+LineContext> getY = 
+MethodName:ReceiverType> getDescent:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> getHeight getY getX getBounds final getFontRenderContext getText TextLayout new final 
+LineContext> getHeight getY = 
+MethodName:ReceiverType> getAdvance:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> getDescent getHeight getY getX getBounds final 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getAdvance getDescent getHeight getY getX 
+LineContext> = 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> else closePath curveQuarter 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> lineTo 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> curveQuarter lineTo 
+LineContext> 
+MethodName:ReceiverType> rotate:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:DOUBLE 
+SorroundingContext> getTranslateInstance final cos sin double final sin cos double final 
+LineContext> 
+MethodName:ReceiverType> createTransformedShape:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.geom.Path2D 
+SorroundingContext> rotate getTranslateInstance final cos sin double final 
+LineContext> = 
+MethodName:ReceiverType> intersects:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> rotate getTranslateInstance final cos sin double final 
+LineContext> = 
+MethodName:ReceiverType> intersects:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> equalsDouble if append getLabelsDisplayed if 
+LineContext> = 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getRotatedRectangle createPoint final createPoint final else 
+LineContext> getRotatedRectangle 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getMinX getRotatedRectangle 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getMinY getMinX getRotatedRectangle 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getWidth getMinY getMinX getRotatedRectangle createPoint final createPoint final else 
+LineContext> getWidth getMinY getMinX getRotatedRectangle 
+MethodName:ReceiverType> moveTo:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> else closePath curveQuarter 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> lineTo 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> curveQuarter lineTo 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> lineTo moveTo 
+LineContext> 
+MethodName:ReceiverType> closePath:java.awt.geom.Path2D
+ReceiverType> java.awt.geom.Path2D
+ParameterList> 
+SorroundingContext> lineTo 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if getStroke final boolean final paintDotShape void 
+LineContext> 
+MethodName:ReceiverType> setStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.BasicStroke 
+SorroundingContext> if fill 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble if getBounds2D final lineTo getArrowAt getY getX updatePoint4Arrows 
+LineContext> equalsDouble if 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble getWidth equalsDouble if getBounds2D final lineTo getArrowAt getY getX updatePoint4Arrows 
+LineContext> equalsDouble getWidth equalsDouble if 
+MethodName:ReceiverType> rotate:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:DOUBLE 
+SorroundingContext> getTranslateInstance final cos sin double final sin cos double final 
+LineContext> 
+MethodName:ReceiverType> createTransformedShape:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> rotate getTranslateInstance final cos sin double final 
+LineContext> = 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.GeneralPath 
+SorroundingContext> getGradColEnd getY getX getGradColStart getY getX GradientPaint new setPaint 
+LineContext> 
+MethodName:ReceiverType> getClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> final case 
+LineContext> = Shape final 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> getFillingCol setColor shadowFillsShape hasShadow isFilled if setClip 
+LineContext> 
+MethodName:ReceiverType> getStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> final fill getFillingCol setColor 
+LineContext> = Stroke final 
+MethodName:ReceiverType> setStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Stroke 
+SorroundingContext> paintHatchings2 
+LineContext> 
+MethodName:ReceiverType> setClip:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> setStroke paintHatchings2 
+LineContext> 
+MethodName:ReceiverType> contains:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> isFilled if getRotatedShape2D getRotationAngle equalsDouble final return contains if 
+LineContext> isFilled if 
+MethodName:ReceiverType> createStrokedShape:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> return getStroke final return contains isFilled if 
+LineContext> = return 
+MethodName:ReceiverType> contains:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> return getStroke final return contains isFilled if 
+LineContext> = return 
+MethodName:ReceiverType> intersects:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> return if getRotatedShape2D getRotationAngle equalsDouble final getStroke final 
+LineContext> return 
+MethodName:ReceiverType> contains:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> intersects return if getRotatedShape2D getRotationAngle equalsDouble final getStroke final 
+LineContext> intersects return 
+MethodName:ReceiverType> contains:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> isFilled return contains intersects return if getRotatedShape2D getRotationAngle equalsDouble final 
+LineContext> isFilled return 
+MethodName:ReceiverType> createStrokedShape:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> contains isFilled return contains intersects return if getRotatedShape2D getRotationAngle equalsDouble final 
+LineContext> contains isFilled return 
+MethodName:ReceiverType> intersects:java.awt.Shape
+ReceiverType> java.awt.Shape
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> contains isFilled return contains intersects return if getRotatedShape2D getRotationAngle equalsDouble final 
+LineContext> contains isFilled return 
+MethodName:ReceiverType> translate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> getStrokeThickness BasicStroke new setStroke getY getX 
+LineContext> 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> else tan getMinY getMaxY getMaxX 
+LineContext> = 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxY else 
+LineContext> = 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxX getMaxY else 
+LineContext> getMaxX = 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> if double final double final 
+LineContext> = 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY if double final 
+LineContext> = 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxX getMinY if double final 
+LineContext> getMaxX = 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMaxY getMaxX getMinY if double final 
+LineContext> getMaxY getMaxX = 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY getMaxY getMaxX getMinY if double final 
+LineContext> getMinY getMaxY getMaxX = 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> tan getMaxY getMaxX getMaxY 
+LineContext> = 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Line2D.Double 
+SorroundingContext> while 
+LineContext> 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble if else 
+LineContext> = 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinX equalsDouble if else 
+LineContext> = 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final getMaxX getMinX equalsDouble if else 
+LineContext> = double final 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Line2D.Double 
+SorroundingContext> getMinY double for 
+LineContext> 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double for getMaxY double final getMaxX getMinX 
+LineContext> = double for 
+MethodName:ReceiverType> getMinY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> equalsDouble if getHatchingsCol setPaint getHatchingsWidth BasicStroke new setStroke 
+LineContext> = 
+MethodName:ReceiverType> getMaxY:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> getMinY equalsDouble if getHatchingsCol setPaint 
+LineContext> = 
+MethodName:ReceiverType> getMaxX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final getMaxY getMinY equalsDouble if 
+LineContext> = double final 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Line2D.Double 
+SorroundingContext> getMinX double for 
+LineContext> 
+MethodName:ReceiverType> getMinX:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double for getMaxX double final getMaxY getMinY 
+LineContext> = double for 
+MethodName:ReceiverType> rotate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE 
+SorroundingContext> cos sin double final sin cos double final cos sin double final 
+LineContext> 
+MethodName:ReceiverType> translate:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> rotate cos sin double final sin cos double final 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Ellipse2D 
+SorroundingContext> getX setFrame final double final fillCircle void 
+LineContext> 
+MethodName:ReceiverType> setLine:java.awt.geom.Line2D
+ReceiverType> java.awt.geom.Line2D
+ParameterList> SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getX() SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getY() SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getX() SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getY() 
+SorroundingContext> final paintLine void 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Line2D 
+SorroundingContext> getY getX getY getX setLine final paintLine void 
+LineContext> 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> else 
+LineContext> 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed else 
+LineContext> getRed 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed else 
+LineContext> 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> if getThickness getCutNumberFloat append isThicknessable if getColourName append 
+LineContext> if 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getCutNumberFloat append getAlpha if getThickness getCutNumberFloat append isThicknessable if 
+LineContext> getCutNumberFloat append 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> if getColourName append equals if StringBuilder new final 
+LineContext> if 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getCutNumberFloat append getAlpha if getColourName append equals if 
+LineContext> getCutNumberFloat append 
+MethodName:ReceiverType> contains:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> if final paint void 
+LineContext> = if 
+MethodName:ReceiverType> intersects:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> contains if final paint void 
+LineContext> contains = if 
+MethodName:ReceiverType> setStroke:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.BasicStroke 
+SorroundingContext> return intersects contains if final paint void 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> setColor setStroke return intersects contains if 
+LineContext> 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> fill setColor setStroke 
+LineContext> 
+MethodName:ReceiverType> draw:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.geom.Rectangle2D 
+SorroundingContext> setColor fill 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final return if final double final double final scaleWithRatio void 
+LineContext> = double final 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final double final return if final double final double final scaleWithRatio void 
+LineContext> = double final 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> max double final double final double final scaleSetPointsWithRatio void 
+LineContext> max = double final 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> max double final double final double final scaleSetPointsWithRatio void 
+LineContext> max = double final 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final double final double final scaleSetPoints void 
+LineContext> = double final 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> double final double final double final double final scaleSetPoints void 
+LineContext> = double final 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> max setDiametre final double final double final scaleWithRatio void 
+LineContext> max setDiametre 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> max setDiametre final double final double final scaleWithRatio void 
+LineContext> max setDiametre 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setPoint if final setPoint2D void 
+LineContext> setPoint 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX setPoint if final setPoint2D void 
+LineContext> getX setPoint 
+MethodName:ReceiverType> setLine:java.awt.geom.Line2D.Double
+ReceiverType> java.awt.geom.Line2D.Double
+ParameterList> SN:DOUBLE SN:DOUBLE SN:DOUBLE SN:DOUBLE 
+SorroundingContext> isValidPoint if double final double final double final double final setLine void 
+LineContext> 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> Double new return if getGlobalTransformationMatrix final return 
+LineContext> Double new return 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX Double new return if getGlobalTransformationMatrix final return 
+LineContext> getX Double new return 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> final SVGMatrix new final getY getX Double new return 
+LineContext> = 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX final SVGMatrix new final 
+LineContext> = 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> Double new return if multiply getY 
+LineContext> Double new return 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX Double new return if multiply getY 
+LineContext> getX Double new return 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> Double new return IllegalArgumentException new throw if 
+LineContext> Double new return 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX Double new return IllegalArgumentException new throw if 
+LineContext> getX Double new return 
+MethodName:ReceiverType> currentSegment:java.awt.geom.PathIterator
+ReceiverType> java.awt.geom.PathIterator
+ParameterList> SN:DOUBLE 
+SorroundingContext> ParseException new throw default break SVGPathSegCurvetoQuadratic new add case break SVGPathSegCurvetoCubic new add case break SVGPathSegMoveto new add case 
+LineContext> ParseException new throw default 
+MethodName:ReceiverType> currentSegment:java.awt.geom.PathIterator
+ReceiverType> java.awt.geom.PathIterator
+ParameterList> SN:DOUBLE 
+SorroundingContext> switch isDone while SVGPathElement new SVGPathSegList new final 
+LineContext> switch 
+MethodName:ReceiverType> next:java.awt.geom.PathIterator
+ReceiverType> java.awt.geom.PathIterator
+ParameterList> 
+SorroundingContext> currentSegment ParseException new throw default break SVGPathSegCurvetoQuadratic new add case 
+LineContext> 
+MethodName:ReceiverType> isDone:java.awt.geom.PathIterator
+ReceiverType> java.awt.geom.PathIterator
+ParameterList> 
+SorroundingContext> while SVGPathElement new SVGPathSegList new final double new double final 
+LineContext> while 
+MethodName:ReceiverType> getEndCap:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setShapeLineCap final instanceof if final setShapeStroke void 
+LineContext> setShapeLineCap 
+MethodName:ReceiverType> getLineJoin:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setShapeLineJoin getEndCap setShapeLineCap final instanceof if 
+LineContext> setShapeLineJoin 
+MethodName:ReceiverType> getLineWidth:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setStrokeWidth getLineJoin setShapeLineJoin getEndCap setShapeLineCap final 
+LineContext> setStrokeWidth 
+MethodName:ReceiverType> getMiterLimit:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setStrokeMiterLevel getLineWidth setStrokeWidth getLineJoin setShapeLineJoin getEndCap setShapeLineCap 
+LineContext> setStrokeMiterLevel 
+MethodName:ReceiverType> getDashPhase:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setStrokeDashOffset getMiterLimit setStrokeMiterLevel getLineWidth setStrokeWidth getLineJoin setShapeLineJoin 
+LineContext> setStrokeDashOffset 
+MethodName:ReceiverType> getDashArray:java.awt.BasicStroke
+ReceiverType> java.awt.BasicStroke
+ParameterList> 
+SorroundingContext> setShapeDash getDashPhase setStrokeDashOffset getMiterLimit setStrokeMiterLevel getLineWidth setStrokeWidth 
+LineContext> setShapeDash 
+MethodName:ReceiverType> equals:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> SN:java.awt.Color 
+SorroundingContext> if next hasNext while String 
+LineContext> if 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> toHexString String return if final rgbToHex String 
+LineContext> toHexString = String 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> toHexString String getRed toHexString String return if 
+LineContext> toHexString = String 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> toHexString String getGreen toHexString String getRed toHexString String return 
+LineContext> toHexString = String 
+MethodName:ReceiverType> distance:java.awt.geom.Point2D.Double
+ReceiverType> java.awt.geom.Point2D.Double
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> distance asin Double new final isNaN if 
+LineContext> distance asin = 
+MethodName:ReceiverType> getIcon:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> 
+SorroundingContext> setIcon setBackground boolean final boolean final int final extends final getListCellRendererComponent 
+LineContext> setIcon 
+MethodName:ReceiverType> isEnabled:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setEnabled getIcon setIcon setBackground boolean final boolean final int final extends final getListCellRendererComponent 
+LineContext> setEnabled 
+MethodName:ReceiverType> getFont:javax.swing.JList
+ReceiverType> javax.swing.JList
+ParameterList> 
+SorroundingContext> setFont isEnabled setEnabled getIcon setIcon setBackground 
+LineContext> setFont 
+MethodName:ReceiverType> flush:java.awt.Image
+ReceiverType> java.awt.Image
+ParameterList> 
+SorroundingContext> flush void 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> accept() 
+SorroundingContext> String final showDialog int 
+LineContext> 
+MethodName:ReceiverType> showDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:java.awt.Component SN:java.lang.String 
+SorroundingContext> return File new accept setVisible String final showDialog int 
+LineContext> return 
+MethodName:ReceiverType> getValue:javax.swing.JSlider
+ReceiverType> javax.swing.JSlider
+ParameterList> 
+SorroundingContext> File new accept return getCompressionRate int 
+LineContext> File new accept return 
+MethodName:ReceiverType> setContentType:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> String 
+SorroundingContext> readLine append 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> SN:java.lang.StringBuilder.toString() 
+SorroundingContext> setContentType readLine 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Boolean 
+SorroundingContext> StringBuilder new final JEditorPane new final createSystemPanel void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> SN:java.lang.StringBuilder.toString() 
+SorroundingContext> append getValue append getKey append entrySet getProperties final for append 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Number 
+SorroundingContext> JScrollPane new add toString setText append getValue append getKey append 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Number 
+SorroundingContext> JScrollPane new add initEditorPane setTextToEditorPane 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Number 
+SorroundingContext> JScrollPane new add initEditorPane setTextToEditorPane 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Number 
+SorroundingContext> JScrollPane new add initEditorPane setTextToEditorPane 
+LineContext> 
+MethodName:ReceiverType> addImage:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> SN:java.awt.Image Number 
+SorroundingContext> this MediaTracker new final getResource getClassLoader getClass getImage getDefaultToolkit final try 
+LineContext> 
+MethodName:ReceiverType> waitForID:java.awt.MediaTracker
+ReceiverType> java.awt.MediaTracker
+ParameterList> Number 
+SorroundingContext> try addImage this MediaTracker new final getResource getClassLoader getClass getImage getDefaultToolkit final 
+LineContext> try 
+MethodName:ReceiverType> setContentType:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> String 
+SorroundingContext> BorderLayout new setLayout initEditorPane JEditorPane new final 
+LineContext> 
+MethodName:ReceiverType> getBackground:javax.swing.JTabbedPane
+ReceiverType> javax.swing.JTabbedPane
+ParameterList> 
+SorroundingContext> setBackground setContentType BorderLayout new setLayout initEditorPane 
+LineContext> setBackground 
+MethodName:ReceiverType> setBackground:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> SN:javax.swing.JTabbedPane.getBackground() 
+SorroundingContext> setContentType BorderLayout new setLayout initEditorPane 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Boolean 
+SorroundingContext> final initEditorPane void static 
+LineContext> 
+MethodName:ReceiverType> setDragEnabled:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Boolean 
+SorroundingContext> setEditable final initEditorPane void static 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JFrame
+ReceiverType> javax.swing.JFrame
+ParameterList> SN:BOOLEAN 
+SorroundingContext> boolean final setVisible void 
+LineContext> 
+MethodName:ReceiverType> revalidate:javax.swing.JTable
+ReceiverType> javax.swing.JTable
+ParameterList> 
+SorroundingContext> if setVisible boolean final setVisible void 
+LineContext> 
+MethodName:ReceiverType> getMinSelectionIndex:javax.swing.DefaultListSelectionModel
+ReceiverType> javax.swing.DefaultListSelectionModel
+ParameterList> 
+SorroundingContext> instanceof getSource int final valueChanged void 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> SN:java.lang.StringBuilder.toString() 
+SorroundingContext> append for toString StringBuilder new final 
+LineContext> 
+MethodName:ReceiverType> setCaretPosition:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> Number 
+SorroundingContext> toString setText append for 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JEditorPane
+ReceiverType> javax.swing.JEditorPane
+ParameterList> String 
+SorroundingContext> if final getMinSelectionIndex getSource 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setToolTipText JButton new 
+LineContext> 
+MethodName:ReceiverType> setVisible:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> flush doIt canDo if 
+LineContext> 
+MethodName:ReceiverType> getScreenDevices:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> final getLocalGraphicsEnvironment final getScreenDimension 
+LineContext> = ] [ GraphicsDevice final 
+MethodName:ReceiverType> getDisplayMode:java.awt.GraphicsDevice
+ReceiverType> java.awt.GraphicsDevice
+ParameterList> 
+SorroundingContext> final if getScreenDevices final getLocalGraphicsEnvironment final 
+LineContext> = DisplayMode final 
+MethodName:ReceiverType> getWidth:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> Dimension new return getDisplayMode final if getScreenDevices final 
+LineContext> Dimension new return 
+MethodName:ReceiverType> getHeight:java.awt.DisplayMode
+ReceiverType> java.awt.DisplayMode
+ParameterList> 
+SorroundingContext> getWidth Dimension new return getDisplayMode final if getScreenDevices final 
+LineContext> getWidth Dimension new return 
+MethodName:ReceiverType> getGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> final BufferedImage new final String final String final getCursor 
+LineContext> Graphics2D = Graphics2D final 
+MethodName:ReceiverType> getImage:javax.swing.ImageIcon
+ReceiverType> javax.swing.ImageIcon
+ParameterList> 
+SorroundingContext> drawImage ImageIcon new final getResource final getGraphics final 
+LineContext> drawImage 
+MethodName:ReceiverType> getValue:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> valueOf setValue else toString getValue valueOf toRadians setValue if 
+LineContext> valueOf setValue else 
+MethodName:ReceiverType> getValue:javax.swing.JSpinner
+ReceiverType> javax.swing.JSpinner
+ParameterList> 
+SorroundingContext> valueOf toRadians setValue if final setValue void static 
+LineContext> valueOf toRadians setValue 
+MethodName:ReceiverType> getName:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> Font new setFont setToolTipText getFont final setLabelFor 
+LineContext> Font new setFont 
+MethodName:ReceiverType> getStyle:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> getName Font new setFont setToolTipText getFont final setLabelFor 
+LineContext> getName Font new setFont 
+MethodName:ReceiverType> getSize:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> max getStyle getName Font new setFont setToolTipText getFont final setLabelFor 
+LineContext> max getStyle getName Font new setFont 
+MethodName:ReceiverType> getName:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> Font new setFont setEditable MTextArea new setRows 
+LineContext> Font new setFont 
+MethodName:ReceiverType> getStyle:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> getName Font new setFont setEditable MTextArea new setRows 
+LineContext> getName Font new setFont 
+MethodName:ReceiverType> getSize:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> max getStyle getName Font new setFont setEditable MTextArea new setRows 
+LineContext> max getStyle getName Font new setFont 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setGridEndX isEmpty if getAttribute getPoints getStroke setLineColour 
+LineContext> setGridEndX 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setGridEndY getX get setGridEndX isEmpty if getAttribute getPoints 
+LineContext> setGridEndY 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setGridStartX isEmpty if getAttribute getPoints 
+LineContext> setGridStartX 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setGridStartY getX get setGridStartX isEmpty if getAttribute getPoints 
+LineContext> setGridStartY 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setOriginX isEmpty if getAttribute getPoints 
+LineContext> setOriginX 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> setOriginY getX get setOriginX isEmpty if getAttribute getPoints 
+LineContext> setOriginY 
+MethodName:ReceiverType> getAscent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> final getLabelsSize Font new getMetrics final getGridLabelsColour final getOriginY double final 
+LineContext> = final 
+MethodName:ReceiverType> stringWidth:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> String.valueOf() 
+SorroundingContext> final getAscent final getLabelsSize Font new getMetrics final getGridLabelsColour final 
+LineContext> = final 
+MethodName:ReceiverType> stringWidth:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> SN:java.lang.String 
+SorroundingContext> int valueOf setAttribute SVGTextElement new int valueOf for 
+LineContext> int valueOf setAttribute 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> createPoint addPoint final for IllegalArgumentException new throw if 
+LineContext> createPoint addPoint 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX createPoint addPoint final for IllegalArgumentException new throw if 
+LineContext> getX createPoint addPoint 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> createPoint addPoint getPoint IllegalArgumentException new throw instanceof if 
+LineContext> createPoint addPoint 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getX createPoint addPoint getPoint IllegalArgumentException new throw instanceof if 
+LineContext> getX createPoint addPoint 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new setLineColour try if getLineColour final getSVGAttribute String final 
+LineContext> Color new setLineColour try 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new setLineColour try if getLineColour final getSVGAttribute String final 
+LineContext> getRed Color new setLineColour try 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new setLineColour try if getLineColour final getSVGAttribute String final 
+LineContext> getGreen getRed Color new setLineColour try 
+MethodName:ReceiverType> setLocation:java.awt.geom.Point2D.Float
+ReceiverType> java.awt.geom.Point2D.Float
+ParameterList> Number Number 
+SorroundingContext> final catch getY getX setLocation getY getX setLocation 
+LineContext> 
+MethodName:ReceiverType> setLocation:java.awt.geom.Point2D.Float
+ReceiverType> java.awt.geom.Point2D.Float
+ParameterList> Number Number 
+SorroundingContext> setLocation final catch getY getX setLocation 
+LineContext> 
+MethodName:ReceiverType> setLocation:java.awt.geom.Point2D.Float
+ReceiverType> java.awt.geom.Point2D.Float
+ParameterList> SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getX() SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getY() 
+SorroundingContext> rotatePoint 
+LineContext> 
+MethodName:ReceiverType> setLocation:java.awt.geom.Point2D.Float
+ReceiverType> java.awt.geom.Point2D.Float
+ParameterList> SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getX() SN:net.sf.latexdraw.glib.models.interfaces.shape.IPoint.getY() 
+SorroundingContext> getY getX setLocation 
+LineContext> 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new setLineColour try if setLineColour final 
+LineContext> Color new setLineColour try 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new setLineColour try if setLineColour final 
+LineContext> getRed Color new setLineColour try 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new setLineColour try if setLineColour final 
+LineContext> getGreen getRed Color new setLineColour try 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new setFillingCol try if setFilled setFillingCol 
+LineContext> Color new setFillingCol try 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new setFillingCol try if setFilled setFillingCol 
+LineContext> getRed Color new setFillingCol try 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new setFillingCol try if setFilled setFillingCol 
+LineContext> getGreen getRed Color new setFillingCol try 
+MethodName:ReceiverType> getContentPane:net.sf.latexdraw.installer.Installer
+ReceiverType> net.sf.latexdraw.installer.Installer
+ParameterList> 
+SorroundingContext> init if getSimpleName getClass log getLogger 
+LineContext> 
+MethodName:ReceiverType> pack:net.sf.latexdraw.installer.Installer
+ReceiverType> net.sf.latexdraw.installer.Installer
+ParameterList> 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> getContentPane:net.sf.latexdraw.installer.Installer
+ReceiverType> net.sf.latexdraw.installer.Installer
+ParameterList> 
+SorroundingContext> uninstall void 
+LineContext> 
+MethodName:ReceiverType> remove:java.awt.Container
+ReceiverType> java.awt.Container
+ParameterList> this 
+SorroundingContext> uninstall void 
+LineContext> 
+MethodName:ReceiverType> pack:net.sf.latexdraw.installer.Installer
+ReceiverType> net.sf.latexdraw.installer.Installer
+ParameterList> 
+SorroundingContext> this remove getContentPane uninstall void 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JProgressBar 
+SorroundingContext> JLabel new Dimension new setPreferredSize Dimension new setMinimumSize 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JLabel 
+SorroundingContext> add JLabel new Dimension new setPreferredSize 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> Dimension new setPreferredSize Dimension new setMinimumSize Dimension new setMaximumSize 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> add Dimension new setPreferredSize 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> write try OutputStreamWriter new final 
+LineContext> write 
+MethodName:ReceiverType> getMinimum:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue setContinueInstall run void 
+LineContext> setValue 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:javax.swing.JProgressBar.getMinimum() 
+SorroundingContext> setContinueInstall run void 
+LineContext> 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue getMinimum setValue 
+LineContext> setValue 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue log getLogger 
+LineContext> setValue 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> String final return isContinueInstall if getValue setValue 
+LineContext> = String final 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue exists File new log getLogger copyFiles 
+LineContext> setValue 
+MethodName:ReceiverType> getValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue createProgramLauncher return isContinueInstall if 
+LineContext> setValue 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> setText else 
+LineContext> 
+MethodName:ReceiverType> getMaximum:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> 
+SorroundingContext> setValue if toString log getLogger 
+LineContext> setValue 
+MethodName:ReceiverType> setValue:javax.swing.JProgressBar
+ReceiverType> javax.swing.JProgressBar
+ParameterList> SN:javax.swing.JProgressBar.getMaximum() 
+SorroundingContext> if toString log getLogger 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getMaximum setValue if 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> getMaximum setValue if 
+LineContext> 
+MethodName:ReceiverType> setVisible:net.sf.latexdraw.installer.Installer
+ReceiverType> net.sf.latexdraw.installer.Installer
+ParameterList> Boolean 
+SorroundingContext> toString log getLogger append getValue append getKey append entrySet getProperties final for 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JButton new final JPanel new final createControlButtonsPanel 
+LineContext> 
+MethodName:ReceiverType> setName:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setActionCommand JButton new final JPanel new final 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.latexdraw.installer.Installer.InstallerListener 
+SorroundingContext> setName setActionCommand JButton new final 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> addActionListener setName setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JButton new add addActionListener 
+LineContext> 
+MethodName:ReceiverType> setName:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setActionCommand JButton new add 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.latexdraw.installer.Installer.InstallerListener 
+SorroundingContext> setName setActionCommand JButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> addActionListener setName setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JButton new add addActionListener 
+LineContext> 
+MethodName:ReceiverType> setName:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setActionCommand JButton new add 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.latexdraw.installer.Installer.InstallerListener 
+SorroundingContext> setName setActionCommand JButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> addActionListener setName setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setActionCommand:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> JButton new add addActionListener 
+LineContext> 
+MethodName:ReceiverType> setName:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:java.lang.String 
+SorroundingContext> setActionCommand JButton new add 
+LineContext> 
+MethodName:ReceiverType> addActionListener:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> SN:net.sf.latexdraw.installer.Installer.InstallerListener 
+SorroundingContext> setName setActionCommand JButton new 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> addActionListener setName setActionCommand 
+LineContext> 
+MethodName:ReceiverType> setMultiSelectionEnabled:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> Boolean 
+SorroundingContext> setFileSelectionMode JFileChooser new JPanel new final 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new BoxLayout new setLayout this BoxLayout new setLayout 
+LineContext> 
+MethodName:ReceiverType> showDialog:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> SN:net.sf.latexdraw.installer.Installer String 
+SorroundingContext> if final actionPerformed void 
+LineContext> if 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> setText showDialog if final actionPerformed void 
+LineContext> setText 
+MethodName:ReceiverType> getSelectedFile:javax.swing.JFileChooser
+ReceiverType> javax.swing.JFileChooser
+ParameterList> 
+SorroundingContext> log getLogger getPath getSelectedFile setText showDialog if final actionPerformed void 
+LineContext> log getLogger 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JTextField 
+SorroundingContext> JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JButton 
+SorroundingContext> add JLabel new add 
+LineContext> 
+MethodName:ReceiverType> add:javax.swing.JPanel
+ReceiverType> javax.swing.JPanel
+ParameterList> SN:javax.swing.JPanel 
+SorroundingContext> Dimension new setPreferredSize Dimension new setMinimumSize Dimension new setMaximumSize 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> if setPanelDimension add 
+LineContext> 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> log getLogger getPath exists setText 
+LineContext> log getLogger 
+MethodName:ReceiverType> getText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> 
+SorroundingContext> File new getText log getLogger 
+LineContext> File new 
+MethodName:ReceiverType> setEditable:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> Boolean 
+SorroundingContext> JTextField new final JLabel new final JLabel new final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> Dimension new setMaximumSize setEditable JTextField new final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText Dimension new setMaximumSize setEditable 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextField
+ReceiverType> javax.swing.JTextField
+ParameterList> String 
+SorroundingContext> setText Dimension new setMaximumSize 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> setEditable:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Boolean 
+SorroundingContext> JLabel new final JLabel new final JLabel new final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setEditable JLabel new final JLabel new final 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> String 
+SorroundingContext> setText setEditable 
+LineContext> 
+MethodName:ReceiverType> setText:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> String 
+SorroundingContext> setText 
+LineContext> 
+MethodName:ReceiverType> setAlignmentX:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Component.CENTER_ALIGNMENT 
+SorroundingContext> Dimension new setMaximumSize setText 
+LineContext> 
+MethodName:ReceiverType> setAlignmentX:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Component.CENTER_ALIGNMENT 
+SorroundingContext> setAlignmentX Dimension new setMaximumSize setText 
+LineContext> 
+MethodName:ReceiverType> setAlignmentX:javax.swing.JLabel
+ReceiverType> javax.swing.JLabel
+ParameterList> Component.CENTER_ALIGNMENT 
+SorroundingContext> setAlignmentX Dimension new setMaximumSize 
+LineContext> 
+MethodName:ReceiverType> setAlignmentX:javax.swing.JTextArea
+ReceiverType> javax.swing.JTextArea
+ParameterList> Component.CENTER_ALIGNMENT 
+SorroundingContext> setAlignmentX 
+LineContext> 
+MethodName:ReceiverType> setEnabled:javax.swing.JButton
+ReceiverType> javax.swing.JButton
+ParameterList> Boolean 
+SorroundingContext> add createVerticalStrut add 
+LineContext> 

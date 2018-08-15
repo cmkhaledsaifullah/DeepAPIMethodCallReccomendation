@@ -1,0 +1,1560 @@
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new createPreviewImage 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> setFont setRenderingHint 
+LineContext> = FontMetrics 
+MethodName:ReceiverType> getAscent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> int getFontMetrics setFont 
+LineContext> = int 
+MethodName:ReceiverType> getFontRenderContext:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> createGlyphVector setPaint setBackground getAscent int 
+LineContext> createGlyphVector = GlyphVector 
+MethodName:ReceiverType> createGlyphVector:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> SN:java.awt.Graphics2D.getFontRenderContext() SN:java.lang.String.toCharArray() 
+SorroundingContext> setPaint setBackground getAscent int 
+LineContext> = GlyphVector 
+MethodName:ReceiverType> getOutline:java.awt.font.GlyphVector
+ReceiverType> java.awt.font.GlyphVector
+ParameterList> 
+SorroundingContext> createTransformedShape getTranslateInstance final toCharArray getFontRenderContext createGlyphVector setPaint 
+LineContext> createTransformedShape = Shape PREVIEW_IMAGE_HEIGHT 
+MethodName:ReceiverType> createTransformedShape:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.font.GlyphVector.getOutline() 
+SorroundingContext> getTranslateInstance final toCharArray getFontRenderContext createGlyphVector setPaint 
+LineContext> = Shape PREVIEW_IMAGE_HEIGHT 
+MethodName:ReceiverType> fill:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Shape 
+SorroundingContext> getOutline createTransformedShape getTranslateInstance final toCharArray getFontRenderContext createGlyphVector 
+LineContext> 
+MethodName:ReceiverType> getFontName:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> 
+SorroundingContext> return getFontName String 
+LineContext> return 
+MethodName:ReceiverType> getAllFonts:java.awt.GraphicsEnvironment
+ReceiverType> java.awt.GraphicsEnvironment
+ParameterList> 
+SorroundingContext> getLocalGraphicsEnvironment new getItems 
+LineContext> = ] [ Font 
+MethodName:ReceiverType> deriveFont:java.awt.Font
+ReceiverType> java.awt.Font
+ParameterList> Number 
+SorroundingContext> PreviewFont new add for getAllFonts getLocalGraphicsEnvironment 
+LineContext> PreviewFont new add 
+MethodName:ReceiverType> getSystemClipboard:java.awt.Toolkit
+ReceiverType> java.awt.Toolkit
+ParameterList> 
+SorroundingContext> StringSelection new String copyToClipBoard void 
+LineContext> To 
+MethodName:ReceiverType> setContents:java.awt.datatransfer.Clipboard
+ReceiverType> java.awt.datatransfer.Clipboard
+ParameterList> SN:java.awt.datatransfer.StringSelection SN:java.awt.datatransfer.StringSelection 
+SorroundingContext> StringSelection new String copyToClipBoard void 
+LineContext> To 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new throws createMapFor 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> createMapFor createGraphics BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> Color new setColor getMapContext getGeographicBoundingBox 
+LineContext> 
+MethodName:ReceiverType> concatenate:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.geom.AffineTransform 
+SorroundingContext> AffineTransform new scale 
+LineContext> 
+MethodName:ReceiverType> getScaleY:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> getScaleX double final getOriginalGridToWorld getAffineTransform WCS20Exception new throw 
+LineContext> getScaleX = double final 
+MethodName:ReceiverType> getScaleX:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> double final getOriginalGridToWorld getAffineTransform WCS20Exception new throw 
+LineContext> = double final 
+MethodName:ReceiverType> getRGB:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> toHexString String get String getStyle String 
+LineContext> toHexString = String 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> if getRenderedImage adapt 
+LineContext> if 
+MethodName:ReceiverType> getNumBands:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> if getRenderedImage adapt 
+LineContext> if 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> getNumBands getSampleModel if getRenderedImage adapt 
+LineContext> = getNumBands getSampleModel if 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> if getRenderedImage adapt 
+LineContext> if 
+MethodName:ReceiverType> getNumBands:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> if getRenderedImage adapt 
+LineContext> if 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> getNumBands getSampleModel if getRenderedImage adapt 
+LineContext> = getNumBands getSampleModel if 
+MethodName:ReceiverType> hasAlpha:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> 
+SorroundingContext> getNumBands getSampleModel if getRenderedImage adapt 
+LineContext> = getNumBands getSampleModel if 
+MethodName:ReceiverType> getWidth:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> Envelope new if 
+LineContext> Envelope new = Envelope 
+MethodName:ReceiverType> getHeight:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> getWidth Envelope new if 
+LineContext> getWidth Envelope new = Envelope 
+MethodName:ReceiverType> getMinX:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int final getRenderedImage final double final double final 
+LineContext> = int final 
+MethodName:ReceiverType> getMinY:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int final getMinX int final getRenderedImage final double final 
+LineContext> = int final 
+MethodName:ReceiverType> createInverse:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> WarpAffine new try 
+LineContext> WarpAffine new = 
+MethodName:ReceiverType> concatenate:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:java.awt.geom.AffineTransform 
+SorroundingContext> AffineTransform new getOriginalGridToWorld 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> return instanceof if 
+LineContext> = ColorModel 
+MethodName:ReceiverType> getWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getColorModel return 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getWidth int getColorModel 
+LineContext> = int 
+MethodName:ReceiverType> createCompatibleWritableRaster:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> SN:INT SN:INT 
+SorroundingContext> getHeight int getWidth int getColorModel 
+LineContext> = WritableRaster 
+MethodName:ReceiverType> isAlphaPremultiplied:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> 
+SorroundingContext> boolean createCompatibleWritableRaster getHeight int getWidth int 
+LineContext> = boolean 
+MethodName:ReceiverType> getPropertyNames:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> String Hashtable new isAlphaPremultiplied boolean createCompatibleWritableRaster 
+LineContext> = ] [ String 
+MethodName:ReceiverType> copyData:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> SN:java.awt.image.WritableRaster 
+SorroundingContext> BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> getRaster:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new fine 
+LineContext> = DataBuffer 
+MethodName:ReceiverType> getDataBuffer:java.awt.image.WritableRaster
+ReceiverType> java.awt.image.WritableRaster
+ParameterList> 
+SorroundingContext> BufferedImage new fine 
+LineContext> = DataBuffer 
+MethodName:ReceiverType> setElem:java.awt.image.DataBuffer
+ReceiverType> java.awt.image.DataBuffer
+ParameterList> SN:INT Number 
+SorroundingContext> getSize int for getDataBuffer getRaster BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> getSize:java.awt.image.DataBuffer
+ReceiverType> java.awt.image.DataBuffer
+ParameterList> 
+SorroundingContext> int for getDataBuffer getRaster BufferedImage new fine 
+LineContext> = int for 
+MethodName:ReceiverType> getData:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int if getRenderedImage 
+LineContext> = int 
+MethodName:ReceiverType> getDataBuffer:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> int if getRenderedImage 
+LineContext> = int 
+MethodName:ReceiverType> getDataType:java.awt.image.DataBuffer
+ReceiverType> java.awt.image.DataBuffer
+ParameterList> 
+SorroundingContext> int if getRenderedImage 
+LineContext> = int 
+MethodName:ReceiverType> addSource:java.awt.image.renderable.ParameterBlock
+ReceiverType> java.awt.image.renderable.ParameterBlock
+ParameterList> SN:java.awt.image.RenderedImage 
+SorroundingContext> if double final 
+LineContext> = ParameterBlock 
+MethodName:ReceiverType> add:java.awt.image.renderable.ParameterBlock
+ReceiverType> java.awt.image.renderable.ParameterBlock
+ParameterList> SN:DOUBLE 
+SorroundingContext> addSource ParameterBlock new if 
+LineContext> = 
+MethodName:ReceiverType> add:java.awt.image.renderable.ParameterBlock
+ReceiverType> java.awt.image.renderable.ParameterBlock
+ParameterList> SN:java.lang.Double 
+SorroundingContext> add addSource ParameterBlock new 
+LineContext> = 
+MethodName:ReceiverType> getRGB:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> toHexString String get String getStyle String 
+LineContext> toHexString = String 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> if toColorSpec String 
+LineContext> if 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> format return else getBlue getGreen getRed format return getAlpha if 
+LineContext> format return 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed format return else getBlue getGreen getRed format return getAlpha if 
+LineContext> getRed format return 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed format return else getBlue getGreen getRed format return 
+LineContext> 
+MethodName:ReceiverType> getAlpha:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue getGreen getRed format return else getBlue getGreen getRed format return 
+LineContext> getBlue 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> format return getAlpha if toColorSpec String 
+LineContext> format return 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed format return getAlpha if toColorSpec String 
+LineContext> getRed format return 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed format return getAlpha if toColorSpec String 
+LineContext> getGreen getRed format return 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double int else 
+LineContext> double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed double int else 
+LineContext> getRed double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getRed double int 
+LineContext> double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen double getRed double int 
+LineContext> getGreen double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getGreen double getRed double int 
+LineContext> double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue double getGreen double getRed double int 
+LineContext> getBlue double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int for getBlue double getGreen double 
+LineContext> int = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getRed int for getBlue double 
+LineContext> int = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getGreen int getRed int for 
+LineContext> int = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double int Color new add 
+LineContext> double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed double int Color new add 
+LineContext> getRed double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getRed double int 
+LineContext> double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen double getRed double int 
+LineContext> getGreen double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getGreen double getRed double int 
+LineContext> double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue double getGreen double getRed double int 
+LineContext> getBlue double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int for getBlue double getGreen double 
+LineContext> int = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getRed int for getBlue double 
+LineContext> int = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getGreen int getRed int for 
+LineContext> int = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double if Exception new throw 
+LineContext> double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed double if Exception new throw 
+LineContext> getRed double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getRed double if 
+LineContext> double = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen double getRed double if 
+LineContext> getGreen double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> double getGreen double getRed double if 
+LineContext> double = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getBlue double getGreen double getRed double if 
+LineContext> getBlue double = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int for getBlue double getGreen double 
+LineContext> int = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getRed int for getBlue double 
+LineContext> int = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> int getGreen int getRed int for 
+LineContext> int = 
+MethodName:ReceiverType> getNumBands:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> int final long computePixelsNumber long final getCoverageSize long static 
+LineContext> = int final 
+MethodName:ReceiverType> getSampleSize:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> SN:INT 
+SorroundingContext> int for getNumBands int final long 
+LineContext> = 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> final getRenderedImage final long getGridRange2D getGridGeometry computePixelsNumber long final 
+LineContext> = SampleModel final 
+MethodName:ReceiverType> getSampleSize:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> SN:INT 
+SorroundingContext> int for getSampleModel final getRenderedImage final 
+LineContext> = 
+MethodName:ReceiverType> getData:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> getRenderedImage println getGridToCRS getGridGeometry println 
+LineContext> = Raster 
+MethodName:ReceiverType> getTransferType:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> if getWidth getMinX int for getHeight getMinY int for println 
+LineContext> if 
+MethodName:ReceiverType> getTransferType:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> if else getSampleDouble print getTransferType if getWidth getMinX int for 
+LineContext> if else 
+MethodName:ReceiverType> getSample:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> print else getSampleFloat print getTransferType if else 
+LineContext> print else 
+MethodName:ReceiverType> getSampleFloat:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> print getTransferType if else getSampleDouble print getTransferType if 
+LineContext> print 
+MethodName:ReceiverType> getSampleDouble:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> SN:INT SN:INT SN:INT 
+SorroundingContext> print getTransferType if getWidth getMinX int for getHeight getMinY int for 
+LineContext> print 
+MethodName:ReceiverType> getMinX:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> if getSample print else getSampleFloat print 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> getMinX if getSample print else getSampleFloat print 
+LineContext> getMinX if 
+MethodName:ReceiverType> getMinX:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> getMinX int for getHeight getMinY int for println getNumBands int for 
+LineContext> getMinX = int for 
+MethodName:ReceiverType> getWidth:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> getMinX int for getHeight getMinY int for println getNumBands int for 
+LineContext> getMinX = int for 
+MethodName:ReceiverType> getMinX:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> int for getHeight getMinY int for println getNumBands int for 
+LineContext> = int for 
+MethodName:ReceiverType> getMinY:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> getMinY int for println getNumBands int for getData 
+LineContext> getMinY = int for 
+MethodName:ReceiverType> getHeight:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> getMinY int for println getNumBands int for getData 
+LineContext> getMinY = int for 
+MethodName:ReceiverType> getMinY:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> int for println getNumBands int for getData 
+LineContext> = int for 
+MethodName:ReceiverType> getNumBands:java.awt.image.Raster
+ReceiverType> java.awt.image.Raster
+ParameterList> 
+SorroundingContext> int for getData getRenderedImage println 
+LineContext> = int for 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> final getRenderedImage final throws final String handleTiling void 
+LineContext> = SampleModel final 
+MethodName:ReceiverType> getWidth:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> int final getSampleModel final getRenderedImage final throws 
+LineContext> = int final 
+MethodName:ReceiverType> getHeight:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> int final getWidth int final getSampleModel final getRenderedImage final 
+LineContext> = int final 
+MethodName:ReceiverType> getScaleX:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> abs 
+LineContext> abs = 
+MethodName:ReceiverType> getScaleY:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> abs getScaleX abs 
+LineContext> abs = 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new FeatureLayer new addLayer 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> finally Rectangle new paint try 
+LineContext> 
+MethodName:ReceiverType> getIconHeight:javax.swing.Icon
+ReceiverType> javax.swing.Icon
+ParameterList> 
+SorroundingContext> max return else int return if 
+LineContext> max return 
+MethodName:ReceiverType> getIconWidth:javax.swing.Icon
+ReceiverType> javax.swing.Icon
+ParameterList> 
+SorroundingContext> getIconHeight max return else int return if 
+LineContext> getIconHeight max return 
+MethodName:ReceiverType> getWidth:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> getScreenArea getViewport else getMapHeight 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> getWidth getScreenArea getViewport else 
+LineContext> = 
+MethodName:ReceiverType> createInverse:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> getHeight getWidth Rectangle new getRequestedBounds worldToScreenTransform setupEnvironmentVariables 
+LineContext> = AffineTransform 
+MethodName:ReceiverType> setAccelerationPriority:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> Number 
+SorroundingContext> createBufferedImage createFromBufferedImageType final 
+LineContext> 
+MethodName:ReceiverType> getBounds:java.awt.geom.Rectangle2D.Double
+ReceiverType> java.awt.geom.Rectangle2D.Double
+ParameterList> 
+SorroundingContext> final getOrdinate setFrameFromCenter Double new final 
+LineContext> = Rectangle final 
+MethodName:ReceiverType> isEmpty:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> if intersect Rectangle new instanceof final 
+LineContext> if 
+MethodName:ReceiverType> getGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new 
+LineContext> Graphics2D = Graphics2D 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getGraphics BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> fillRect setColor getGraphics BufferedImage new 
+LineContext> fillRect 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth fillRect setColor getGraphics BufferedImage new 
+LineContext> getWidth fillRect 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:java.awt.image.BufferedImage.getWidth() SN:java.awt.image.BufferedImage.getHeight() 
+SorroundingContext> setColor getGraphics BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> buildImageExceptionText paintLines setColor 
+LineContext> 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> final Point new split String int String paintLines void 
+LineContext> = FontMetrics final 
+MethodName:ReceiverType> getAscent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> int getFontMetrics final Point new split String 
+LineContext> = int 
+MethodName:ReceiverType> getDescent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> getAscent int getFontMetrics final Point new split String 
+LineContext> getAscent = int 
+MethodName:ReceiverType> getLeading:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> getDescent getAscent int getFontMetrics final Point new split String 
+LineContext> getDescent getAscent = int 
+MethodName:ReceiverType> getFontRenderContext:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getLeading getDescent getAscent int getFontMetrics final Point new 
+LineContext> = FontRenderContext 
+MethodName:ReceiverType> getAscent:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> nextLayout length getPosition while getIterator LineBreakMeasurer new 
+LineContext> = 
+MethodName:ReceiverType> isLeftToRight:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> getAscent nextLayout length getPosition while 
+LineContext> = 
+MethodName:ReceiverType> getAdvance:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> isLeftToRight getAscent nextLayout length getPosition while 
+LineContext> isLeftToRight = 
+MethodName:ReceiverType> getDescent:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> draw getAdvance isLeftToRight getAscent 
+LineContext> = 
+MethodName:ReceiverType> getLeading:java.awt.font.TextLayout
+ReceiverType> java.awt.font.TextLayout
+ParameterList> 
+SorroundingContext> getDescent draw getAdvance isLeftToRight getAscent 
+LineContext> getDescent = 
+MethodName:ReceiverType> getPosition:java.awt.font.LineBreakMeasurer
+ReceiverType> java.awt.font.LineBreakMeasurer
+ParameterList> 
+SorroundingContext> while getIterator LineBreakMeasurer new AttributedString new else 
+LineContext> while 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> addNode if get 
+LineContext> = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> addNode if get 
+LineContext> = 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawImage getNodes for if 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getMargin 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawImage getNodes for if 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getMargin 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int boolean 
+LineContext> = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth int boolean 
+LineContext> getWidth = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max int getWidth int 
+LineContext> max = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight max int getWidth int 
+LineContext> getHeight max = int 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> prepareTransparency new final 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> round int setRenderingHint 
+LineContext> round int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> round int getHeight round int 
+LineContext> round int = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawImage getHeight round int getHeight round int 
+LineContext> drawImage 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getWidth drawImage getHeight round int 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int boolean 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight int boolean 
+LineContext> getHeight = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max int getHeight int 
+LineContext> max = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth max int getHeight int 
+LineContext> getWidth max = int 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> prepareTransparency new final 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> drawImage 
+LineContext> drawImage 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getHeight drawImage 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> final String getRenderedLabel static 
+LineContext> = Graphics2D final 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Font 
+SorroundingContext> isFontAntiAliasing boolean getLabelFont createGraphics final 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getDefaultStreamMetadata setCompressionQuality setCompressionMode 
+LineContext> BufferedImage new = BufferedImage 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth BufferedImage new getDefaultStreamMetadata setCompressionQuality setCompressionMode 
+LineContext> getWidth BufferedImage new = BufferedImage 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight getWidth BufferedImage new getDefaultStreamMetadata 
+LineContext> Graphics2D = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> add 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> if read try 
+LineContext> if 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth if read try 
+LineContext> = getWidth if 
+MethodName:ReceiverType> getGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> createImage final return 
+LineContext> Graphics2D = Graphics2D 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> Color new setColor getGraphics createImage final 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double fillRect Color new setColor getGraphics 
+LineContext> double = double 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double int double fillRect Color new setColor 
+LineContext> double int = int 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage getWidth double int double 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> final ImageWorker new final MemoryCacheImageOutputStream new final getLegend 
+LineContext> = PlanarImage final 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> parseInt Color new parseInt Color new drawRasterIcon void 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> setColor parseInt Color new parseInt Color new 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> fillRect setColor parseInt Color new 
+LineContext> 
+MethodName:ReceiverType> setPaint:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.GradientPaint 
+SorroundingContext> Color new Point new Color new Point new GradientPaint new 
+LineContext> 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> setPaint Color new Point new Color new Point new GradientPaint new 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getPreferredDimension final get final for 
+LineContext> max = 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getHeight max getPreferredDimension final get final 
+LineContext> max = 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getPreferredDimension final getColorManager final for 
+LineContext> max = 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getHeight max getPreferredDimension final getColorManager final 
+LineContext> max = 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getPreferredDimension final getRuleManager final if 
+LineContext> max = 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getHeight max getPreferredDimension final getRuleManager final 
+LineContext> max = 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getPreferredDimension final continue if 
+LineContext> max = 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> max getHeight max getPreferredDimension final continue 
+LineContext> max = 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> round int final getPreferredDimension final for round int final 
+LineContext> round int = int final 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new final Rectangle new final 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> draw setRenderingHint createGraphics 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> add dispose 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new final getColorManager final 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> draw setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getRuleManager final 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> draw setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new final if 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> draw setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> int final max setSize size int final 
+LineContext> int = int final 
+MethodName:ReceiverType> getHeight:java.awt.Dimension
+ReceiverType> java.awt.Dimension
+ParameterList> 
+SorroundingContext> int final getWidth int final max setSize 
+LineContext> int = int final 
+MethodName:ReceiverType> setRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.Map 
+SorroundingContext> put prepareTransparency 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int drawImage remove final int for 
+LineContext> = 
+MethodName:ReceiverType> getType:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new if 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getType BufferedImage new if 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage rotate 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> dispose drawImage 
+LineContext> 
+MethodName:ReceiverType> toString:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> warning isLoggable if catch 
+LineContext> DE 
+MethodName:ReceiverType> toString:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> warning catch String color return 
+LineContext> DE 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> getStringBounds:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> SN:java.lang.String SN:java.awt.Graphics2D 
+SorroundingContext> ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> ceil int getHeight getStringBounds getFontMetrics ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> getStringBounds:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> SN:java.lang.String SN:java.awt.Graphics2D 
+SorroundingContext> ceil int getHeight getStringBounds getFontMetrics ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int getHeight getStringBounds getFontMetrics ceil int else dispose 
+LineContext> ceil int = int 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new getWidth getStringBounds getFontMetrics ceil int getHeight getStringBounds getFontMetrics ceil int 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> createGraphics BufferedImage new getWidth getStringBounds getFontMetrics ceil int 
+LineContext> 
+MethodName:ReceiverType> getFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> setFont setColor createGraphics BufferedImage new 
+LineContext> setFont 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Graphics2D.getFont() 
+SorroundingContext> setColor createGraphics BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawString getRenderingHint setRenderingHint getFont setFont 
+LineContext> drawString 
+MethodName:ReceiverType> getDescent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> drawString getRenderingHint setRenderingHint getFont setFont 
+LineContext> drawString 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> getDescent getFontMetrics drawString getRenderingHint setRenderingHint 
+LineContext> 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> nextToken String final hasMoreElements while StringTokenizer new 
+LineContext> = Rectangle2D 
+MethodName:ReceiverType> getStringBounds:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> SN:java.lang.String SN:java.awt.Graphics2D 
+SorroundingContext> nextToken String final hasMoreElements while StringTokenizer new 
+LineContext> = Rectangle2D 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int final getStringBounds getFontMetrics nextToken String final hasMoreElements while 
+LineContext> ceil int = int final 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> add getHeight ceil int final getStringBounds getFontMetrics nextToken String final 
+LineContext> add 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> add getHeight add getHeight ceil int final getStringBounds getFontMetrics 
+LineContext> add 
+MethodName:ReceiverType> add:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> SN:java.awt.geom.Rectangle2D.getWidth() Number 
+SorroundingContext> getHeight add getHeight ceil int final getStringBounds getFontMetrics 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int add getWidth add getHeight add getHeight ceil int final 
+LineContext> ceil int add 
+MethodName:ReceiverType> getWidth:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int BufferedImage new getHeight ceil int add getWidth add 
+LineContext> ceil int BufferedImage new = 
+MethodName:ReceiverType> getHeight:java.awt.geom.Rectangle2D
+ReceiverType> java.awt.geom.Rectangle2D
+ParameterList> 
+SorroundingContext> ceil int getWidth ceil int BufferedImage new getHeight ceil int add 
+LineContext> ceil int 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> StringTokenizer new getHeight ceil int getWidth ceil int BufferedImage new 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> createGraphics StringTokenizer new getHeight ceil int 
+LineContext> 
+MethodName:ReceiverType> getFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> setFont setColor createGraphics StringTokenizer new 
+LineContext> setFont 
+MethodName:ReceiverType> setFont:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Graphics2D.getFont() 
+SorroundingContext> setColor createGraphics StringTokenizer new 
+LineContext> 
+MethodName:ReceiverType> getFontMetrics:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> int getRenderingHint setRenderingHint getFont setFont 
+LineContext> = int 
+MethodName:ReceiverType> getDescent:java.awt.FontMetrics
+ReceiverType> java.awt.FontMetrics
+ParameterList> 
+SorroundingContext> int getRenderingHint setRenderingHint getFont setFont 
+LineContext> = int 
+MethodName:ReceiverType> drawString:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.StringTokenizer.nextToken() Number SN:INT 
+SorroundingContext> intValue get hasMoreElements while int 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> nextToken drawString intValue get 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max int NullPointerException new throw if return 
+LineContext> max int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> max getHeight max int NullPointerException new throw if return 
+LineContext> = max getHeight max int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getHeight max getHeight max int NullPointerException new throw if return 
+LineContext> = getHeight = max getHeight max int = int 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int final getHeight max getHeight max int NullPointerException new throw if 
+LineContext> int = int final 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth int final getHeight max getHeight max int NullPointerException new throw if 
+LineContext> = getWidth int = int final 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> getWidth int final getHeight max getHeight max int NullPointerException new throw if 
+LineContext> = getWidth = getWidth int = int final 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int drawImage int prepareTransparency final 
+LineContext> int = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int drawImage if getWidth int 
+LineContext> int = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage if 
+LineContext> 
+MethodName:ReceiverType> getTileWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getImageSizeInBytes long 
+LineContext> = int 
+MethodName:ReceiverType> getNumXTiles:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getTileWidth int getImageSizeInBytes long 
+LineContext> = int 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getNumXTiles int getTileWidth int getImageSizeInBytes long 
+LineContext> = int 
+MethodName:ReceiverType> getNumBands:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> int getNumXTiles int getTileWidth int getImageSizeInBytes long 
+LineContext> = int 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getNumBands getSampleModel int getNumXTiles int getTileWidth int 
+LineContext> = ] [ int 
+MethodName:ReceiverType> getSampleSize:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> int getNumBands getSampleModel int getNumXTiles int getTileWidth int 
+LineContext> = ] [ int 
+MethodName:ReceiverType> getTransferType:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> createInterleavedRaster final if boolean final int final int final createImage static 
+LineContext> createInterleavedRaster = WritableRaster final 
+MethodName:ReceiverType> createGraphics:java.awt.image.VolatileImage
+ReceiverType> java.awt.image.VolatileImage
+ParameterList> 
+SorroundingContext> instanceof if else createGraphics instanceof if else 
+LineContext> = 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> instanceof if final 
+LineContext> = 
+MethodName:ReceiverType> setRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.Map 
+SorroundingContext> put new 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> else getInstance setComposite 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> fillRect setColor else getInstance setComposite 
+LineContext> fillRect 
+MethodName:ReceiverType> getHeight:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> getWidth fillRect setColor else getInstance setComposite 
+LineContext> getWidth fillRect 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:java.awt.image.RenderedImage.getWidth() SN:java.awt.image.RenderedImage.getHeight() 
+SorroundingContext> setColor else getInstance setComposite 
+LineContext> 
+MethodName:ReceiverType> setComposite:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> AlphaComposite.getInstance() 
+SorroundingContext> int fine 
+LineContext> 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new getInstance setComposite int 
+LineContext> Color new = Color 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new getInstance setComposite int 
+LineContext> getRed Color new = Color 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new getInstance setComposite int 
+LineContext> getGreen getRed Color new = Color 
+MethodName:ReceiverType> setBackground:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> getBlue getGreen getRed Color new getInstance setComposite int 
+LineContext> 
+MethodName:ReceiverType> setColor:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.awt.Color 
+SorroundingContext> setBackground getBlue getGreen getRed Color new getInstance setComposite 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> fillRect setColor setBackground getBlue getGreen getRed Color new 
+LineContext> fillRect 
+MethodName:ReceiverType> getHeight:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> getWidth fillRect setColor setBackground getBlue getGreen getRed Color new 
+LineContext> getWidth fillRect 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:java.awt.image.RenderedImage.getWidth() SN:java.awt.image.RenderedImage.getHeight() 
+SorroundingContext> setColor setBackground getBlue getGreen getRed Color new 
+LineContext> 
+MethodName:ReceiverType> setComposite:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> AlphaComposite.getInstance() 
+SorroundingContext> getHeight getWidth fillRect setColor 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> final toString finer 
+LineContext> = ColorModel final 
+MethodName:ReceiverType> getSampleModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> boolean final getColorModel final 
+LineContext> = boolean final 
+MethodName:ReceiverType> getDataType:java.awt.image.SampleModel
+ReceiverType> java.awt.image.SampleModel
+ParameterList> 
+SorroundingContext> boolean final getColorModel final 
+LineContext> = boolean final 
+MethodName:ReceiverType> getWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> log int writeRenderedImage if 
+LineContext> log int = int 
+MethodName:ReceiverType> getHeight:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> log int getWidth log int writeRenderedImage 
+LineContext> log int = int 
+MethodName:ReceiverType> getTransparency:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> if final finer 
+LineContext> if 
+MethodName:ReceiverType> getMapSize:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> int final StringBuilder new final paletteRepresentation String static 
+LineContext> = int final 
+MethodName:ReceiverType> getTransparency:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> append getMapSize int final StringBuilder new final 
+LineContext> append 
+MethodName:ReceiverType> getTransparentPixel:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> append getTransparency append getMapSize int final 
+LineContext> append 
+MethodName:ReceiverType> getRed:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> SN:INT 
+SorroundingContext> append int for append getTransparentPixel append getTransparency append 
+LineContext> append 
+MethodName:ReceiverType> getGreen:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> SN:INT 
+SorroundingContext> append getRed append int for append getTransparentPixel append 
+LineContext> append 
+MethodName:ReceiverType> getBlue:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> SN:INT 
+SorroundingContext> append getGreen append getRed append int for 
+LineContext> append 
+MethodName:ReceiverType> flush:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> instanceof if else disposePlanarImageChain instanceof if 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> final toString setAttribute 
+LineContext> IndexColorModel = IndexColorModel final 
+MethodName:ReceiverType> getTransparency:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> if int getColorModel final toString setAttribute 
+LineContext> if 
+MethodName:ReceiverType> getTransparentPixel:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> getTransparency if int getColorModel final toString setAttribute 
+LineContext> = getTransparency if 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> boolean 
+LineContext> = 
+MethodName:ReceiverType> getTransparency:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> 
+SorroundingContext> boolean 
+LineContext> = 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> if else forceIndexed8Bitmask 
+LineContext> if 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> Double new getCrs lookupEpsgCode decode getMaxX getMinX getMaxY getMinY ReferencedEnvelope new try 
+LineContext> Double new = 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> getY Double new getCrs lookupEpsgCode decode getMaxX getMinX getMaxY getMinY ReferencedEnvelope new try 
+LineContext> getY Double new = 
+MethodName:ReceiverType> getX:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> floor int getHeight getMinY double getWidth getMinX double getTileCoordinates 
+LineContext> floor int = int 
+MethodName:ReceiverType> getY:java.awt.geom.Point2D
+ReceiverType> java.awt.geom.Point2D
+ParameterList> 
+SorroundingContext> floor int getX floor int getHeight getMinY double getWidth getMinX double 
+LineContext> floor int = int 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> if put equals if getGraphics final 
+LineContext> if 
+MethodName:ReceiverType> setRenderingHints:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> SN:java.util.Map 
+SorroundingContext> 
+LineContext> 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> stop finally 
+LineContext> 
+MethodName:ReceiverType> getMapSize:java.awt.image.IndexColorModel
+ReceiverType> java.awt.image.IndexColorModel
+ParameterList> 
+SorroundingContext> if optimizeAndBuildMap 
+LineContext> = if 
+MethodName:ReceiverType> getWidth:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int optimizeSampleModel static 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> int getWidth int optimizeSampleModel static 
+LineContext> = int 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> setColorModel ImageLayout new getHeight int getWidth int 
+LineContext> setColorModel 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> setSampleModel getColorModel setColorModel ImageLayout new getHeight int 
+LineContext> setSampleModel 
+MethodName:ReceiverType> createCompatibleSampleModel:java.awt.image.ColorModel
+ReceiverType> java.awt.image.ColorModel
+ParameterList> SN:INT SN:INT 
+SorroundingContext> setSampleModel getColorModel setColorModel ImageLayout new getHeight int 
+LineContext> setSampleModel 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new else getBlue getGreen getRed Color new if 
+LineContext> Color new = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new else getBlue getGreen getRed Color new if 
+LineContext> getRed Color new = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new else getBlue getGreen getRed Color new if 
+LineContext> getGreen getRed Color new = 
+MethodName:ReceiverType> getRed:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> Color new if getBgColor isTransparencySupported isTransparent boolean final 
+LineContext> Color new = 
+MethodName:ReceiverType> getGreen:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getRed Color new if getBgColor isTransparencySupported isTransparent boolean final 
+LineContext> getRed Color new = 
+MethodName:ReceiverType> getBlue:java.awt.Color
+ReceiverType> java.awt.Color
+ParameterList> 
+SorroundingContext> getGreen getRed Color new if getBgColor isTransparencySupported isTransparent boolean final 
+LineContext> getGreen getRed Color new = 
+MethodName:ReceiverType> clone:java.awt.Rectangle
+ReceiverType> java.awt.Rectangle
+ParameterList> 
+SorroundingContext> else GridEnvelope2D new GridGeometry2D new if 
+LineContext> Rectangle = Rectangle 
+MethodName:ReceiverType> createInverse:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> 
+SorroundingContext> AffineTransform2D new GridEnvelope2D new GridGeometry2D new try 
+LineContext> 
+MethodName:ReceiverType> getColorModel:java.awt.image.RenderedImage
+ReceiverType> java.awt.image.RenderedImage
+ParameterList> 
+SorroundingContext> setTileHeight setTileWidth setTileGridYOffset 
+LineContext> = ColorModel

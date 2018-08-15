@@ -1,0 +1,80 @@
+MethodName:ReceiverType> getSubimage:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> SN:INT SN:INT SN:INT SN:INT 
+SorroundingContext> read int 
+LineContext> = 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> if getSubimage read int 
+LineContext> if 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double getWidth if getSubimage 
+LineContext> double = double 
+MethodName:ReceiverType> scale:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> AffineTransform new double 
+LineContext> 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> if filter AffineTransformOp new 
+LineContext> if 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> double getHeight if 
+LineContext> double = double 
+MethodName:ReceiverType> scale:java.awt.geom.AffineTransform
+ReceiverType> java.awt.geom.AffineTransform
+ParameterList> SN:DOUBLE SN:DOUBLE 
+SorroundingContext> AffineTransform new double 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> BufferedImage new filter 
+LineContext> = Graphics2D 
+MethodName:ReceiverType> fillRect:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> Number Number SN:INT SN:INT 
+SorroundingContext> setColor createGraphics BufferedImage new 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int fillRect setColor createGraphics 
+LineContext> = int 
+MethodName:ReceiverType> getHeight:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int getWidth int fillRect setColor 
+LineContext> = int 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> drawImage getHeight int getWidth int 
+LineContext> 
+MethodName:ReceiverType> createGraphics:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> read try 
+LineContext> = 
+MethodName:ReceiverType> dispose:java.awt.Graphics2D
+ReceiverType> java.awt.Graphics2D
+ParameterList> 
+SorroundingContext> log 
+LineContext> 
+MethodName:ReceiverType> getWidth:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> 
+SorroundingContext> int read int try 
+LineContext> = int 
+MethodName:ReceiverType> getSubimage:java.awt.image.BufferedImage
+ReceiverType> java.awt.image.BufferedImage
+ParameterList> Number SN:INT SN:INT SN:INT 
+SorroundingContext> getWidth int read int 
+LineContext> = 
