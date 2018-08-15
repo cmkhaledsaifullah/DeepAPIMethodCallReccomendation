@@ -1,0 +1,18 @@
+ID:7 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get = if if
+ID:13 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get = if if
+ID:27 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals equals equals equals DI if else if else equals if get if
+ID:30 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get = if if versionToJdkLevel long
+ID:61 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get get get get get get get = if if
+ID:67 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get get get get get get get get get = if if
+ID:80 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get = if if updateSeverity get if
+ID:91 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get = if if updateSeverity get if updateSeverity get if updateSeverity get if
+ID:17 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append getSeverityString append getSeverityString append getSeverityString append
+ID:22 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getSeverityString append getSeverityString append
+ID:28 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getSeverityString append getSeverityString append
+ID:37 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append append append append append append append append append append append getSeverityString append getSeverityString append getSeverityString append
+ID:51 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append append append append append append append append append append append append append append append append append append append append getSeverityString append
+ID:54 +++$+++ append:java.lang.StringBuffer getVisibilityString() +++$+++ java.lang.StringBuffer +++$+++ append
+ID:65 +++$+++ append:java.lang.StringBuffer getVisibilityString() +++$+++ java.lang.StringBuffer +++$+++ append getSeverityString append
+ID:70 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getVisibilityString append
+ID:87 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append
+ID:99 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getSeverityString append getSeverityString append

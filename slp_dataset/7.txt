@@ -1,0 +1,14 @@
+ID:2 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++ GE if if get if set void
+ID:3 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++ DO if else if else equals if get if
+ID:17 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals EN if if get if
+ID:19 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get = if if
+ID:26 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals equals equals equals EN if if get if
+ID:44 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals equals equals equals equals equals equals equals DI if else if else equals if get if
+ID:45 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get = if if
+ID:47 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals equals equals equals equals equals equals equals equals DI if else if else equals if get if
+ID:48 +++$+++ get:java.util.Map SN:java.lang.String +++$+++ java.util.Map +++$+++  get get get get get get get get get get get get get get get get get get = if if
+ID:66 +++$+++ equals:java.lang.String SN:java.lang.Object +++$+++ java.lang.String +++$+++  equals equals equals equals equals equals equals equals equals equals equals equals equals DI if else if else equals if get if
+ID:14 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getSeverityString append getSeverityString append
+ID:19 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append append getSeverityString append getSeverityString append getSeverityString append
+ID:24 +++$+++ append:java.lang.StringBuffer getSeverityString() +++$+++ java.lang.StringBuffer +++$+++ getSeverityString append getSeverityString append getSeverityString append
+ID:86 +++$+++ append:java.lang.StringBuffer String +++$+++ java.lang.StringBuffer +++$+++  append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append append
