@@ -1,0 +1,10 @@
+ID:1 +++$+++ getRGB:java.awt.Color  +++$+++ java.awt.Color +++$+++ toString getId createMessage sendToAll getServer getFreeColServer toString
+ID:2 +++$+++ add:java.awt.Rectangle SN:net.sf.freecol.common.model.Tile.getX() SN:net.sf.freecol.common.model.Tile.getY() +++$+++ java.awt.Rectangle +++$+++ else getY getX setBounds 
+ID:3 +++$+++ setBounds:java.awt.Rectangle SN:net.sf.freecol.common.model.Tile.getX() SN:net.sf.freecol.common.model.Tile.getY() Number Number +++$+++ java.awt.Rectangle +++$+++ if 
+ID:4 +++$+++ contains:java.awt.Rectangle SN:net.sf.freecol.common.model.Tile.getX() SN:net.sf.freecol.common.model.Tile.getY() +++$+++ java.awt.Rectangle +++$+++ getY getX if getAdjacentTile ]
+ID:5 +++$+++ getWidth:java.awt.image.BufferedImage  +++$+++ java.awt.image.BufferedImage +++$+++ round Dimension new getImage return if getImage final round Dimension new getImage return
+ID:6 +++$+++ getHeight:java.awt.image.BufferedImage  +++$+++ java.awt.image.BufferedImage +++$+++ round getWidth round Dimension new getImage return if round
+ID:7 +++$+++ getWidth:java.awt.image.BufferedImage  +++$+++ java.awt.image.BufferedImage +++$+++ int return if int = int
+ID:8 +++$+++ getHeight:java.awt.image.BufferedImage  +++$+++ java.awt.image.BufferedImage +++$+++ int getWidth int return if = int
+ID:9 +++$+++ createGraphics:java.awt.image.BufferedImage  +++$+++ java.awt.image.BufferedImage +++$+++ BufferedImage new = Graphics2D
+ID:10 +++$+++ dispose:java.awt.Graphics2D  +++$+++ java.awt.Graphics2D +++$+++ drawImage setRenderingHint

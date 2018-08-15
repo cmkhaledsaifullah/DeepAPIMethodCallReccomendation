@@ -1,0 +1,55 @@
+Test Case: 1
+Context: setString:javax.swing.JProgressBar getTimeString() +++$+++ javax.swing.JProgressBar +++$+++ setValue if 
+Actual Output: 
+Predicted Output: 
+setValue:javax.swing.JProgressBar Number 
+setValue:javax.swing.JProgressBar Number Number 
+getSelectedItem:javax.swing.JComboBox 
+setString:javax.swing.JProgressBar getTimeString()
+setStringPainted:javax.swing.JProgressBar
+getSelectedIndex:javax.swing.JComboBox Number 
+getEditor:javax.swing.JComboBox Number 
+getItemAt:javax.swing.JComboBox SN:INT  
+setValue:javax.swing.JProgressBar SN:INT 
+getSelectedIndex:javax.swing.JComboBox 
+setValue:javax.swing.JProgressBar Number Number Number Number Number 
+setValue:javax.swing.JProgressBar Number Number Number Number 
+setValue:javax.swing.JProgressBar Number Number Number
+getItemCount:javax.swing.JComboBox  
+setStringPainted:javax.swing.JProgressBar Boolean 
+setMaximum:javax.swing.JProgressBar 
+setValue:javax.swing.JProgressBar Number Number Number Number Number Number Number
++++++++++++++++++++++++++++++++++++++++
+Test Case: 2
+Context: setFocusable:javax.swing.JButton Boolean +++$+++ javax.swing.JButton +++$+++ setRolloverEnabled format JButton new if 
+Actual Output: setFocusable:javax.swing.JButton Boolean
+Predicted Output: 
+setText:javax.swing.JButton String 
+addActionListener:javax.swing.JButton 
+setFocusable:javax.swing.JButton Boolean Number
+setEnabled:javax.swing.JButton Boolean 
+getViewport:javax.swing.JScrollPane
+setFocusable:javax.swing.JButton Boolean
+setOpaque:javax.swing.JButton 
+setEnabled:javax.swing.JButton 
+setText:javax.swing.JButton Cursor.getPredefinedCursor()
+setFocusable:javax.swing.JButton SN:INT 
+setToolTipText:javax.swing.JButton Cursor.getPredefinedCursor() 
+setViewportView:javax.swing.JScrollPane setText:javax.swing.JTextField SN:java.lang.String Number Number 
+setFocusable:javax.swing.JButton SN:INT SN:INT
+++++++++++++++++++++++++++++++++++++++++
+Test Case: 3
+Context: parse:javax.swing.text.html.parser.ParserDelegator SN:java.io.BufferedReader this Boolean +++$+++ javax.swing.text.html.parser.ParserDelegator +++$+++ ParserDelegator new getInputStream InputStreamReader new BufferedReader new openConnection 
+Actual Output: parse:javax.swing.text.html.parser.ParserDelegator SN:java.io.BufferedReader this Boolean
+Predicted Output: 
+parse:javax.swing.text.html.parser.ParserDelegator SN:javax.swing.tree.DefaultMutableTreeNode 
+isSelected:javax.swing.JRadioButton Cursor.getPredefinedCursor() 
+getHeight:java.awt.Dimension 
+setColor:java.awt.Graphics2D SN:javax.swing.JMenuItem 
+parse:javax.swing.text.html.parser.ParserDelegator SN:javax.swing.JButton 
+getListCellRendererComponent:javax.swing.DefaultListCellRenderer Char 
+getSelectedValues:javax.swing.JList  SN:javax.swing.JLabel 
+getAccessibleContext:javax.swing.JMenuItem 
+getBlue:java.awt.Color Boolean 
+setSelectedItem:javax.swing.DefaultComboBoxModel 
+parse:javax.swing.text.html.parser.ParserDelegator SN:java.awt.FlowLayout Boolean 
