@@ -13,7 +13,7 @@ Installation Step:
 
 1. Clone the repository using following command: 
 
-"git clone https://github.com/khaledkucse/MethodSequenceRecommender.git"
+"git clone -b pythonimpl0.1 --single-branch https://github.com/khaledkucse/DeepAPIMethodCallReccomendation.git"
 
 2. Download a sample model file from the following link. This model files will help you to test and testone
 
