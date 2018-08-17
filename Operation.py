@@ -1,7 +1,7 @@
 import config
 
 from DataPreprocessing import Dict,Lang
-from NNStructure import trainModel,encoder,decoder,trainNoTeacher
+from NNStructure import trainModel,encoder,decoder,trainNoTeacher,trainModelRNN,trainModelLSTM,encoderRNN,decoderRNN,encoderLSTM,decoderLSTM
 import CreateDataset
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 import numpy as np
@@ -45,7 +45,14 @@ class Training:
 
         #output_lang = Dict.vocabResize(Dict, output_lang, self.output_vocab_size)
 
-        model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+        #model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+         #                  vocab_size_input= self.input_vocab_size,
+          #                 embedding_width= config.embedding_width,
+           #                hidden_size= config.hidden_size,
+            #               MAX_LENGTH_Output= config.MAX_LENGTH_Output,
+             #              vocab_size_output= self.output_vocab_size)
+
+        model = trainModelRNN(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
                            vocab_size_input= self.input_vocab_size,
                            embedding_width= config.embedding_width,
                            hidden_size= config.hidden_size,
@@ -160,7 +167,7 @@ class Testing:
 
     def test(self):
         print('Loading Trained Model and Weights')
-        train_model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+        train_model = trainModelLSTM(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
                                  vocab_size_input= self.input_vocab_size,
                                  embedding_width= config.embedding_width,
                                  hidden_size= config.hidden_size,

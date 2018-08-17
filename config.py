@@ -37,9 +37,9 @@ def init():
 
     test_dataset_file_path = 'dataset/dummy_dataset.txt'
 
-    input_vocab_file_path = 'vocabulary/big_input.vocab'
+    input_vocab_file_path = 'vocabulary/input.vocab'
 
-    output_vocab_file_path = 'vocabulary/big_output.vocab'
+    output_vocab_file_path = 'vocabulary/output.vocab'
 
     model_file_path = "model.h5"
 
@@ -47,11 +47,11 @@ def init():
     #Vocabualry and COrpus related parameter
     MAX_LENGTH_Input = 40
 
-    MAX_LENGTH_Output = 10
+    MAX_LENGTH_Output = 5
 
     MAX_VOCAB_SIZE_INPUT = 30000
 
-    MAX_VOCAB_SIZE_OUTPUT = 4000
+    MAX_VOCAB_SIZE_OUTPUT = 5000
 
     UNK_token = 0
 
@@ -69,7 +69,7 @@ def init():
 
     batch_size = 64
 
-    epochs = 10
+    epochs = 15
 
     validation_split = 0.1
 
