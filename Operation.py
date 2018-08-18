@@ -9,14 +9,14 @@ import tensorflow as tf
 import keras
 import os
 from operator import itemgetter
-
+import Evaluation
 class Training:
 
     def __init__(self, input_vocab_size,output_vocab_size):
         self.input_vocab_size = input_vocab_size
         self.output_vocab_size = output_vocab_size
 
-    def train(self):
+    def train(self,is_save_vocabulary):
         print('Loading Training data....')
         input_lang = Lang()
         output_lang = Lang()
@@ -34,30 +34,29 @@ class Training:
 
 
 
-        #print(type(train_pairs))
-        print('Saving Input and Output Vocabulary into the Disk....')
-        input_lang = dictonary.save_vocabulary(config.input_vocab_file_path,input_lang,self.input_vocab_size)
-        output_lang = dictonary.save_vocabulary(config.output_vocab_file_path,output_lang,self.output_vocab_size)
+        if is_save_vocabulary == True:
+            print('Saving Input and Output Vocabulary into the Disk....')
+            input_lang = dictonary.save_vocabulary(config.input_vocab_file_path,input_lang,self.input_vocab_size)
+            output_lang = dictonary.save_vocabulary(config.output_vocab_file_path,output_lang,self.output_vocab_size)
 
-        #print("Resizing Vocabulary ....")
+        else:
+            print("Resizing Vocabulary ....")
+            input_lang = dictonary.vocabResize(input_lang, self.input_vocab_size)
+            output_lang = dictonary.vocabResize(output_lang, self.output_vocab_size)
 
-        #input_lang = Dict.vocabResize(Dict, input_lang, self.input_vocab_size)
-
-        #output_lang = Dict.vocabResize(Dict, output_lang, self.output_vocab_size)
-
-        #model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
-         #                  vocab_size_input= self.input_vocab_size,
-          #                 embedding_width= config.embedding_width,
-           #                hidden_size= config.hidden_size,
-            #               MAX_LENGTH_Output= config.MAX_LENGTH_Output,
-             #              vocab_size_output= self.output_vocab_size)
-
-        model = trainModelRNN(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+        model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
                            vocab_size_input= self.input_vocab_size,
                            embedding_width= config.embedding_width,
                            hidden_size= config.hidden_size,
                            MAX_LENGTH_Output= config.MAX_LENGTH_Output,
                            vocab_size_output= self.output_vocab_size)
+
+        #model = trainModelRNN(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+         #                  vocab_size_input= self.input_vocab_size,
+          #                 embedding_width= config.embedding_width,
+           #                hidden_size= config.hidden_size,
+            #               MAX_LENGTH_Output= config.MAX_LENGTH_Output,
+             #              vocab_size_output= self.output_vocab_size)
         model.summary()
         encoder_input, decoder_input, decoder_output = CreateDataset.datasetCreation(n_iters=len(train_pairs),
                                                                                      pairs=train_pairs,
@@ -88,7 +87,7 @@ class Training:
                   validation_split=config.validation_split,
                   callbacks=[ckpt, early])
 
-    def trainNoTeach(self):
+    def trainNoTeach(self,is_save_vocabulary):
         print('Loading Training data....')
         input_lang = Lang()
         output_lang = Lang()
@@ -103,16 +102,16 @@ class Training:
                 input_lang.appendLang(temp_input_lang)
                 output_lang.appendLang(temp_output_lang)
 
-        print('Saving Input and Output Vocabulary into the Disk....')
-        input_lang = dictonary.save_vocabulary(config.input_vocab_file_path, input_lang, self.input_vocab_size)
-        output_lang = dictonary.save_vocabulary(config.output_vocab_file_path, output_lang, self.output_vocab_size)
+        if is_save_vocabulary == True:
+            print('Saving Input and Output Vocabulary into the Disk....')
+            input_lang = dictonary.save_vocabulary(config.input_vocab_file_path,input_lang,self.input_vocab_size)
+            output_lang = dictonary.save_vocabulary(config.output_vocab_file_path,output_lang,self.output_vocab_size)
 
+        else:
+            print("Resizing Vocabulary ....")
+            input_lang = dictonary.vocabResize(input_lang, self.input_vocab_size)
+            output_lang = dictonary.vocabResize(output_lang, self.output_vocab_size)
 
-        # print("Resizing Vocabulary ....")
-
-        # input_lang = Dict.vocabResize(Dict, input_lang, self.input_vocab_size)
-
-        # output_lang = Dict.vocabResize(Dict, output_lang, self.output_vocab_size)
 
         model = trainNoTeacher(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
                            vocab_size_input= self.input_vocab_size,
@@ -167,7 +166,7 @@ class Testing:
 
     def test(self):
         print('Loading Trained Model and Weights')
-        train_model = trainModelLSTM(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+        train_model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
                                  vocab_size_input= self.input_vocab_size,
                                  embedding_width= config.embedding_width,
                                  hidden_size= config.hidden_size,
@@ -249,6 +248,8 @@ class Testing:
 
         h =-1;
         counter_case=0
+        f = open(config.test_dataset_output_file_path, "w")
+        output_array = []
         for eachTestCase in encoder_input:
             h +=1
             counter_case +=1
@@ -334,24 +335,30 @@ class Testing:
                         no_dead_sequence += 1
                         continue
 
-
-            #print(predicted_seq)
             for each_case in predicted_seq:
                 output = each_case[0]
                 decoded_sentence = ''
                 final_decoded = []
                 for each_seq in output:
                     decoded_sentence = decoded_sentence+" "+dictonary.getindex2word(self.output_lang,each_seq)
+                final_decoded.append(decoded_sentence)
 
-            decoder_final_output = dictonary.ouputProcess(nitens[1], self.output_lang)
-            print('========================================================================')
-            print('Test Case: %s' %(counter_case))
-            print('Context: %s' % (nitens[0]))
-            print('Actual Output: %s' % (nitens[1]))
-            print('Predicted Output: ')
+            decoder_final_output = dictonary.ouputProcess(final_decoded,nitens[1], self.output_lang)
+            f.write('======================================================================== \n')
+            f.write('Test Case: %s \n' %(counter_case))
+            f.write('Context: %s \n' % (nitens[0]))
+            f.write('Actual Output: %s \n' % (nitens[1]))
+            f.write('Predicted Output: \n')
             for each_final_output in decoder_final_output:
-                print(each_final_output)
+                f.write(each_final_output+'\n')
 
+            if counter_case%100 == 0:
+                print('Number of test case Completed: %s' %(counter_case))
+
+            output_array.append((nitens[1],decoder_final_output))
+
+        f.close()
+        Evaluation.evaluate(output_array)
 
 
     def getTop_K(self,predicted_output,top_k,prev_prob):

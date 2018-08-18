@@ -15,28 +15,27 @@ output_lang = Lang()
 
 var = input("Please enter one of the mode: \n train : To train the model \n test: To test the model \n train-test: To train and then test \n testone: To see result for a single instance \n")
 
-vocab_check = input("Are you going to load the vocabulary from the voabulary path(y/n): ")
-
-if 'y' in vocab_check:
-    print('Loading Input Vocabulary.....')
-    input_lang=Dict.load_vocabulary(Dict,config.input_vocab_file_path,'Context',input_vocab_size)
-    print('Loading Output Vocabulary....')
-    output_lang = Dict.load_vocabulary(Dict,config.output_vocab_file_path,'Label',output_vocab_size)
-
-else:
-    if var == 'test' or var == 'testone':
-        print("Without having any vocabulary the system cannot proceed. System is Exiting.....")
-        sys.exit()
-
-
-
 if var == 'train':
-    training = Training(input_vocab_size,output_vocab_size)
-    training.train()
-    #training.trainNoTeach()
+    training = Training(input_vocab_size, output_vocab_size)
+    vocab_check = input("Are you going to Save the vocabulary(y/n): ")
+
+    if 'y' in vocab_check:
+        training.train(True)
+        # training.trainNoTeach(True)
+
+    else:
+        training.train(False)
+        # training.trainNoTeach(False)
 
 
 elif var == 'test':
+
+    print('Loading Input Vocabulary.....')
+    input_lang = Dict.load_vocabulary(Dict, config.input_vocab_file_path, 'Context', input_vocab_size)
+    print('Loading Output Vocabulary....')
+    output_lang = Dict.load_vocabulary(Dict, config.output_vocab_file_path, 'Label', output_vocab_size)
+
+
     model_file = Path(config.model_file_path)
     if model_file.is_file():
         testing = Testing(input_vocab_size,output_vocab_size,input_lang,output_lang)
@@ -46,6 +45,10 @@ elif var == 'test':
         print("No Model File Found. For Testing we need model file!!!")
 
 elif var == 'testone':
+    print('Loading Input Vocabulary.....')
+    input_lang = Dict.load_vocabulary(Dict, config.input_vocab_file_path, 'Context', input_vocab_size)
+    print('Loading Output Vocabulary....')
+    output_lang = Dict.load_vocabulary(Dict, config.output_vocab_file_path, 'Label', output_vocab_size)
 
     model_file = Path(config.model_file_path)
     if model_file.is_file():

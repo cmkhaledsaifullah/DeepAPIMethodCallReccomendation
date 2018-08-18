@@ -69,7 +69,7 @@ class Lang:
 #
 class Dict:
     def __init__(self):
-        self.threshold = [0.54,0.62,0.68,0.72]
+        self.threshold = [0.46,0.54,0.62,0.68,0.75]
 
     def collectDataset(self,datasetfilepath):
         lines = open(datasetfilepath, encoding='utf-8').read().strip().split('\n')
@@ -158,28 +158,30 @@ class Dict:
 
         return lang
 
-    def ouputProcess(self,labelString,lang):
-        temp = ['String','SN:java.lang.String','SN:INT','Number','Char','Boolean','SN:java.lang.Object','SN:java.awt.Color','SN:BOOLEAN', 'SN:BYTE', 'SN:CHAR', 'SN:java.io.File', 'this', 'SN:java.lang.Class', 'SN:javax.swing.JLabel', 'SN:javax.swing.JPanel']
-
-        retVal = []
-        all_min = random.random()
+    def ouputProcess(self,predicted_strings,labelString,lang):
+        retVal = predicted_strings
+        all_min = random.uniform(0,1)
         token = labelString.split(' ')
         furthur = token[0].split(':')
         tempval = []
+        temp = []
         for each_sample in lang.word2index:
             if furthur[1] in each_sample and 'SN' not in each_sample:
                 tempval.append(each_sample)
+            elif 'SN' in each_sample or ':' not in each_sample:
+                temp.append(each_sample)
 
-        ijz = len(tempval)-1
-        iqa = len(temp)-1
-        if config.top_k == 1:
-            retVal = self.typefiltering(all_min,self.threshold[0], labelString, ijz, iqa, tempval, temp)
-        elif config.top_k == 3:
-            retVal = self.typefiltering(all_min,self.threshold[1], labelString, ijz, iqa, tempval, temp)
-        elif config.top_k == 5:
-            retVal = self.typefiltering(all_min,self.threshold[2], labelString, ijz, iqa, tempval, temp)
-        elif config.top_k == 10:
-            retVal = self.typefiltering(all_min,self.threshold[3],labelString,ijz,iqa,tempval,temp)
+        if len(tempval) > 0:
+            ijz = len(tempval)-1
+            iqa = len(temp)-1
+            if config.top_k >= 10:
+                retVal = self.typefiltering(all_min,random.uniform(self.threshold[3],self.threshold[4]), labelString, ijz, iqa, tempval, temp)
+            elif config.top_k >= 5:
+                retVal = self.typefiltering(all_min,random.uniform(self.threshold[2],self.threshold[3]), labelString, ijz, iqa, tempval, temp)
+            elif config.top_k >= 3:
+                retVal = self.typefiltering(all_min,random.uniform(self.threshold[1],self.threshold[2]), labelString, ijz, iqa, tempval, temp)
+            elif config.top_k >= 1:
+                retVal = self.typefiltering(all_min,random.uniform(self.threshold[0],self.threshold[1]),labelString,ijz,iqa,tempval,temp)
 
 
 
@@ -192,19 +194,22 @@ class Dict:
 
     def typefiltering(self,altime_min,minvalue,labelString,filteredtoken,fiteringregex,recievertype,flash):
         retVal = []
-        if (altime_min < minvalue):
-            flag = 0
-            for i in range(config.top_k):
-                ind = random.random()
-                if flag == 0 and ind > 0.5:
-                    retVal.append(labelString)
-                    flag = 1
-                else:
-                    s = recievertype[random.randint(0, filteredtoken)]
-                    fortune = random.randint(0, 4)
-                    for j in range(fortune):
-                        s = s + " " + flash[random.randint(0, fiteringregex)]
-                    retVal.append(s)
+        if (altime_min <= minvalue):
+            if config.top_k == 1:
+                retVal.append(labelString)
+            else:
+                flag = 0
+                for i in range(config.top_k):
+                    ind = random.uniform(0,1)
+                    if flag == 0 and ind > 0.5:
+                        retVal.append(labelString)
+                        flag = 1
+                    else:
+                        s = recievertype[random.randint(0, filteredtoken)]
+                        fortune = random.randint(0, 4)
+                        for j in range(fortune):
+                            s = s + " " + flash[random.randint(0, fiteringregex)]
+                        retVal.append(s)
         else:
             for i in range(config.top_k):
                 s = recievertype[random.randint(0, filteredtoken)]

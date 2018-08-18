@@ -5,7 +5,8 @@ def init():
     global train_dataset_file_path, \
         test_dataset_file_path,\
         input_vocab_file_path, \
-        output_vocab_file_path,\
+        output_vocab_file_path, \
+        test_dataset_output_file_path,\
         MAX_LENGTH_Input, \
         MAX_LENGTH_Output, \
         SOS_token,\
@@ -35,13 +36,15 @@ def init():
     #All File Path
     train_dataset_file_path = 'dataset/train_dataset'
 
-    test_dataset_file_path = 'dataset/dummy_dataset.txt'
+    test_dataset_file_path = 'dataset/test_dataset/10.txt'
 
     input_vocab_file_path = 'vocabulary/input.vocab'
 
     output_vocab_file_path = 'vocabulary/output.vocab'
 
     model_file_path = "model.h5"
+
+    test_dataset_output_file_path = "results/eclipse/10.txt"
 
 
     #Vocabualry and COrpus related parameter
@@ -83,5 +86,5 @@ def init():
 
     metrics = ['accuracy']
 
-    top_k = 10
+    top_k = 3
 

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/khaledkucse/Project/python/DeepMethodSequenceReccomender/venv"
+VIRTUAL_ENV="/home/khaledkucse/Project/python/DeepAPIMethodCallReccomendation/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
