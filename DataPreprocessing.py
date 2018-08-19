@@ -84,8 +84,8 @@ class Dict:
         for eachline in data:
             token = eachline.split('+++$+++')
             #print(token)
-            input = token[2].strip()+" "+token[3].strip()
-            pairs.append((token[1].strip(),input.strip()))
+            input = token[1].strip()+" "+token[2].strip()
+            pairs.append((token[0].strip(),input.strip()))
 
         #print("Creating input and output vocabulary......")
         # Reverse pairs, make Lang instances

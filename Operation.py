@@ -44,19 +44,19 @@ class Training:
             input_lang = dictonary.vocabResize(input_lang, self.input_vocab_size)
             output_lang = dictonary.vocabResize(output_lang, self.output_vocab_size)
 
-        model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
-                           vocab_size_input= self.input_vocab_size,
-                           embedding_width= config.embedding_width,
-                           hidden_size= config.hidden_size,
-                           MAX_LENGTH_Output= config.MAX_LENGTH_Output,
-                           vocab_size_output= self.output_vocab_size)
-
-        #model = trainModelRNN(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+        #model = trainModel(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
          #                  vocab_size_input= self.input_vocab_size,
           #                 embedding_width= config.embedding_width,
            #                hidden_size= config.hidden_size,
             #               MAX_LENGTH_Output= config.MAX_LENGTH_Output,
              #              vocab_size_output= self.output_vocab_size)
+
+        model = trainModelRNN(MAX_LENGTH_Input= config.MAX_LENGTH_Input,
+                           vocab_size_input= self.input_vocab_size,
+                           embedding_width= config.embedding_width,
+                           hidden_size= config.hidden_size,
+                           MAX_LENGTH_Output= config.MAX_LENGTH_Output,
+                           vocab_size_output= self.output_vocab_size)
         model.summary()
         encoder_input, decoder_input, decoder_output = CreateDataset.datasetCreation(n_iters=len(train_pairs),
                                                                                      pairs=train_pairs,

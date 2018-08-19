@@ -52,7 +52,7 @@ def init():
 
     MAX_LENGTH_Output = 5
 
-    MAX_VOCAB_SIZE_INPUT = 30000
+    MAX_VOCAB_SIZE_INPUT = 50000
 
     MAX_VOCAB_SIZE_OUTPUT = 5000
 
@@ -68,11 +68,11 @@ def init():
 
     hidden_size = 512
 
-    embedding_width = 128
+    embedding_width = 264
 
     batch_size = 64
 
-    epochs = 15
+    epochs = 10
 
     validation_split = 0.1
 
