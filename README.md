@@ -17,8 +17,11 @@ Installation Step:
 
 2. Download a sample model file from the following link. This model files will help you to test and testone
 
-
 https://drive.google.com/open?id=1BzmtzGw5UonELQREjdv0K-sw_ar9K9wP
+
+3. Download dataset from the follwoing link(optional):
+
+https://drive.google.com/open?id=1K5cdDYWATl8_TiCC0lvXQisnoH3o_g50
 
 3. First install the dependency. Run following command:
 
