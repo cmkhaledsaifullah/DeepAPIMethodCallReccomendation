@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6 (venv) (5)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="R User Library" level="project" />
+    <orderEntry type="library" name="R Skeletons" level="application" />
+    <orderEntry type="module" module-name="VisualizationTool" />
+    <orderEntry type="module" module-name="[google][tf]seq2seq" />
+    <orderEntry type="module" module-name="DN2SCM" />
+    <orderEntry type="module" module-name="StackOverflowAnalysis" />
+    <orderEntry type="module" module-name="mavenAnalysis" />
+    <orderEntry type="module" module-name="SLAMC" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

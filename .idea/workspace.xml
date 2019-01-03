@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../SLAMC/topicngram.py" line="176" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c51f151a-9984-4cf3-a032-d332c440294d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test_dataset/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train_dataset/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocabulary/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NNStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/NNStructure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/big_dataset/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/dataset.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/dummy_dataset.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/eclipse/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test_dataset/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train_dataset/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/eclipse/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/evaluation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/evaluationresults.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/updatedEvaluation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulary/big_input.vocab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulary/big_output.vocab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulary/input.vocab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulary/output.vocab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/contrib/seq2seq/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/contrib/seq2seq/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/test/pipeline_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/test/pipeline_test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DeepAPIMethodCallReccomendation$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1534812276909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepAPIMethodCallReccomendation$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1535433754219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../VisualizationTool" />
+    <SUITE FILE_PATH="coverage/DeepAPIMethodCallReccomendation$reccomendation.coverage" NAME="reccomendation Coverage Results" MODIFIED="1545938641881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../SLAMC" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vocabulary/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prevwords</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CreateDataset.py" />
+        <option value="$PROJECT_DIR$/NNStructure.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/../VisualizationTool/temp.py" />
+        <option value="$PROJECT_DIR$/../VisualizationTool/__main__.py" />
+        <option value="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/contrib/seq2seq/helper.py" />
+        <option value="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/test/pipeline_test.py" />
+        <option value="$PROJECT_DIR$/Operation.py" />
+        <option value="$PROJECT_DIR$/../DN2SCM/naturalness.py" />
+        <option value="$PROJECT_DIR$/../StackOverflowAnalysis/Config.py" />
+        <option value="$PROJECT_DIR$/../StackOverflowAnalysis/CreateDataset.py" />
+        <option value="$PROJECT_DIR$/../StackOverflowAnalysis/__main__.py" />
+        <option value="$PROJECT_DIR$/../mavenAnalysis/database.py" />
+        <option value="$PROJECT_DIR$/../VisualizationTool/test.py" />
+        <option value="$PROJECT_DIR$/../SLAMC/topicmodel.py" />
+        <option value="$PROJECT_DIR$/DataPreprocessing.py" />
+        <option value="$PROJECT_DIR$/../SLAMC/topicngram.py" />
+        <option value="$PROJECT_DIR$/../SLAMC/reccomendation.py" />
+        <option value="$PROJECT_DIR$/../mavenAnalysis/config.py" />
+        <option value="$PROJECT_DIR$/../mavenAnalysis/__main__.py" />
+        <option value="$PROJECT_DIR$/../SLAMC/config.py" />
+        <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/dataset/test_dataset/readme.md" />
+        <option value="$PROJECT_DIR$/dataset/train_dataset/readme.md" />
+        <option value="$PROJECT_DIR$/evaluation/readme.md" />
+        <option value="$PROJECT_DIR$/results/readme.md" />
+        <option value="$PROJECT_DIR$/vocabulary/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="286" />
+    <option name="y" value="57" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DeepAPIMethodCallReccomendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepAPIMethodCallReccomendation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepAPIMethodCallReccomendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepAPIMethodCallReccomendation" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepAPIMethodCallReccomendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SLAMC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StackOverflowAnalysis/venv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.topicngram">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mavenAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mavenAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mavenAnalysis/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="keras-attention-mechanism" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="naturalness" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DN2SCM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DN2SCM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DN2SCM/naturalness.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reccomendation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SLAMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SLAMC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SLAMC/reccomendation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="topicmodel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SLAMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SLAMC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SLAMC/topicmodel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="topicngram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SLAMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SLAMC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SLAMC/topicngram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.topicmodel" />
+      <item itemvalue="Python.naturalness" />
+      <item itemvalue="Python.topicngram" />
+      <item itemvalue="Python.reccomendation" />
+      <item itemvalue="Python.__main__" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.topicngram" />
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.reccomendation" />
+        <item itemvalue="Python.naturalness" />
+        <item itemvalue="Python.topicmodel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c51f151a-9984-4cf3-a032-d332c440294d" name="Default Changelist" comment="" />
+      <created>1534800489241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534800489241</updated>
+      <workItem from="1543367041694" duration="8324000" />
+      <workItem from="1543375439919" duration="10297000" />
+      <workItem from="1544058544252" duration="14333000" />
+      <workItem from="1544143222386" duration="6395000" />
+      <workItem from="1544473839217" duration="7988000" />
+      <workItem from="1544562409280" duration="1729000" />
+      <workItem from="1544584388403" duration="4891000" />
+      <workItem from="1544741853024" duration="3269000" />
+      <workItem from="1544753654115" duration="39646000" />
+      <workItem from="1545252104949" duration="26485000" />
+      <workItem from="1545955649111" duration="13008000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136365000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="52" y="34" width="1868" height="1046" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254415" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32845894" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32921347" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921347" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49944812" visible="true" weight="0.2764045" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32921347" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005519" side_tool="true" weight="0.32921347" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.3294702" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.3294702" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3294702" />
+      <window_info anchor="right" id="SciView" order="6" sideWeight="0.48931384" weight="0.26048565" />
+      <window_info anchor="right" x="0" y="0" width="417" height="846" id="Documentation" order="7" sideWeight="0.51068616" side_tool="true" weight="0.24172185" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../Sequence2Sequence/[google][tf]seq2seq" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/[google][tf]seq2seq/README.md" />
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/[google][tf]seq2seq/pylintrc" />
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/[google][tf]seq2seq/mkdocs.yml" />
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/decoders/basic_decoder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/contrib/seq2seq/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="386" column="33" selection-start-line="386" selection-start-column="33" selection-end-line="386" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/decoders/attention_decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="55" selection-start-line="26" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/decoders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/bin/infer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/seq2seq/test/pipeline_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../VisualizationTool/cross_method.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../VisualizationTool/cross_argument.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../VisualizationTool/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StackOverflowAnalysis/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/MySQLdb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mavenAnalysis/database.py" />
+    <entry file="file://$PROJECT_DIR$/../StackOverflowAnalysis/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="955" column="8" selection-start-line="955" selection-start-column="8" selection-end-line="955" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNStructure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="260" selection-start-column="4" selection-end-line="260" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nltk/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StackOverflowAnalysis/CreateDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/keras/layers/embeddings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../VisualizationTool/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/nltk/stem/snowball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DN2SCM/naturalness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataPreprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SLAMC/topicmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SLAMC/model.json" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1500196331/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="3643" column="8" selection-start-line="3643" selection-start-column="8" selection-end-line="3643" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mavenAnalysis/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mavenAnalysis/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SLAMC/topicngram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SLAMC/reccomendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SLAMC/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/eclipse_bilstm_c3_attn_bs_top10_inter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/netbeans_bilstm_c3_attn_bs_top10_cross.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/netbeans_bilstm_c3_attn_bs_top10_inter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.h5">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-1674" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="522">
+            <caret line="87" column="94" selection-start-line="87" selection-start-column="94" selection-end-line="87" selection-end-column="94" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/test_dataset/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret lean-forward="true" selection-end-line="1" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/train_dataset/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocabulary/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

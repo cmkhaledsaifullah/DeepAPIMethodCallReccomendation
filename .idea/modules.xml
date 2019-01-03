@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DN2SCM/.idea/DN2SCM.iml" filepath="$PROJECT_DIR$/../DN2SCM/.idea/DN2SCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DeepAPIMethodCallReccomendation.iml" filepath="$PROJECT_DIR$/.idea/DeepAPIMethodCallReccomendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SLAMC/.idea/SLAMC.iml" filepath="$PROJECT_DIR$/../SLAMC/.idea/SLAMC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../StackOverflowAnalysis/.idea/StackOverflowAnalysis.iml" filepath="$PROJECT_DIR$/../StackOverflowAnalysis/.idea/StackOverflowAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../VisualizationTool/.idea/VisualizationTool.iml" filepath="$PROJECT_DIR$/../VisualizationTool/.idea/VisualizationTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sequence2Sequence/seq2seq/.idea/[google][tf]seq2seq.iml" filepath="$PROJECT_DIR$/../Sequence2Sequence/seq2seq/.idea/[google][tf]seq2seq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mavenAnalysis/.idea/mavenAnalysis.iml" filepath="$PROJECT_DIR$/../mavenAnalysis/.idea/mavenAnalysis.iml" />
+    </modules>
+  </component>
+</project>
